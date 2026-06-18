@@ -62,8 +62,8 @@ body {
 }
 
 .plant-indicator {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background: var(--success);
   box-shadow: 0 0 8px var(--success);
@@ -76,7 +76,7 @@ body {
 }
 
 .plant-name {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -90,14 +90,14 @@ body {
 }
 
 .header-title-group .title {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--text-primary);
   line-height: 1.2;
 }
 
 .header-title-group .subtitle {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--text-secondary);
   margin-top: 1px;
 }
