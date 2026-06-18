@@ -7,20 +7,20 @@
 }
 
 :root {
-  --bg-base:       #0F1117;
-  --bg-surface:    #1A1E2E;
-  --bg-elevated:   #232840;
-  --accent:        #FF6B00;
-  --accent-dim:    rgba(255, 107, 0, 0.15);
-  --accent-glow:   rgba(255, 107, 0, 0.35);
-  --danger:        #E53E3E;
-  --danger-dim:    rgba(229, 62, 62, 0.15);
-  --success:       #38A169;
-  --text-primary:  #E8EAF0;
-  --text-secondary:#8B90A8;
-  --text-muted:    #555C78;
-  --border:        rgba(255,255,255,0.07);
-  --border-hover:  rgba(255,255,255,0.14);
+  --bg-base:       #F3F4F8;
+  --bg-surface:    #FFFFFF;
+  --bg-elevated:   #ECEEF5;
+  --accent:        #E25C00;
+  --accent-dim:    rgba(226, 92, 0, 0.10);
+  --accent-glow:   rgba(226, 92, 0, 0.35);
+  --danger:        #D92D2D;
+  --danger-dim:    rgba(217, 45, 45, 0.08);
+  --success:       #1F9254;
+  --text-primary:  #1B1F2D;
+  --text-secondary:#5C6178;
+  --text-muted:    #8B90A4;
+  --border:        rgba(20,24,40,0.09);
+  --border-hover:  rgba(20,24,40,0.18);
   --radius-sm:     8px;
   --radius-md:     12px;
   --radius-lg:     16px;
@@ -47,6 +47,7 @@ body {
   top: 0;
   z-index: 100;
   backdrop-filter: blur(12px);
+  box-shadow: 0 1px 0 rgba(20,24,40,0.04), 0 4px 12px rgba(20,24,40,0.04);
 }
 
 .header-left {
@@ -62,8 +63,8 @@ body {
 }
 
 .plant-indicator {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: var(--success);
   box-shadow: 0 0 8px var(--success);
@@ -76,7 +77,7 @@ body {
 }
 
 .plant-name {
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -90,14 +91,14 @@ body {
 }
 
 .header-title-group .title {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text-primary);
   line-height: 1.2;
 }
 
 .header-title-group .subtitle {
-  font-size: 14px;
+  font-size: 11px;
   color: var(--text-secondary);
   margin-top: 1px;
 }
@@ -195,13 +196,13 @@ body {
 }
 
 .etapa-name {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--text-primary);
 }
 
 .etapa-meta {
-  font-size: 14px;
+  font-size: 11px;
   color: var(--text-secondary);
   margin-top: 3px;
 }
@@ -237,7 +238,7 @@ body {
 }
 
 .equipo-name {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 6px;
@@ -245,7 +246,7 @@ body {
 
 .tag {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.06em;
   background: var(--bg-elevated);
@@ -270,34 +271,56 @@ body {
 }
 
 /* ─── DETALLE ────────────────────────────────── */
-.equipo-hero {
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 18px 16px;
-  margin-bottom: 24px;
+/* ─── SUB-HEADER (segundo header contextual) ─── */
+.sub-header {
+  background: var(--bg-elevated);
+  border-bottom: 1px solid var(--border);
+  border-left: 4px solid var(--sub-color, var(--accent));
+  padding: 14px 16px;
   display: flex;
   align-items: center;
   gap: 14px;
+  position: sticky;
+  top: 64px;
+  z-index: 99;
 }
 
-.equipo-hero-icon {
-  width: 44px;
-  height: 44px;
-  background: var(--accent-dim);
-  border: 1px solid var(--accent-glow);
+.sub-header-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 18px;
   flex-shrink: 0;
 }
 
-.equipo-hero-name {
+.sub-header-content {
+  min-width: 0;
+}
+
+.sub-header-title {
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 6px;
+  color: var(--text-primary);
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+.sub-header-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.sub-header-meta {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
 }
 
 .bloqueos-header {
@@ -309,7 +332,7 @@ body {
 
 .bloqueo-count-badge {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 16px;
+  font-size: 11px;
   font-weight: 600;
   background: var(--danger-dim);
   color: var(--danger);
@@ -374,7 +397,7 @@ body {
 }
 
 .bloqueo-desc {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--text-primary);
   margin-bottom: 5px;
@@ -383,7 +406,7 @@ body {
 
 .tag-danger {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.06em;
   background: var(--danger-dim);
@@ -410,9 +433,9 @@ body {
 }
 
 .page-eyebrow-text {
-  font-size: 22px;
+  font-size: 10px;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--text-muted);
   white-space: nowrap;
