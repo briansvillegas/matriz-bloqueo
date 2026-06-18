@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+  background: #f2f2f7;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 6px solid #999;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.card:hover {
+  background: #eaeaea;
+}
+
+h2 {
+  margin-top: 30px;
+}

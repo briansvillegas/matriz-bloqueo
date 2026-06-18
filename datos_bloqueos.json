@@ -1,0 +1,41 @@
+{
+  "TRITURACION": {
+    "color": "#FF9500",
+    "equipos": [
+      {
+        "nombre": "Cinta de placas",
+        "tag": "A104-A-02-01",
+        "bloqueos": [
+          { "descripcion": "Cinta placa", "tag": "A104-A-02-01" },
+          { "descripcion": "Cinta rechazo de grueso a tolva", "tag": "A104-D-12-01" },
+          { "descripcion": "Trituradora primaria", "tag": "A104-A-03-01" },
+          { "descripcion": "Cinta recuperación material", "tag": "A104-D-03-01" }
+        ]
+      },
+      {
+        "nombre": "Trituradora primaria",
+        "tag": "A104-A-03",
+        "bloqueos": [
+          { "descripcion": "Cinta placa", "tag": "A104-A-02-01" },
+          { "descripcion": "Trituradora primaria", "tag": "A104-A-03-01" },
+          { "descripcion": "Cinta transportadora a criba", "tag": "A104-D-01-03" }
+        ]
+      }
+    ]
+  },
+
+  "MOLIENDA DE CRUDO": {
+    "color": "#30D158",
+    "equipos": [
+      {
+        "nombre": "Molino de crudo",
+        "tag": "A104-E-02-01",
+        "bloqueos": [
+          { "descripcion": "Molino de crudo", "tag": "A104-E-02-01" },
+          { "descripcion": "Accionamiento molino auxiliar", "tag": "A104-E-02-07" },
+          { "descripcion": "Ventilador refrigeración motor", "tag": "A104-E-04-01" }
+        ]
+      }
+    ]
+  }
+}
