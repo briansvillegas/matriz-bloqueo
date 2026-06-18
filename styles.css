@@ -374,7 +374,7 @@ body {
 }
 
 .bloqueo-desc {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--text-primary);
   margin-bottom: 5px;
@@ -383,7 +383,7 @@ body {
 
 .tag-danger {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.06em;
   background: var(--danger-dim);
