@@ -309,7 +309,7 @@ body {
 
 .bloqueo-count-badge {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 600;
   background: var(--danger-dim);
   color: var(--danger);
@@ -410,7 +410,7 @@ body {
 }
 
 .page-eyebrow-text {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
