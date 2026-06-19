@@ -303,7 +303,7 @@ body {
 }
 
 .sub-header-title {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 5px;
@@ -318,7 +318,7 @@ body {
 }
 
 .sub-header-meta {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--text-secondary);
 }
@@ -332,7 +332,7 @@ body {
 
 .bloqueo-count-badge {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
   background: var(--danger-dim);
   color: var(--danger);
@@ -433,7 +433,7 @@ body {
 }
 
 .page-eyebrow-text {
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
