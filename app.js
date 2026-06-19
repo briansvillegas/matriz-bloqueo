@@ -94,10 +94,10 @@ function mostrarEquipos(etapa) {
   data[etapa].equipos.forEach(eq => {
     html += `
       <div class="equipo-card" onclick="mostrarDetalle('${etapa}','${eq.nombre}')">
-        <div class="equipo-main">
-          <div class="equipo-name">${eq.nombre}</div>
-          <span class="tag">${eq.tag}</span>
-        </div>  
+          <div>
+            <div class="equipo-name">${eq.nombre}</div>
+            <span class="tag">${eq.tag}</span>
+          </div>
         <span class="equipo-arrow">›</span>
       </div>
     `;
