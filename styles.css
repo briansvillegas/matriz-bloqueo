@@ -196,13 +196,13 @@ body {
 }
 
 .etapa-name {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--text-primary);
 }
 
 .etapa-meta {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--text-secondary);
   margin-top: 3px;
 }
@@ -238,7 +238,7 @@ body {
 }
 
 .equipo-name {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 6px;
@@ -246,7 +246,7 @@ body {
 
 .tag {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.06em;
   background: var(--bg-elevated);
@@ -397,7 +397,7 @@ body {
 }
 
 .bloqueo-desc {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 500;
   color: var(--text-primary);
   margin-bottom: 5px;
@@ -406,7 +406,7 @@ body {
 
 .tag-danger {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.06em;
   background: var(--danger-dim);
