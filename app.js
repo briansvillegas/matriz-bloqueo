@@ -211,7 +211,6 @@ function mostrarDetalle(etapa, nombreEquipo) {
 
   document.getElementById("app").innerHTML = html;
 }
-
 function verMatriz(etapa, nombreEquipo) {
   const eq = data[etapa].equipos.find(e => e.nombre === nombreEquipo);
   const color = data[etapa].color || '#E25C00';
