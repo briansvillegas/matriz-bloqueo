@@ -459,7 +459,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 108px;
+  width: 140px;
   align-self: stretch;
 }
 
@@ -477,7 +477,7 @@ body {
   color: var(--accent);
   border: 1.5px solid var(--accent-glow);
   border-radius: var(--radius-md);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
