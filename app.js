@@ -22,7 +22,7 @@ function header(titulo, subtitulo, volverFn, volverEtapasFn) {
           <div class="subtitle">${subtitulo}</div>
         </div>
       </div>
-      ${volverEtapasFn ? `<button class="btn-etapas" onclick="${volverEtapasFn}()">⊞ Etapas</button>` : ''}
+      ${volverEtapasFn ? `<button class="btn-etapas" onclick="${volverEtapasFn}()">Etapas</button>` : ''}
     </div>
   `;
 }
