@@ -108,6 +108,7 @@ function mostrarEquipos(etapa) {
 }
 
 // DETALLE
+/*
 function mostrarDetalle(etapa, nombreEquipo) {
   const eq = data[etapa].equipos.find(e => e.nombre === nombreEquipo);
   const color = data[etapa].color || '#E25C00';
@@ -150,5 +151,151 @@ function mostrarDetalle(etapa, nombreEquipo) {
   });
 
   html += `</div></div>`;
+  document.getElementById("app").innerHTML = html;
+}*/
+
+function mostrarDetalle(etapa, nombreEquipo) {
+  const eq = data[etapa].equipos.find(e => e.nombre === nombreEquipo);
+  const color = data[etapa].color || '#E25C00';
+
+  let html = header(
+    "Matriz de Bloqueos",
+    "Sistema de bloqueo y etiquetado",
+    `mostrarEquipos('${etapa}')`,
+    "mostrarEtapas"
+  );
+
+  html += subHeader({
+    icon: '⚙️',
+    titulo: eq.nombre,
+    tag: eq.tag,
+    meta: eq.tarea || '',
+    color
+  });
+
+  html += `<div class="container">`;
+
+  html += `
+    <div class="detail-actions">
+      <button class="btn-matriz" onclick="verMatriz('${etapa}', '${eq.nombre.replace(/'/g, "\\'")}')">
+        Ver matriz
+      </button>
+    </div>
+  `;
+
+  html += `
+    <div class="bloqueos-header">
+      <div class="section-label">🔒 Equipos a bloquear</div>
+      <div class="bloqueo-count-badge">
+        ${eq.bloqueos.length} bloqueo${eq.bloqueos.length !== 1 ? 's' : ''}
+      </div>
+    </div>
+  `;
+
+  html += `<div class="lockout-list">`;
+
+  eq.bloqueos.forEach((b, i) => {
+    html += `
+      <div class="bloqueo-card">
+        <div class="bloqueo-num">${i + 1}</div>
+        <div class="bloqueo-body">
+          <div class="bloqueo-desc">${b.descripcion || ''}</div>
+          <div class="tag-danger">${b.tag || ''}</div>
+        </div>
+      </div>
+    `;
+  });
+
+  html += `</div>`;
+  html += `</div>`;
+
+  document.getElementById("app").innerHTML = html;
+}
+
+function verMatriz(etapa, nombreEquipo) {
+  const eq = data[etapa].equipos.find(e => e.nombre === nombreEquipo);
+  const color = data[etapa].color || '#E25C00';
+
+  let html = header(
+    "Matriz de Bloqueos",
+    "Vista completa de la matriz",
+    `mostrarDetalle('${etapa}', '${eq.nombre.replace(/'/g, "\\'")}')`,
+    "mostrarEtapas"
+  );
+
+  html += subHeader({
+    icon: '📋',
+    titulo: eq.nombre,
+    tag: eq.tag,
+    meta: eq.tarea || '',
+    color
+  });
+
+  html += `<div class="container">`;
+
+  html += `
+    <div class="matriz-info-card">
+      <div class="matriz-info-grid">
+        <div class="matriz-info-item">
+          <span class="matriz-info-label">Etapa</span>
+          <span class="matriz-info-value">${etapa}</span>
+        </div>
+        <div class="matriz-info-item">
+          <span class="matriz-info-label">Equipo</span>
+          <span class="matriz-info-value">${eq.nombre}</span>
+        </div>
+        <div class="matriz-info-item">
+          <span class="matriz-info-label">TAG</span>
+          <span class="matriz-info-value matriz-code">${eq.tag || '-'}</span>
+        </div>
+        <div class="matriz-info-item">
+          <span class="matriz-info-label">Tarea</span>
+          <span class="matriz-info-value">${eq.tarea || '-'}</span>
+        </div>
+      </div>
+    </div>
+  `;
+
+  html += `
+    <div class="tabla-wrapper">
+      <table class="tabla-matriz">
+        <thead>
+          <tr>
+            <th>Descripción del Equipamiento</th>
+            <th>TAG</th>
+            <th>Energía Peligrosa</th>
+            <th>Tipo de Bloqueo</th>
+            <th>Dónde</th>
+            <th>Cómo</th>
+            <th>Dispositivo de Bloqueo</th>
+            <th>Comentarios</th>
+          </tr>
+        </thead>
+        <tbody>
+  `;
+
+  eq.bloqueos.forEach(b => {
+    html += `
+      <tr>
+        <td>${b.descripcion || ''}</td>
+        <td>${b.tag || ''}</td>
+        <td>${b.energia || ''}</td>
+        <td>${b.tipoBloqueo || ''}</td>
+        <td>${b.donde || ''}</td>
+        <td>${b.como || ''}</td>
+        <td>${b.dispositivo || ''}</td>
+        <td>${b.comentarios || ''}</td>
+      </tr>
+    `;
+  });
+
+  html += `
+        </tbody>
+      </table>
+    </div>
+  `;
+
+  html += `</div>`;
+
   document.getElementById("app").innerHTML = html;
 }
