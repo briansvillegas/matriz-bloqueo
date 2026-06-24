@@ -176,14 +176,6 @@ function mostrarDetalle(etapa, nombreEquipo) {
   html += `<div class="container">`;
 
   html += `
-    <div class="detail-actions">
-      <button class="btn-matriz" onclick="verMatriz('${etapa}', '${eq.nombre.replace(/'/g, "\\'")}')">
-        Ver matriz
-      </button>
-    </div>
-  `;
-
-  html += `
     <div class="bloqueos-header">
       <div class="section-label">🔒 Equipos a bloquear</div>
       <div class="bloqueo-count-badge">
@@ -192,7 +184,8 @@ function mostrarDetalle(etapa, nombreEquipo) {
     </div>
   `;
 
-  html += `<div class="lockout-list">`;
+  html += `<div class="detalle-layout">`;
+  html += `<div class="detalle-lockout-col"><div class="lockout-list">`;
 
   eq.bloqueos.forEach((b, i) => {
     html += `
@@ -205,6 +198,17 @@ function mostrarDetalle(etapa, nombreEquipo) {
       </div>
     `;
   });
+
+  html += `</div></div>`;
+
+  html += `
+    <div class="detalle-action-col">
+      <button class="btn-matriz" onclick="verMatriz('${etapa}', '${eq.nombre.replace(/'/g, "\\'")}')">
+        <span class="btn-matriz-icon">📋</span>
+        Ver matriz
+      </button>
+    </div>
+  `;
 
   html += `</div>`;
   html += `</div>`;
@@ -234,6 +238,9 @@ function verMatriz(etapa, nombreEquipo) {
 
   html += `
     <div class="matriz-info-card">
+      <div class="matriz-info-header">
+        <span class="matriz-info-header-label">📄 Información del equipo</span>
+      </div>
       <div class="matriz-info-grid">
         <div class="matriz-info-item">
           <span class="matriz-info-label">Etapa</span>
