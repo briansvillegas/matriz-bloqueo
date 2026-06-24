@@ -436,6 +436,155 @@ body {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.14em;
+
+/* ─── ACCIONES DETALLE / MATRIZ ───────────────── */
+.detail-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+}
+
+.btn-matriz {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: var(--accent);
+  color: #fff;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  box-shadow: 0 4px 12px rgba(226, 92, 0, 0.18);
+}
+
+.btn-matriz:hover {
+  filter: brightness(0.96);
+  transform: translateY(-1px);
+}
+
+/* ─── MATRIZ INFO ─────────────────────────────── */
+.matriz-info-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 0 rgba(20,24,40,0.04), 0 4px 12px rgba(20,24,40,0.04);
+}
+
+.matriz-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 16px;
+}
+
+.matriz-info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.matriz-info-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.matriz-info-value {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.35;
+}
+
+.matriz-code {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--accent);
+}
+
+/* ─── TABLA MATRIZ ────────────────────────────── */
+.tabla-wrapper {
+  overflow-x: auto;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: 0 1px 0 rgba(20,24,40,0.04), 0 4px 12px rgba(20,24,40,0.04);
+}
+
+.tabla-matriz {
+  width: 100%;
+  min-width: 1200px;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.tabla-matriz thead th {
+  background: #94c84d;
+  color: #111;
+  border: 2px solid #111;
+  padding: 12px 10px;
+  text-align: center;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.tabla-matriz tbody td {
+  background: #efefef;
+  border: 2px solid #111;
+  padding: 10px 8px;
+  text-align: center;
+  vertical-align: top;
+  line-height: 1.35;
+  color: var(--text-primary);
+}
+
+/* ancho sugerido por columna */
+.tabla-matriz th:nth-child(1),
+.tabla-matriz td:nth-child(1) {
+  min-width: 220px;
+}
+
+.tabla-matriz th:nth-child(2),
+.tabla-matriz td:nth-child(2) {
+  min-width: 150px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.tabla-matriz th:nth-child(3),
+.tabla-matriz td:nth-child(3),
+.tabla-matriz th:nth-child(4),
+.tabla-matriz td:nth-child(4),
+.tabla-matriz th:nth-child(5),
+.tabla-matriz td:nth-child(5) {
+  min-width: 160px;
+}
+
+.tabla-matriz th:nth-child(6),
+.tabla-matriz td:nth-child(6),
+.tabla-matriz th:nth-child(7),
+.tabla-matriz td:nth-child(7),
+.tabla-matriz th:nth-child(8),
+.tabla-matriz td:nth-child(8) {
+  min-width: 220px;
+}
+
+/* ─── RESPONSIVE ──────────────────────────────── */
+@media (max-width: 640px) {
+  .matriz-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-matriz {
+    width: 100%;
+    justify-content: center;
+  }
+}  
+  
   text-transform: uppercase;
   color: var(--text-muted);
   white-space: nowrap;
