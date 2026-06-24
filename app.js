@@ -205,7 +205,7 @@ function mostrarDetalle(etapa, nombreEquipo) {
     <div class="detalle-action-col">
       <button class="btn-matriz" onclick="verMatriz('${etapa}', '${eq.nombre.replace(/'/g, "\\'")}')">
         <span class="btn-matriz-icon">📋</span>
-        Ver matriz
+        Ver más información
       </button>
     </div>
   `;
