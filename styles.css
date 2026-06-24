@@ -135,7 +135,7 @@ body {
   border-radius: var(--radius-sm);
   cursor: pointer;
   color: var(--accent);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
