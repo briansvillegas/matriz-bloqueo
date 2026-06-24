@@ -3,37 +3,3746 @@
     "color": "#FF9500",
     "equipos": [
       {
+        "nombre": "Planta de Trituración",
+        "tag": "A104-L-031",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta placa",
+            "tag": "A104-A-02-01"
+          },
+          {
+            "descripcion": "Cinta rechazo de grueso a tolva",
+            "tag": "A104-D-12-01"
+          },
+          {
+            "descripcion": "Trituradora primaria",
+            "tag": "A104-A-03-01"
+          },
+          {
+            "descripcion": "Cinta recuperación material",
+            "tag": "A104-D-03-01"
+          },
+          {
+            "descripcion": "Cinta transportadora a criba",
+            "tag": "A104-D-01-01"
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas Trituradora",
+            "tag": "A104-A-07-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Planta de Trituración",
+        "tag": "A104-L-031",
+        "bloqueos": [
+          {
+            "descripcion": "Criba vibratoria",
+            "tag": "A104-B-01-01"
+          },
+          {
+            "descripcion": "Cinta trasportadora de zaranda a sala",
+            "tag": "A104-D-05-01"
+          },
+          {
+            "descripcion": "Cinta transportadora a criba",
+            "tag": "A104-D-01-01"
+          },
+          {
+            "descripcion": "Cinta corta  retorno",
+            "tag": "A104-D-11-01"
+          },
+          {
+            "descripcion": "Cinta rechazo de grueso a tolva",
+            "tag": "A104-D-12-01"
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas de criba",
+            "tag": "A104-B-05-01"
+          }
+        ]
+      },
+      {
         "nombre": "Cinta de placas",
         "tag": "A104-A-02-01",
         "bloqueos": [
-          { "descripcion": "Cinta placa", "tag": "A104-A-02-01" },
-          { "descripcion": "Cinta rechazo de grueso a tolva", "tag": "A104-D-12-01" },
-          { "descripcion": "Trituradora primaria", "tag": "A104-A-03-01" },
-          { "descripcion": "Cinta recuperación material", "tag": "A104-D-03-01" }
+          {
+            "descripcion": "Cinta placa",
+            "tag": "A104-A-02-01"
+          },
+          {
+            "descripcion": "Cinta rechazo de grueso a tolva",
+            "tag": "A104-D-12-01"
+          },
+          {
+            "descripcion": "Trituradora primaria",
+            "tag": "A104-A-03-01"
+          },
+          {
+            "descripcion": "Cinta recuperación material",
+            "tag": "A104-D-03-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de mangas Trituradora Primaria",
+        "tag": "A104-A-06-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas trituradora",
+            "tag": "A104-A-06-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas",
+            "tag": "A104-A-06-04"
+          },
+          {
+            "descripcion": "Línea de aire de mando",
+            "tag": "Sin ubicación Técnica"
+          }
         ]
       },
       {
         "nombre": "Trituradora primaria",
         "tag": "A104-A-03",
         "bloqueos": [
-          { "descripcion": "Cinta placa", "tag": "A104-A-02-01" },
-          { "descripcion": "Trituradora primaria", "tag": "A104-A-03-01" },
-          { "descripcion": "Cinta transportadora a criba", "tag": "A104-D-01-03" }
+          {
+            "descripcion": "Cinta placa",
+            "tag": "A104-A-02-01"
+          },
+          {
+            "descripcion": "Trituradora primaria",
+            "tag": "A104-A-03-01"
+          },
+          {
+            "descripcion": "Cinta transportadora a criba",
+            "tag": "A104-D-01-03"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta D-03",
+        "tag": "A104-D-03-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta de limpieza bajo cinta de láminas",
+            "tag": "A104-D-03-01"
+          },
+          {
+            "descripcion": "Cinta de placas",
+            "tag": "A104-A-02-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta D-01",
+        "tag": "A104-D-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora a criba",
+            "tag": "A104-D-01-01"
+          },
+          {
+            "descripcion": "Cinta de placas",
+            "tag": "A104-A-02-01"
+          },
+          {
+            "descripcion": "Trituradora primaria",
+            "tag": "A104-A-03-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas trituradora primaria",
+            "tag": "A104-A-06-04"
+          },
+          {
+            "descripcion": "Cinta de limpieza bajo cinta de láminas",
+            "tag": "A104-D-03-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de mangas Criba",
+        "tag": "A104-B-04-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas Criba",
+            "tag": "A104-B-05-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas",
+            "tag": "A104-B-04-04"
+          },
+          {
+            "descripcion": "Línea de aire de mando",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta D11",
+        "tag": "A104-D-11-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta corta  retorno",
+            "tag": "A104-D-11-01"
+          },
+          {
+            "descripcion": "Cinta rechazo grueso",
+            "tag": "A104-D-12-01"
+          },
+          {
+            "descripcion": "Criba vibratoria",
+            "tag": "A104-B-01-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta D12",
+        "tag": "A104-D-12-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta rechazo de grueso a tolva",
+            "tag": "A104-D-12-01"
+          },
+          {
+            "descripcion": "Cinta corta retorno",
+            "tag": "A104-D-11-01"
+          },
+          {
+            "descripcion": "Cinta saca metal",
+            "tag": "A104-D-13-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta",
+        "tag": "A104-D-13-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta saca metales",
+            "tag": "A104-D-13-01"
+          },
+          {
+            "descripcion": "Cinta rechazo de grueso a tolva",
+            "tag": "A104-D-12-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta D05",
+        "tag": "A104-D-05-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta trasportadora de zaranda a sala",
+            "tag": "A104-D-05-01"
+          },
+          {
+            "descripcion": "Criba vibratoria",
+            "tag": "A104-B-01-01"
+          },
+          {
+            "descripcion": "Cinta transportadora a criba",
+            "tag": "A104-D-01-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas criba",
+            "tag": "A104-B-04-01"
+          },
+          {
+            "descripcion": "Cinta corta a sala",
+            "tag": "A104-D-04-01"
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P-01"
+          },
+          {
+            "descripcion": "Saca muestras",
+            "tag": "SIN UBICACIÓN TECNICA."
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta D04",
+        "tag": "A104-D-04-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora a salas (corta)",
+            "tag": "A104-D-04-01"
+          },
+          {
+            "descripcion": "Cinta trasportadora de zaranda a sala",
+            "tag": "A104-D-05-01"
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P-01"
+          },
+          {
+            "descripcion": "Saca muestras",
+            "tag": "SIN UBICACIÓN TECNICA."
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta D09",
+        "tag": "A104-D-09-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora a salas",
+            "tag": "A104-D-09-01"
+          },
+          {
+            "descripcion": "Cinta trasportadora de zaranda a sala",
+            "tag": "A104-D-05-01"
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P-01"
+          },
+          {
+            "descripcion": "Saca muestras",
+            "tag": "SIN UBICACIÓN TECNICA."
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P03"
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P04"
+          },
+          {
+            "descripcion": "Cinta transportadora a salas",
+            "tag": "A104-D-10-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta D10",
+        "tag": "A104-D-10-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora a salas",
+            "tag": "A104-D-10-01"
+          },
+          {
+            "descripcion": "Cinta transportadora a salas",
+            "tag": "A104-D-09-01"
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P03"
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P04"
+          }
         ]
       }
     ]
   },
-
+  "CRIBA VIBRATORIA": {
+    "color": "#BF5AF2",
+    "equipos": [
+      {
+        "nombre": "Zaranda",
+        "tag": "A104-B-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Criba vibratoria",
+            "tag": "A104-B-01-01"
+          },
+          {
+            "descripcion": "Cinta trasportadora de zaranda a sala",
+            "tag": "A104-D-05-01"
+          },
+          {
+            "descripcion": "Cinta transportadora a criba",
+            "tag": "A104-D-01-01"
+          },
+          {
+            "descripcion": "Cinta corta  retorno",
+            "tag": "A104-D-11-01"
+          }
+        ]
+      }
+    ]
+  },
+  "ROMPEDORA": {
+    "color": "#FF375F",
+    "equipos": [
+      {
+        "nombre": "CINTAS TRANSPORTADORAS D05-D04",
+        "tag": "A104 -D05 / D04",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora a salas (corta)",
+            "tag": "A104-D-04-01"
+          },
+          {
+            "descripcion": "Cinta trasportadora de zaranda a sala",
+            "tag": "A104-D-05-01"
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P-01"
+          },
+          {
+            "descripcion": "Saca muestras",
+            "tag": "SIN UBICACIÓN TECNICA."
+          }
+        ]
+      },
+      {
+        "nombre": "CINTAS TRANSPORTADORAS D05-D09",
+        "tag": "A104- D05 / D09",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta trasportadora de zaranda a sala",
+            "tag": "A104-D-05-01"
+          },
+          {
+            "descripcion": "Cinta transportadora a salas",
+            "tag": "A104-D-09-01"
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P01"
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P02"
+          },
+          {
+            "descripcion": "Saca muestras",
+            "tag": "SIN UBICACIÓN TECNICA."
+          }
+        ]
+      },
+      {
+        "nombre": "CINTAS TRANSPORTADORAS D09-D10",
+        "tag": "A104 - D09 / D10",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora a salas",
+            "tag": "A104-D-09-01"
+          },
+          {
+            "descripcion": "Cinta transportadora a salas",
+            "tag": "A104-D-10-01"
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P03"
+          },
+          {
+            "descripcion": "Pantalón",
+            "tag": "A104-P04"
+          }
+        ]
+      }
+    ]
+  },
+  "GRUA": {
+    "color": "#64D2FF",
+    "equipos": [
+      {
+        "nombre": "NAVE",
+        "tag": "A104-S-021",
+        "bloqueos": [
+          {
+            "descripcion": "Grúa",
+            "tag": "A104-S-021"
+          },
+          {
+            "descripcion": "Grúa",
+            "tag": "A104-S-021"
+          },
+          {
+            "descripcion": "Grúa",
+            "tag": "A104-S-021"
+          }
+        ]
+      }
+    ]
+  },
   "MOLIENDA DE CRUDO": {
     "color": "#30D158",
     "equipos": [
       {
-        "nombre": "Molino de crudo",
+        "nombre": "Molino del crudo",
         "tag": "A104-E-02-01",
         "bloqueos": [
-          { "descripcion": "Molino de crudo", "tag": "A104-E-02-01" },
-          { "descripcion": "Accionamiento molino auxiliar", "tag": "A104-E-02-07" },
-          { "descripcion": "Ventilador refrigeración motor", "tag": "A104-E-04-01" }
+          {
+            "descripcion": "Molino de crudo",
+            "tag": "A104-E-02-01"
+          },
+          {
+            "descripcion": "Entrada de gases calientes",
+            "tag": "Sin Ubicación Técnica - Traba mecánica"
+          },
+          {
+            "descripcion": "Accionamiento molino de crudo (Auxiliar)",
+            "tag": "A104-E-02-07"
+          },
+          {
+            "descripcion": "Doble pendular entrada molino",
+            "tag": "A104-E-01-01"
+          },
+          {
+            "descripcion": "Cinta Trasportadora. Retorno gruesos",
+            "tag": "A104-E-07-01"
+          },
+          {
+            "descripcion": "Cinta Trasportadora. Alimentación Molino",
+            "tag": "A104-D-06-01"
+          },
+          {
+            "descripcion": "Exhaustor de Molino de crudo",
+            "tag": "A104-E-10-01"
+          },
+          {
+            "descripcion": "Compuerta gases calientes Molino de crudo.",
+            "tag": "A104-E-15-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Balanza de Hierro",
+        "tag": "A104-C-10-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza de hierro",
+            "tag": "A104-C-10-01"
+          },
+          {
+            "descripcion": "Cañones de Aire",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cuchilla de Bloqueo",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Balanza de Caliza Fuerte",
+        "tag": "A104-C-09-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza de Caliza Fuerte",
+            "tag": "A104-C-09-01"
+          },
+          {
+            "descripcion": "Cuchilla de Bloqueo",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cinta transportadora de balanza",
+            "tag": "A104-C-07-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Balanza de Caliza Flojo",
+        "tag": "A104-C-06-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza de caliza Flojo",
+            "tag": "A104-C-06-01"
+          },
+          {
+            "descripcion": "Cuchilla de Bloqueo",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cinta transportadora de balanza",
+            "tag": "A104-C-07-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta Transportadora Balanza",
+        "tag": "A104-C-07-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora de balanza",
+            "tag": "A104-C-07-01"
+          },
+          {
+            "descripcion": "Balanza de caliza Flojo",
+            "tag": "A104-C-06-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta transportadora",
+        "tag": "A104-D-06-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta Trasportadora. Alimentación Molino",
+            "tag": "A104-D-06-01"
+          },
+          {
+            "descripcion": "Balanza de hierro",
+            "tag": "A104-C-10-01"
+          },
+          {
+            "descripcion": "Balanza de caliza Fuerte",
+            "tag": "A104-C-09-01"
+          },
+          {
+            "descripcion": "Cinta Transportadora de Balanza",
+            "tag": "A104-C-07-01"
+          },
+          {
+            "descripcion": "Cinta de Yeso",
+            "tag": "A104-C-08-01"
+          },
+          {
+            "descripcion": "Cinta Auxiliar para ensayo",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta Transportadora Retorno Grueso",
+        "tag": "A104-E-07-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta Transportadora Retorno grueso",
+            "tag": "A104-E-07-01"
+          },
+          {
+            "descripcion": "Compuerta celular, separador  ciclón.",
+            "tag": "A104-E-22-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Doble Pendular Entrada  Molino",
+        "tag": "A104-E-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Doble pendular Entrada Molino",
+            "tag": "A104-E-0-01"
+          },
+          {
+            "descripcion": "Cinta Transportadora Retorno grueso",
+            "tag": "A104-E-07-01"
+          },
+          {
+            "descripcion": "Cinta Trasportadora. Alimentación Molino",
+            "tag": "A104-D-06-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Molino del crudo",
+        "tag": "A104-E-02-01",
+        "bloqueos": [
+          {
+            "descripcion": "Molino de crudo",
+            "tag": "A104-E-02-01"
+          },
+          {
+            "descripcion": "Accionamiento molino de crudo (Auxiliar)",
+            "tag": "A104-E-02-07"
+          },
+          {
+            "descripcion": "Bomba de grasa accionamiento molino de crudo N°1",
+            "tag": "A104-E-02-02-01"
+          },
+          {
+            "descripcion": "Bomba de grasa accionamiento molino de crudo N°2",
+            "tag": "A104-E-02-02-02"
+          },
+          {
+            "descripcion": "Ventilador refrigeración motor principal",
+            "tag": "A104-E-04-01"
+          },
+          {
+            "descripcion": "Bomba de aceite reductor Molino de Crudo",
+            "tag": "A104-E-03-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Exhaustor de molino de Crudo",
+        "tag": "A104-E-10-01",
+        "bloqueos": [
+          {
+            "descripcion": "Exhaustor de molino de crudo",
+            "tag": "A104-E-10-01"
+          },
+          {
+            "descripcion": "Compuerta aspiración soplante E10",
+            "tag": "A104-E-12-01"
+          },
+          {
+            "descripcion": "Compuerta gases calientes Molino de crudo.",
+            "tag": "A104-E-15-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Bi sin fin aliment.Bomb.fuller",
+        "tag": "A104-E-09-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bi sin fin aliment.Bomb.fuller",
+            "tag": "A104-E-09-01"
+          },
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-22"
+          },
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-23"
+          }
+        ]
+      },
+      {
+        "nombre": "Fluidor alimentación bomba Fuller",
+        "tag": "A104-M-13-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador Fluido alimentación bombas",
+            "tag": "A104-E-24-01"
+          },
+          {
+            "descripcion": "Bi sin fin aliment.Bomb.fuller",
+            "tag": "A104-E-09-01"
+          },
+          {
+            "descripcion": "Válvula de suministro de aire limpieza de fluido",
+            "tag": "Sin ubicación técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Balanza Alimentación Horno",
+        "tag": "A104-J-08-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza de alimentación Horno",
+            "tag": "A104-J-08-01"
+          },
+          {
+            "descripcion": "Soplador de fluidificación alimentación horno",
+            "tag": "A104-J-14-01"
+          },
+          {
+            "descripcion": "Válvula manual de aire de mando",
+            "tag": "Sin ubicación técnica"
+          }
+        ]
+      }
+    ]
+  },
+  "ALIMENTACION MOLINO DE CRUDO": {
+    "color": "#AC8E68",
+    "equipos": [
+      {
+        "nombre": "Sistema de dosificación MCF",
+        "tag": "A104-C-012-01",
+        "bloqueos": [
+          {
+            "descripcion": "Soplante para transporte de MCF",
+            "tag": "A104-C-012-05"
+          },
+          {
+            "descripcion": "Válvula Celular MCF",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Tolva de MCF",
+        "tag": "A104-C-012-02",
+        "bloqueos": [
+          {
+            "descripcion": "Soplante para transporte de MCF",
+            "tag": "A104-C-012-05"
+          },
+          {
+            "descripcion": "Válvula Celular MCF",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Ventilador Filtro a Cartucho tolva de MCF",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Válvula Celular",
+        "tag": "A104-C-012-02",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula Celular MCF",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Soplante para transporte de MCF",
+            "tag": "A104-C-012-05"
+          },
+          {
+            "descripcion": "Línea de aire limpieza de Filtro Cartucho",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro a Cartucho tolva de MCF",
+        "tag": "",
+        "bloqueos": [
+          {
+            "descripcion": "Soplante para transporte de MCF",
+            "tag": "A104-C-012-05"
+          },
+          {
+            "descripcion": "Línea de aire limpieza de Filtro Cartucho",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      }
+    ]
+  },
+  "RECUPERACION DE POLVO HORNO": {
+    "color": "#32ADE6",
+    "equipos": [
+      {
+        "nombre": "Filtro de mangas",
+        "tag": "A104-M-17-01",
+        "bloqueos": [
+          {
+            "descripcion": "Línea de aire comprimido",
+            "tag": "Llaves de aire sobre M17"
+          },
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-22-01"
+          },
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-23-01"
+          },
+          {
+            "descripcion": "Exhaustor Principal",
+            "tag": "A104-M-25-01"
+          },
+          {
+            "descripcion": "Exhaustor de Molino de crudo",
+            "tag": "A104-E-10-01"
+          },
+          {
+            "descripcion": "Compuerta gases calientes Molino de crudo.",
+            "tag": "A104-E-15-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin fin Recuperación",
+        "tag": "A104-M-22-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-22-01"
+          },
+          {
+            "descripcion": "Exhaustor Principal",
+            "tag": "A104-M-25-01"
+          },
+          {
+            "descripcion": "Línea de aire comprimido",
+            "tag": "Llaves de aire sobre M17"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin fin Recuperación",
+        "tag": "A104-M-23-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-23-01"
+          },
+          {
+            "descripcion": "Exhaustor Principal",
+            "tag": "A104-M-25-01"
+          },
+          {
+            "descripcion": "Línea de aire comprimido",
+            "tag": "Llaves de aire sobre M17"
+          }
+        ]
+      },
+      {
+        "nombre": "Tolva de fuller Crudo",
+        "tag": "SIN UT",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller Alimentación a silos",
+            "tag": "A104-G-01-01"
+          },
+          {
+            "descripcion": "Bomba Fuller Alimentación a silos",
+            "tag": "A104-G-02-01"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller G-01",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller G-02",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte G-01 (compresor)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte G-02 (compresor)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Saca muestra G01-G02",
+            "tag": "A104-G-04-01"
+          },
+          {
+            "descripcion": "Sin Fin Recuperación torre acondicionadora",
+            "tag": "A104-M-01-02"
+          },
+          {
+            "descripcion": "Sin Fin 4",
+            "tag": "A104-K200-05"
+          },
+          {
+            "descripcion": "Ventilador Fluidor alimentación bombas",
+            "tag": "A104-E-24-01"
+          },
+          {
+            "descripcion": "Bi sin fin aliment.Bomb.fuller",
+            "tag": "A104-E-09-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Bomba fuller",
+        "tag": "A104-G-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller Alimentación a silos",
+            "tag": "A104-G-01-01"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte (compresor)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller G-01",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Bomba fuller",
+        "tag": "A104-G-02-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller Alimentación a silos",
+            "tag": "A104-G-02-01"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte (compresor)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller G-02",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      }
+    ]
+  },
+  "TRANSPORTE Y ALMACENAMIENTO HOMOGENEIZADO CRUDO": {
+    "color": "#FF9F0A",
+    "equipos": [
+      {
+        "nombre": "Cañería alimentación Silos",
+        "tag": "A104-G-06-01",
+        "bloqueos": [
+          {
+            "descripcion": "Línea de aire de Transporte G-01/G-02 (ingreso de aire compresor a fuller)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Bomba Fuller Alimentación a silos",
+            "tag": "A104-G-01-01 / A104-G-02-01"
+          }
+        ]
+      },
+      {
+        "nombre": "SILO 1",
+        "tag": "A-104-H01-03",
+        "bloqueos": [
+          {
+            "descripcion": "Cañería de alimentación silos",
+            "tag": "A104-G-06-01"
+          },
+          {
+            "descripcion": "Compuerta desviadora de harina a silos 1 y 2",
+            "tag": "A104-G-09-01"
+          },
+          {
+            "descripcion": "Cuchilla derivadora de recuperación Filtro de Mangas",
+            "tag": "A104-H-14-01"
+          },
+          {
+            "descripcion": "Cilindros de aire activo",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Cilindros de aire inactivo",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Bocha descarga silo 1 homogeneizado",
+            "tag": "A104-H-03-01"
+          }
+        ]
+      },
+      {
+        "nombre": "SILO 2",
+        "tag": "A-104-H02-03",
+        "bloqueos": [
+          {
+            "descripcion": "Cañería de alimentación silos",
+            "tag": "A104-G-06-01"
+          },
+          {
+            "descripcion": "Compuerta desviadora de harina a silos 1 y 2",
+            "tag": "A104-G-09-01"
+          },
+          {
+            "descripcion": "Sin Fin de recuperación a silos",
+            "tag": "A104-H-13-01"
+          },
+          {
+            "descripcion": "Cilindros de aire activo",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Cilindros de aire inactivo",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Bocha descarga silo 1 homogeneizado",
+            "tag": "A104-H-04-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de manga de silos homogeneizado",
+        "tag": "A104-H-11-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de manga silo homogeneizado",
+            "tag": "A104-H-12-01"
+          },
+          {
+            "descripcion": "Sin fin filtro de manga silo de homogeneizado",
+            "tag": "A104-H-11-04"
+          },
+          {
+            "descripcion": "Línea de aire de mando",
+            "tag": "Llaves de suministro de aire de mando"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de manga de silos homogeneizado",
+        "tag": "A104-H-11-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de manga silo homogeneizado",
+            "tag": "A104-H-12-01"
+          },
+          {
+            "descripcion": "Sin fin filtro de manga silo de homogeneizado",
+            "tag": "A104-H-11-04"
+          },
+          {
+            "descripcion": "Línea de aire de mando",
+            "tag": "Llaves de suministro de aire de mando"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin recuperación a Silos",
+        "tag": "A104-H-13-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin fin filtro de manga silo de homogeneizado",
+            "tag": "A104-H-11-04"
+          },
+          {
+            "descripcion": "Ventilador filtro de manga silo homogeneizado",
+            "tag": "A104-H-12-01"
+          },
+          {
+            "descripcion": "Compuerta desviadora de harina a silos 1 y 2",
+            "tag": "A104-G-09-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Fluidores de descarga de silo 1",
+        "tag": "A104-H-05-01/H-09-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador fluido descarga silo 1",
+            "tag": "A104-H-08-01"
+          },
+          {
+            "descripcion": "Bocha de descarga silo 1H",
+            "tag": "A104-H-03-01"
+          },
+          {
+            "descripcion": "Cuchilla de bloqueo de descarga de silo 1",
+            "tag": "Sin ubicación técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Fluidores de descarga de silo 2",
+        "tag": "A104-H-06-01/H-07-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador fluido descarga silo 2",
+            "tag": "A104-H-10-01"
+          },
+          {
+            "descripcion": "Bocha de descarga silo 2H",
+            "tag": "A104-H-04-01"
+          },
+          {
+            "descripcion": "Cuchilla de bloqueo de descarga de silo 2",
+            "tag": "Sin ubicación técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Silo 3",
+        "tag": "A104-J-22-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cuchillas de descarga silo 3 harina(alimentación y bloqueo)",
+            "tag": "A104-J-01-01"
+          },
+          {
+            "descripcion": "Válvulas de repicky de bajada de silo",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Válvula de suministro de aire limpieza de fluido",
+            "tag": "Sin ubicación técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "SILO 4",
+        "tag": "A104-J-23-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador fluido descarga silo 4",
+            "tag": "A104-J06-01"
+          },
+          {
+            "descripcion": "Cuchilla de descarga silo 4 harina",
+            "tag": "A104-J02-01"
+          },
+          {
+            "descripcion": "Válvulas de repicky de bajada de silo",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Válvula de suministro de aire limpieza de fluido",
+            "tag": "Sin ubicación técnica"
+          }
+        ]
+      }
+    ]
+  },
+  "SILOS DE HARINA": {
+    "color": "#66D4CF",
+    "equipos": [
+      {
+        "nombre": "Fluidor de descarga",
+        "tag": "A104-J-05-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador fluido descarga silo 4",
+            "tag": "A104-J06-01"
+          },
+          {
+            "descripcion": "Cuchillas de descarga silo 4 harina(alimentación y bloqueo)",
+            "tag": "A104-J02-01"
+          },
+          {
+            "descripcion": "Válvulas de repicky de bajada de silo",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Válvula de suministro de aire limpieza de fluido",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Válvula de suministro de aire de limpieza de tolva de descarga a fluido",
+            "tag": "Sin ubicación técnica"
+          }
+        ]
+      }
+    ]
+  },
+  "HORNO": {
+    "color": "#D4AC0D",
+    "equipos": [
+      {
+        "nombre": "Tolva de alimentación Horno",
+        "tag": "A104-J-07-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador fluido descarga silo 4",
+            "tag": "A104-J06-01"
+          },
+          {
+            "descripcion": "Cuchillas de descarga silo 3 harina(alimentación y bloqueo)",
+            "tag": "A104-J-01-01"
+          },
+          {
+            "descripcion": "Cuchilla de descarga silo 4 harina",
+            "tag": "A104-J-02-01"
+          },
+          {
+            "descripcion": "Soplante rotativo Repicky",
+            "tag": "A104-J-04-01"
+          },
+          {
+            "descripcion": "Soplante rotativo Repicky",
+            "tag": "A104-J-19-01"
+          },
+          {
+            "descripcion": "Soplador de fluidificación alimentación horno",
+            "tag": "A104-J-14-01"
+          },
+          {
+            "descripcion": "Válvula manual de aire de mando a dosificadora de balanza",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Válvula de suministro de aire limpieza de fluidor descarga silo 4",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Válvula de sumistro de aire mando a limpieza de tolvas de descarga de silos 3 y 4",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas balanza horno",
+            "tag": "A104-J-10-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Exhaustor principal de Horno",
+        "tag": "A104-K-02-01",
+        "bloqueos": [
+          {
+            "descripcion": "Filtro de magas principal de Horno",
+            "tag": "A104-K-200-06"
+          },
+          {
+            "descripcion": "Exhaustor Principal de Horno",
+            "tag": "A104-K-02-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Quemador de Horno",
+        "tag": "A104-K-08-01",
+        "bloqueos": [
+          {
+            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
+            "tag": "A104-IGN-01"
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05"
+          },
+          {
+            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
+            "tag": "A104-V-69"
+          }
+        ]
+      },
+      {
+        "nombre": "Enfriador Fuller",
+        "tag": "A104-K-09-01",
+        "bloqueos": [
+          {
+            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
+            "tag": "A104-IGN-01"
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05"
+          },
+          {
+            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
+            "tag": "A104-V-69"
+          },
+          {
+            "descripcion": "Instalacion Quemador PPAL Horno (Llave Piloto)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Aire de mando de inyección de combustible (aire de lanza)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Enfriador Fuller (parrilla)",
+            "tag": "A104-K-09-01"
+          },
+          {
+            "descripcion": "Cadena de Arrastre",
+            "tag": "A104-K-19-01"
+          },
+          {
+            "descripcion": "Rompedora de Clinker",
+            "tag": "A104-K-15-01"
+          },
+          {
+            "descripcion": "Ventilador Enfriador",
+            "tag": "A104-K-17-01"
+          },
+          {
+            "descripcion": "Ventilador Enfriador",
+            "tag": "A104-K-20-01"
+          },
+          {
+            "descripcion": "Ventilador Enfriador",
+            "tag": "A104-K-22-01"
+          },
+          {
+            "descripcion": "Boquillas de enfriador",
+            "tag": "A104-K10/11/12/13/14/14.1"
+          },
+          {
+            "descripcion": "Ventilador enfriador placas boca horno",
+            "tag": "A104-K-16-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Motor accionamiento rompedora de Clinker",
+        "tag": "A104-K-15-03",
+        "bloqueos": [
+          {
+            "descripcion": "Rompedora de Clinker",
+            "tag": "A104-K-15-01"
+          },
+          {
+            "descripcion": "Enfriador Fuller (parrilla)",
+            "tag": "A104-K-09-01"
+          },
+          {
+            "descripcion": "Cadena de Arrastre",
+            "tag": "A104-K-19-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Motor accionamiento cadena de arrastre",
+        "tag": "A104-K-19-03",
+        "bloqueos": [
+          {
+            "descripcion": "Cadena de Arrastre",
+            "tag": "A104-K-19-01"
+          },
+          {
+            "descripcion": "Rompedora de Clinker",
+            "tag": "A104-K-15-01"
+          },
+          {
+            "descripcion": "Boquillas de enfriador",
+            "tag": "A104-K10/11/12/13/14/14.1"
+          }
+        ]
+      }
+    ]
+  },
+  "RECUPERACION DE POLVO": {
+    "color": "#FF6B81",
+    "equipos": [
+      {
+        "nombre": "Filtro de mangas",
+        "tag": "A104-J-09-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas balanza horno",
+            "tag": "A104-J-10-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de magas balanza horno",
+            "tag": "A104-J-09-04"
+          },
+          {
+            "descripcion": "Secuencia de limpieza (vibradores)",
+            "tag": "Sin ubicación Técnica"
+          },
+          {
+            "descripcion": "Mando de aire accionamiento cilindros",
+            "tag": "Sin ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de mangas",
+        "tag": "A104-K-200-01",
+        "bloqueos": [
+          {
+            "descripcion": "Línea de aire comprimido",
+            "tag": "Sin ubicación técnica"
+          },
+          {
+            "descripcion": "Filtro de magas principal de Horno",
+            "tag": "A104-K-200-06"
+          },
+          {
+            "descripcion": "Exhaustor Principal de Horno",
+            "tag": "A104-K-02-01"
+          },
+          {
+            "descripcion": "Ventilador aire fresco 1",
+            "tag": "A104-K-220-01"
+          },
+          {
+            "descripcion": "Ventilador aire fresco 2",
+            "tag": "A104-K-220-02"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-1"
+          },
+          {
+            "descripcion": "Válvula Cuchilla",
+            "tag": "A104-K-200-02-1"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-2"
+          },
+          {
+            "descripcion": "Válvula Cuchilla",
+            "tag": "A104-K-200-02-2"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-3"
+          },
+          {
+            "descripcion": "Válvula Cuchilla",
+            "tag": "A104-K-200-02-3"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-4"
+          },
+          {
+            "descripcion": "Válvula Cuchilla",
+            "tag": "A104-K-200-02-4"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-5"
+          },
+          {
+            "descripcion": "Válvula Cuchilla",
+            "tag": "A104-K-200-02-5"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-6"
+          },
+          {
+            "descripcion": "Válvula Cuchilla",
+            "tag": "A104-K-200-02-6"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-7"
+          },
+          {
+            "descripcion": "Válvula Cuchilla",
+            "tag": "A104-K-200-02-7"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-8"
+          },
+          {
+            "descripcion": "Válvula Cuchilla",
+            "tag": "A104-K-200-02-8"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-9"
+          },
+          {
+            "descripcion": "Válvula Cuchilla",
+            "tag": "A104-K-200-02-9"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-10"
+          },
+          {
+            "descripcion": "Válvula Cuchilla",
+            "tag": "A104-K-200-02-10"
+          }
+        ]
+      },
+      {
+        "nombre": "Válvula Celular",
+        "tag": "A104-K-200-03-01/03/05/07/09 /",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-1"
+          },
+          {
+            "descripcion": "Sin Fin Colector bajo cámaras  1-3-5-7-9",
+            "tag": "A104-K-200-02"
+          }
+        ]
+      },
+      {
+        "nombre": "Válvula Celular",
+        "tag": "A104-K-200-03-02/04/06/08/10 /",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-02"
+          },
+          {
+            "descripcion": "Sin Fin Colector bajo cámaras  2-4-6-8-10",
+            "tag": "A104-K-200-03"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin colector bajo cámaras impares",
+        "tag": "A104-K-200-02 /",
+        "bloqueos": [
+          {
+            "descripcion": "Sin Fin Colector bajo cámaras  1-3-5-7-9",
+            "tag": "A104-K-200-02"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-1"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-3"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-5"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-7"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-9"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin colector bajo cámaras pares",
+        "tag": "A104-K-200-03 /",
+        "bloqueos": [
+          {
+            "descripcion": "Sin Fin Colector bajo cámaras  2-4-6-8-10",
+            "tag": "A104-K-200-03"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-2"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-4"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-6"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-8"
+          },
+          {
+            "descripcion": "Válvula Celular",
+            "tag": "A104-K-200-03-10"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin 3",
+        "tag": "A104-K-200-04 /",
+        "bloqueos": [
+          {
+            "descripcion": "Sin Fin 3",
+            "tag": "A104-K-200-04"
+          },
+          {
+            "descripcion": "Sin Fin Colector bajo cámaras  2-4-6-8-10",
+            "tag": "A104-K-200-03"
+          },
+          {
+            "descripcion": "Sin Fin Colector bajo cámaras  1-3-5-7-9",
+            "tag": "A104-K-200-02"
+          },
+          {
+            "descripcion": "Cuchilla descarga Camión (recuperación)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin 4",
+        "tag": "A104-K-200-05 /",
+        "bloqueos": [
+          {
+            "descripcion": "Sin Fin 4",
+            "tag": "A104-K-200-05"
+          },
+          {
+            "descripcion": "Sin Fin 3",
+            "tag": "A104-K-200-04"
+          }
+        ]
+      }
+    ]
+  },
+  "ALIMENTACION HORNO": {
+    "color": "#5E5CE6",
+    "equipos": [
+      {
+        "nombre": "Tolva de Fuller Horno",
+        "tag": "Sin Ubicación Técnica",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller alimentación de horno",
+            "tag": "A104-J-12-01"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller J-12",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Bomba Fuller alimentación de horno",
+            "tag": "A104-J-13-01"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller J-13",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Balanza de alimentación Horno",
+            "tag": "A104-J-08-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de magas balanza horno",
+            "tag": "A104-J-09-04"
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas balanza horno",
+            "tag": "A104-J-10-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Bomba fuller",
+        "tag": "A104-J-12-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller alimentación de horno",
+            "tag": "A104-J-12-01"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller J-12",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte (compresor)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Bomba fuller",
+        "tag": "A104-J-13-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller alimentación de horno",
+            "tag": "A104-J-13-01"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller J-13",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte (compresor)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Cañería de transporte alimentación Horno",
+        "tag": "A104-J-15-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller alimentación de horno",
+            "tag": "A104-J-12-01 / A104-J-13-01"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte (ingreso de aire compresor a fuller)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula desviadora alimentación Horno",
+            "tag": "A104-J-16-01"
+          }
+        ]
+      }
+    ]
+  },
+  "TORRE DE CALCINACION": {
+    "color": "#34C759",
+    "equipos": [
+      {
+        "nombre": "Torre Intercambiadora de calor",
+        "tag": "A104-K-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
+            "tag": "A104-IGN-01"
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05"
+          },
+          {
+            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
+            "tag": "V-69"
+          },
+          {
+            "descripcion": "Motor Horno",
+            "tag": "A104-K-07-03"
+          },
+          {
+            "descripcion": "Motor accionamiento auxiliar Horno",
+            "tag": "A104-K-07-08-03"
+          },
+          {
+            "descripcion": "Sistema de limpieza torre",
+            "tag": "A104-K-03-01"
+          },
+          {
+            "descripcion": "Sistema de limpieza torre / Secuencia de limpieza",
+            "tag": "A104-K-03-01"
+          },
+          {
+            "descripcion": "Filtro de magas principal de Horno",
+            "tag": "A104-K-200-06"
+          },
+          {
+            "descripcion": "Exhaustor Principal de Horno",
+            "tag": "A104-K-02-01"
+          }
+        ]
+      }
+    ]
+  },
+  "TORRE ACONDIONADORA": {
+    "color": "#FF8A5B",
+    "equipos": [
+      {
+        "nombre": "Torre acondicionadora",
+        "tag": "A104-M-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
+            "tag": "A104-IGN-01"
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05"
+          },
+          {
+            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
+            "tag": "V-69"
+          },
+          {
+            "descripcion": "Filtro de magas principal de Horno",
+            "tag": "A104-K-200-06"
+          },
+          {
+            "descripcion": "Exhaustor Principal de Horno",
+            "tag": "A104-K-02-01"
+          },
+          {
+            "descripcion": "Sin Fin Recuperación torre acondicionadora",
+            "tag": "A104-M-01-02"
+          },
+          {
+            "descripcion": "Bomba de agua torre acondicionadora Izquierda",
+            "tag": "A104-M-01-08"
+          },
+          {
+            "descripcion": "Bomba de agua torre acondicionadora Derecha",
+            "tag": "A104-M-01-11"
+          },
+          {
+            "descripcion": "Línea de aire de mando a lanzas(Línea principal y by-pass)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      }
+    ]
+  },
+  "HORNO ROTATIVO": {
+    "color": "#7C9EFF",
+    "equipos": [
+      {
+        "nombre": "Accionamiento de Horno",
+        "tag": "A104-K-07-02",
+        "bloqueos": [
+          {
+            "descripcion": "Motor Horno",
+            "tag": "A104-K-07-03"
+          },
+          {
+            "descripcion": "Motor accionamiento auxiliar Horno",
+            "tag": "A104-K-07-08-03"
+          },
+          {
+            "descripcion": "Sistema de limpieza torre",
+            "tag": "A104-K-03-01"
+          },
+          {
+            "descripcion": "Sistema de limpieza torre / Secuencia de limpieza",
+            "tag": "A104-K-03-01"
+          }
+        ]
+      }
+    ]
+  },
+  "QUEMADOR HORNO": {
+    "color": "#0A84FF",
+    "equipos": [
+      {
+        "nombre": "Tolva de MCF",
+        "tag": "",
+        "bloqueos": [
+          {
+            "descripcion": "Soplante para transporte de MCF",
+            "tag": "A104-C-012-05"
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05"
+          },
+          {
+            "descripcion": "Ventilador Filtro de mangas inyección MCF",
+            "tag": "A104-KM-01"
+          },
+          {
+            "descripcion": "Línea de aire mando sistema de limpieza filtro de mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de Mangas Inyección de MCF",
+        "tag": "A104-KM-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador Filtro de Mangas MCF",
+            "tag": "A104-KM-01"
+          },
+          {
+            "descripcion": "Línea de aire mando sistema de limpieza filtro de mangas",
+            "tag": ""
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05"
+          },
+          {
+            "descripcion": "Cuchilla de bloqueo sobre celular",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula de cañería de transporte a horno",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Válvula Celular tolva",
+        "tag": "",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula Celular de tolva",
+            "tag": "A104-KM-03"
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05"
+          },
+          {
+            "descripcion": "Cuchilla de bloqueo sobre celular",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta balanza MCF",
+        "tag": "",
+        "bloqueos": [
+          {
+            "descripcion": "Z-FEED-Cinta balanza de MCF",
+            "tag": "A104-KM-04"
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05"
+          },
+          {
+            "descripcion": "Válvula Celular de tolva",
+            "tag": "A104-KM-03"
+          },
+          {
+            "descripcion": "Cuchilla de bloqueo sobre celular",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Válvula Celular bajo balanza",
+        "tag": "",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula celular bajo balanza (socom)",
+            "tag": "A104-KM06"
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05"
+          },
+          {
+            "descripcion": "Z-FEED-Cinta balanza de MCF",
+            "tag": "A104-KM-04"
+          }
+        ]
+      },
+      {
+        "nombre": "Cañería de Transporte MCF",
+        "tag": "",
+        "bloqueos": [
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05"
+          },
+          {
+            "descripcion": "Válvula celular bajo balanza (socoom)",
+            "tag": "A104-KM06"
+          }
+        ]
+      }
+    ]
+  },
+  "MULTICICLONICO DE DESPOLVAMIENTO": {
+    "color": "#BF5AF2",
+    "equipos": [
+      {
+        "nombre": "Sin Fin recuperador de multiciclonico",
+        "tag": "A104-K-25-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin Fin recuperador de milticiclónico",
+            "tag": "A104-K-25-01"
+          },
+          {
+            "descripcion": "Compuerta celular de milticiclónico",
+            "tag": "A104-K-24-06"
+          },
+          {
+            "descripcion": "Compuerta celular de milticiclónico",
+            "tag": "A104-K-24-08"
+          }
+        ]
+      },
+      {
+        "nombre": "Compuerta Celular de milticiclónico",
+        "tag": "A104-K-24-06 / A104-K-24-08",
+        "bloqueos": [
+          {
+            "descripcion": "Sin Fin recuperador de milticiclónico",
+            "tag": "A104-K-25-01"
+          },
+          {
+            "descripcion": "Compuerta celular de multiciclónico",
+            "tag": "A104-K-24-06 / A104-K-24-08"
+          }
+        ]
+      }
+    ]
+  },
+  "TRANSPORTE Y ALMACENAMIENTO CLINKER": {
+    "color": "#FF375F",
+    "equipos": [
+      {
+        "nombre": "Motor de accionamiento elevador de Clinker",
+        "tag": "A104-L-01-03",
+        "bloqueos": [
+          {
+            "descripcion": "Elevador de Clinker",
+            "tag": "A104-L-01-01"
+          },
+          {
+            "descripcion": "Cadena de Arrastre",
+            "tag": "A104-K-19-01"
+          },
+          {
+            "descripcion": "Sin Fin recuperador multiciclonico",
+            "tag": "A104-K-25-01"
+          },
+          {
+            "descripcion": "Sin Fin corto recuperador multiciclonico",
+            "tag": "A104-K-26-01"
+          }
+        ]
+      }
+    ]
+  },
+  "ALIMENTACION MOLINO DE CEMENTO": {
+    "color": "#64D2FF",
+    "equipos": [
+      {
+        "nombre": "Cinta transportadora alimentación tolvas cementos (1)",
+        "tag": "A104-L-05-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta alimentación tolva cemento 1",
+            "tag": "A104-L-05-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta transportadora alimentación tolvas cementos (2)",
+        "tag": "A104-L-06-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta alimentación tolva cemento",
+            "tag": "A104-L-06-01"
+          },
+          {
+            "descripcion": "Cinta alimentación tolva cemento 1",
+            "tag": "A104-L-05-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro magas silo premolido",
+        "tag": "A104-NA-15-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas silo premolido",
+            "tag": "A104-NA-16-01"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza",
+            "tag": "Sin ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Balanza de premolido",
+        "tag": "A104-L-17-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza premolido",
+            "tag": "A104-L-17-01"
+          },
+          {
+            "descripcion": "Cinta alimentación premolido a cemento",
+            "tag": "A104-NA-13-01"
+          },
+          {
+            "descripcion": "Cuchilla de Bloqueo",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Sistema de dosificación de aditivo",
+            "tag": "A104-L-20-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de mangas balanza premolido",
+        "tag": "A104-NA-11-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas balanza premolido",
+            "tag": "A104-NA-11-02"
+          },
+          {
+            "descripcion": "Válvula reguladora FM balanza premolido",
+            "tag": "A104-NA-11-05"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas balanza premolido",
+            "tag": "A104-NA-11-04"
+          },
+          {
+            "descripcion": "Línea de aire de limpieza filtro",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin filtro de mangas balanza premolido",
+        "tag": "A104-NA-11-04",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas balanza premolido",
+            "tag": "A104-NA-11-02"
+          },
+          {
+            "descripcion": "Válvula reguladora FM balanza premolido",
+            "tag": "A104-NA-11-05"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas balanza premolido",
+            "tag": "A104-NA-11-04"
+          },
+          {
+            "descripcion": "Línea de aire de limpieza filtro",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta alimentación premolido a cemento",
+        "tag": "A104-NA-13-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta alimentación premolido a cemento",
+            "tag": "A104-NA-13-01"
+          },
+          {
+            "descripcion": "Balanza premolido",
+            "tag": "A104-L-17-01"
+          },
+          {
+            "descripcion": "Cinta transportadora reversible colectora balanzas",
+            "tag": "A104-L-18-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas balanza premolido",
+            "tag": "A104-NA-11-04"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta transportadora reversible colectora balanzas",
+        "tag": "A104-L-18-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora reversible colectora balanzas",
+            "tag": "A104-L-18-01"
+          },
+          {
+            "descripcion": "Cinta alimentación premolido a cemento",
+            "tag": "A104-NA-13-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas transferencia NA-13",
+            "tag": "A104-NA-10-04"
+          },
+          {
+            "descripcion": "Línea de aire de limpieza de filtro de magas",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Balanza toba",
+            "tag": "A104-L-16-01"
+          },
+          {
+            "descripcion": "Balanza de caliza",
+            "tag": "A104-L-15-01"
+          },
+          {
+            "descripcion": "Balanza de yeso",
+            "tag": "A104-L-14-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro Mangas transferencia NA-13",
+        "tag": "A104-NA-10-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas Transferencia NA-13",
+            "tag": "A104-NA-12-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas transferencia NA-13",
+            "tag": "A104-NA-10-04"
+          },
+          {
+            "descripcion": "Línea de aire de limpieza de filtro de magas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Balanza de Toba",
+        "tag": "A104-L-16-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza toba",
+            "tag": "A104-L-16-01"
+          },
+          {
+            "descripcion": "Cuchilla de Bloqueo",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cinta transportadora reversible colectora balanzas",
+            "tag": "A104-L-18-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Balanza de Caliza",
+        "tag": "A104-L-15-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza caliza",
+            "tag": "A104-L-15-01"
+          },
+          {
+            "descripcion": "Cuchilla de Bloqueo",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cinta transportadora reversible colectora balanzas",
+            "tag": "A104-L-18-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Balanza de Yeso",
+        "tag": "A104-L-14-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza yeso",
+            "tag": "A104-L-14-01"
+          },
+          {
+            "descripcion": "Cuchilla de Bloqueo",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cinta transportadora reversible colectora balanzas",
+            "tag": "A104-L-18-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Balanza de alimentación Toba",
+        "tag": "A104-NA-21-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza de alimentación Toba",
+            "tag": "A104-NA-21-01"
+          },
+          {
+            "descripcion": "Cinta transportadora de alimentación horno",
+            "tag": "A104-NA-22-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Balanza de alimentación Toba",
+        "tag": "A104-NA-22-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora de alimentación horno",
+            "tag": "A104-NA-22-01"
+          },
+          {
+            "descripcion": "Balanza de alimentación Toba",
+            "tag": "A104-NA-21-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Horno Secador Toba",
+        "tag": "A104-NA-24-01",
+        "bloqueos": [
+          {
+            "descripcion": "Motor accionamiento horno secador Toba",
+            "tag": "A104-NA-24-03"
+          },
+          {
+            "descripcion": "Cinta transportadora de alimentación horno",
+            "tag": "A104-NA-22-01"
+          },
+          {
+            "descripcion": "Ventilador aire primario Horno Secador",
+            "tag": "A104-NA-27-01"
+          },
+          {
+            "descripcion": "Ventilador aire secundario Horno Secador",
+            "tag": "A104-NA-28-01"
+          },
+          {
+            "descripcion": "Ventilador aire terciario Horno Secador",
+            "tag": "A104-NA-29-01"
+          },
+          {
+            "descripcion": "Planta reguladora de GAS",
+            "tag": "A104-NA-30-01"
+          },
+          {
+            "descripcion": "Quemador de horno secador de toba",
+            "tag": "A104-NA-24-02"
+          },
+          {
+            "descripcion": "Ventilador filtro mangas Horno Secador",
+            "tag": "A104-NA-33-01"
+          },
+          {
+            "descripcion": "Cinta transportadora alimentación silo seca toba",
+            "tag": "A104-NA-42-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro Mangas Horno secador Toba",
+        "tag": "A104-NA-39-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro mangas Horno Secador",
+            "tag": "A104-NA-33-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro mangas secador toba",
+            "tag": "A104-NA-39-04"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro Mangas Horno secador Toba",
+        "tag": "A104-NA-39-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro mangas Horno Secador",
+            "tag": "A104-NA-33-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro mangas secador toba",
+            "tag": "A104-NA-39-04"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Celular descarga sin fin",
+        "tag": "A104-NA-34-01",
+        "bloqueos": [
+          {
+            "descripcion": "Celular descarga Sin Fin NA-39",
+            "tag": "A104-NA-34-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro mangas secador toba",
+            "tag": "A104-NA-39-04"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta transportadora alimentación Silo Seca Toba",
+        "tag": "A104-NA-42-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora alimentación silo seca toba",
+            "tag": "A104-NA-42-01"
+          },
+          {
+            "descripcion": "Motor accionamiento horno secador Toba",
+            "tag": "A104-NA-24-03"
+          },
+          {
+            "descripcion": "Ventilador filtro mangas silo toba seca",
+            "tag": "A104-NA-44-02"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de mangas silo Toba Seca",
+        "tag": "A104-NA-44-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas silo toba seca",
+            "tag": "A104-NA-44-02"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Silo de Toba Seca",
+        "tag": "A104-NA-45-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora alimentación silo seca toba",
+            "tag": "A104-NA-42-01"
+          },
+          {
+            "descripcion": "Válvula cuchilla",
+            "tag": "A104-NA-45-02"
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas silo toba seca",
+            "tag": "A104-NA-44-02"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Válvula cuchilla",
+        "tag": "A104-NA-45-02",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula cuchilla",
+            "tag": "A104-NA-45-02"
+          },
+          {
+            "descripcion": "Cinta transportadora alimentación silo seca toba",
+            "tag": "A104-NA-42-01"
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas silo toba seca",
+            "tag": "A104-NA-44-02"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Válvula Reguladora",
+        "tag": "A104-NA-45-05",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula Reguladora",
+            "tag": "A104-NA-45-05"
+          },
+          {
+            "descripcion": "Válvula cuchilla",
+            "tag": "A104-NA-45-02"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Válvula descarga Camión",
+        "tag": "A104-NA-45-03",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula descarga a camión",
+            "tag": "A104-NA-45-03"
+          },
+          {
+            "descripcion": "Válvula cuchilla",
+            "tag": "A104-NA-45-02"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de mangas cinta alimentación tolva",
+        "tag": "A104-NA-46-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas cinta alimentación",
+            "tag": "A104-NA-46-02"
+          },
+          {
+            "descripcion": "Válvula reguladora (filtro de mangas de transferencia)",
+            "tag": "A104-NA-46-05"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta de alimentación tolva de Toba",
+        "tag": "A104-NA-47-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora alimentación de Toba",
+            "tag": "A104-NA-47-01"
+          },
+          {
+            "descripcion": "Válvula cuchilla",
+            "tag": "A104-NA-45-02"
+          },
+          {
+            "descripcion": "Válvula reguladora (filtro de mangas de transferencia)",
+            "tag": "A104-NA-46-05"
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas tolva toba seca",
+            "tag": "A104-NA-48-02"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de mangas tolva toba seca",
+        "tag": "A104-NA-48-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas tolva toba seca",
+            "tag": "A104-NA-48-02"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      }
+    ]
+  },
+  "MOLINO DE CEMENTO": {
+    "color": "#FFD60A",
+    "equipos": [
+      {
+        "nombre": "Balanza de Clinker (cinta tolva 4)",
+        "tag": "A104-L-13-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza de Clinker / (cinta tolva 4)",
+            "tag": "A104-L-13-01"
+          },
+          {
+            "descripcion": "Cuchilla de Bloqueo",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cinta transportadora alimentación Polycom",
+            "tag": "A104-L-19-01"
+          }
+        ]
+      }
+    ]
+  },
+  "CIRCUITO DE MOLIENDA DE CEMENTO": {
+    "color": "#AC8E68",
+    "equipos": [
+      {
+        "nombre": "Cinta transportadora alimentación Polycom",
+        "tag": "A104-L-19-03",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora alimentación Polycom",
+            "tag": "A104-L-19-01"
+          },
+          {
+            "descripcion": "Balanza de Clinker / (cinta tolva 4)",
+            "tag": "A104-L-13-01"
+          },
+          {
+            "descripcion": "Molino de rodillos polycom",
+            "tag": "A104-NA-01-01"
+          },
+          {
+            "descripcion": "Cinta saca metales",
+            "tag": "A104-L-19-03-A"
+          }
+        ]
+      },
+      {
+        "nombre": "Molino de rodillos Polycom",
+        "tag": "A104-NA-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Molino de rodillos polycom",
+            "tag": "A104-NA-01-01"
+          },
+          {
+            "descripcion": "Cinta transportadora alimentación Polycom",
+            "tag": "A104-L-19-01"
+          },
+          {
+            "descripcion": "Cinta transportadora descarga Polycom",
+            "tag": "A104-N-04-01"
+          },
+          {
+            "descripcion": "Central hidráulica",
+            "tag": "A104-N-01-02"
+          },
+          {
+            "descripcion": "Bomba de aceite reductor fijo",
+            "tag": "A104-NA-01-04-01"
+          },
+          {
+            "descripcion": "Bomba de aceite reductor móvil",
+            "tag": "A104-NA-01-05-01"
+          },
+          {
+            "descripcion": "Sistema de lubricación de rodamientos",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Sistema de amortiguación nitrógeno",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro mangas Polycom",
+        "tag": "A104-NA-04-06",
+        "bloqueos": [
+          {
+            "descripcion": "Sin fin filtro mangas Polycom",
+            "tag": "A104-NA-06-04"
+          },
+          {
+            "descripcion": "Ventilador Filtro Mangas Polycom",
+            "tag": "A104-NA-07-01"
+          },
+          {
+            "descripcion": "Válvulas de limpieza flautines",
+            "tag": "Sin ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro mangas Polycom",
+        "tag": "A104-NA-06-04",
+        "bloqueos": [
+          {
+            "descripcion": "Sin fin filtro mangas Polycom",
+            "tag": "A104-NA-06-04"
+          },
+          {
+            "descripcion": "Ventilador Filtro Mangas Polycom",
+            "tag": "A104-NA-07-01"
+          },
+          {
+            "descripcion": "Válvulas de limpieza flautines",
+            "tag": "Sin ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin filtro de mangas Polycom",
+        "tag": "A104-NA-08-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin fin recuperación filtro de mangas Polycom",
+            "tag": "A104-NA-08-01"
+          },
+          {
+            "descripcion": "Sin fin filtro mangas Polycom",
+            "tag": "A104-NA-06-04"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta transportadora alimentación Polycom",
+        "tag": "A104-L-19-03",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora descarga Polycom",
+            "tag": "A104-N-04-01"
+          },
+          {
+            "descripcion": "Molino de rodillos polycom",
+            "tag": "A104-NA-01-01"
+          },
+          {
+            "descripcion": "Cinta alimentación premolido",
+            "tag": "A104-NA-05-01"
+          },
+          {
+            "descripcion": "Sin fin recuperación filtro de mangas Polycom",
+            "tag": "A104-NA-08-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Cinta alimentación premolido",
+        "tag": "A104-NA-05-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta alimentación premolido",
+            "tag": "A104-NA-05-01"
+          },
+          {
+            "descripcion": "Cinta transportadora descarga Polycom",
+            "tag": "A104-N-04-01"
+          },
+          {
+            "descripcion": "Elevador a cangilones de limpieza",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Molino de Cemento",
+        "tag": "A104-N-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Accionamiento de molino Cemento",
+            "tag": "A104-N-01-02"
+          },
+          {
+            "descripcion": "Accionamiento Auxiliar Molino de Cemento",
+            "tag": "A104-N-01-06"
+          },
+          {
+            "descripcion": "Cinta transportadora reversible colectora balanzas",
+            "tag": "A104-L-18-01"
+          },
+          {
+            "descripcion": "Tajadera en descarga de elevador",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Ventilador Filtro de mangas Molino de Cemento",
+            "tag": "A104-N-10-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Molino de Cemento",
+        "tag": "A104-N-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Accionamiento de molino Cemento",
+            "tag": "A104-N-01-02"
+          },
+          {
+            "descripcion": "Accionamiento Auxiliar Molino de Cemento",
+            "tag": "A104-N-01-06"
+          },
+          {
+            "descripcion": "Ventilador refrigeración motor principal",
+            "tag": "A104-N-02-01"
+          },
+          {
+            "descripcion": "Bomba lubricación reductor principal Molino de Cemento",
+            "tag": "A104-N-03-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Fluidor descarga Molino Cemento",
+        "tag": "A104-N-04-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador descarga fluido Molino de Cemento",
+            "tag": "A104-N-05-01"
+          },
+          {
+            "descripcion": "Accionamiento de molino Cemento",
+            "tag": "A104-N-01-02"
+          },
+          {
+            "descripcion": "Accionamiento Auxiliar Molino de Cemento",
+            "tag": "A104-N-01-06"
+          },
+          {
+            "descripcion": "Aire de limpieza de Fluidor",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro Mangas Molino de Cemento",
+        "tag": "A104-N-09-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador Filtro de magas Molino de Cemento",
+            "tag": "A104-N-10-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro mangas Molino de Cemento",
+            "tag": "A104-N-09-04"
+          },
+          {
+            "descripcion": "Línea aire de mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin Filtro Mangas Molino de Cemento",
+        "tag": "A104-NA-09-04",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador Filtro de magas Molino de Cemento",
+            "tag": "A104-N-10-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro mangas Molino de Cemento",
+            "tag": "A104-N-09-04"
+          },
+          {
+            "descripcion": "Línea aire de mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Pantalón de desvío de filtro N-09 a N-11",
+        "tag": "A104-N-09DG01",
+        "bloqueos": [
+          {
+            "descripcion": "Pantalón de desvió de filtro N-09 A N-11",
+            "tag": "A104-N-09DG01"
+          },
+          {
+            "descripcion": "Sin Fin filtro mangas Molino de Cemento",
+            "tag": "A104-N-09-04"
+          },
+          {
+            "descripcion": "Sin Fin Filtro Intermedio Filtro Mangas N-09",
+            "tag": "A104-N-07-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin intermedio Filtro Mangas N-09",
+        "tag": "A104-N-07-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin Fin Filtro Intermedio Filtro Mangas N-09",
+            "tag": "A104-N-07-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro mangas Molino de Cemento",
+            "tag": "A104-N-09-04"
+          },
+          {
+            "descripcion": "Sin Fin descarga final FM N-09",
+            "tag": "A104-N-06-01"
+          },
+          {
+            "descripcion": "Pantalón de desvío de filtro N-09 A N-11",
+            "tag": "A104-N-09DG01"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin descarga final FM N-09",
+        "tag": "A104-N-06-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin Fin descarga final FM N-09",
+            "tag": "A104-N-06-01"
+          },
+          {
+            "descripcion": "Sin Fin Filtro Intermedio Filtro Mangas N-09",
+            "tag": "A104-N-07-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Elevador 800 de Cemento",
+        "tag": "A104-N-11-01",
+        "bloqueos": [
+          {
+            "descripcion": "Elevador 800 de Cemento",
+            "tag": "A104-N-11-01"
+          },
+          {
+            "descripcion": "Ventilador descarga Fluidor Molino de Cemento",
+            "tag": "A104-N-05-01"
+          },
+          {
+            "descripcion": "Accionamiento de molino Cemento",
+            "tag": "A104-N-01-02"
+          },
+          {
+            "descripcion": "Accionamiento Auxiliar Molino de Cemento",
+            "tag": "A104-N-01-06"
+          },
+          {
+            "descripcion": "Pantalón de desvío de filtro N-09 A N-11",
+            "tag": "A104-N-09DG01"
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas N-21",
+            "tag": "A104-N-20-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Fluidor Alimentación Cyclopol",
+        "tag": "A104-N-12-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador alimentación fluido Ciclope",
+            "tag": "A104-N-13-01"
+          },
+          {
+            "descripcion": "Ventilador alimentación Fluidor Cyclopol",
+            "tag": "A104-N-13-02"
+          },
+          {
+            "descripcion": "Elevador 800 de Cemento",
+            "tag": "A104-N-11-01"
+          },
+          {
+            "descripcion": "Válvula Celular de Filtro N-21",
+            "tag": "A104-N-21-04"
+          },
+          {
+            "descripcion": "Ventilador de Separador",
+            "tag": "A104-N-14-21"
+          },
+          {
+            "descripcion": "Separador de ciclones Cyclopol (plato)",
+            "tag": "A104-N-14-01"
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas Cyclopol",
+            "tag": "A104-N-17-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de mangas elevador N-11",
+        "tag": "A104-N-21-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas elevador N-11",
+            "tag": "A104-N-21-01"
+          },
+          {
+            "descripcion": "Válvula Celular de Filtro N-21",
+            "tag": "A104-N-21-04"
+          },
+          {
+            "descripcion": "Línea aire de mando limpieza filtro",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Válvula celular de filtro N-21",
+        "tag": "A104-N-21-04",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas elevador N-11",
+            "tag": "A104-N-21-01"
+          },
+          {
+            "descripcion": "Válvula Celular de Filtro N-21",
+            "tag": "A104-N-21-04"
+          },
+          {
+            "descripcion": "Línea aire de mando limpieza filtro",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Separador de ciclones Cyclopol",
+        "tag": "A104-N-14-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador alimentación fluido Ciclope",
+            "tag": "A104-N-13-01"
+          },
+          {
+            "descripcion": "Ventilador alimentación Fluidor Cyclopol",
+            "tag": "A104-N-13-02"
+          },
+          {
+            "descripcion": "Elevador 800 de Cemento",
+            "tag": "A104-N-11-01"
+          },
+          {
+            "descripcion": "Válvula Celular de Filtro N-21",
+            "tag": "A104-N-21-04"
+          },
+          {
+            "descripcion": "Ventilador de Separador",
+            "tag": "A104-N-14-21"
+          },
+          {
+            "descripcion": "Separador de ciclones Cyclopol (plato)",
+            "tag": "A104-N-14-01"
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas Cyclopol",
+            "tag": "A104-N-17-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Válvulas Celulares Cyclopol",
+        "tag": "A104-N-14-01-01 / N-14-01-02 / N-14-01-03 / N-14-01-04",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula celular ciclón 1;2;3 y 4",
+            "tag": "A104-N-14-01-01/02/03/04"
+          },
+          {
+            "descripcion": "Ventilador de Separador",
+            "tag": "A104-N-14-21"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de Mangas Cyclopol",
+        "tag": "A104-N-16-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas Ciclope",
+            "tag": "A104-N-17-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas cyclopol",
+            "tag": "A104-N-16-04"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza de filtro",
+            "tag": "Sin ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin filtro de magas ciclope",
+        "tag": "A104-N-16-04",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas Ciclope",
+            "tag": "A104-N-17-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas cyclopol",
+            "tag": "A104-N-16-04"
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza de filtro",
+            "tag": "Sin ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Esclusa sin fin filtro de mangas Cyclopol",
+        "tag": "A104-N-18-01",
+        "bloqueos": [
+          {
+            "descripcion": "Esclusa sin fin filtro de magas ciclope",
+            "tag": "A104-N-18-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas Cyclopol",
+            "tag": "A104-N-16-04"
+          },
+          {
+            "descripcion": "Sin Fin Corto filtro de mangas Cyclopol",
+            "tag": "A104-N-19-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin corto filtro de mangas Cyclopol",
+        "tag": "A104-N-19-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin Fin Corto filtro de mangas ciclope",
+            "tag": "A104-N-19-01"
+          },
+          {
+            "descripcion": "Esclusa sin fin filtro de magas Cyclopol",
+            "tag": "A104-N-18-01"
+          }
+        ]
+      }
+    ]
+  },
+  "MOLIENDA DE CEMENTO": {
+    "color": "#32ADE6",
+    "equipos": [
+      {
+        "nombre": "Elevador 630 de rechazo",
+        "tag": "A104-N-27-01",
+        "bloqueos": [
+          {
+            "descripcion": "Elevador 630 de rechazo",
+            "tag": "A104-N-27-01"
+          },
+          {
+            "descripcion": "Tajadera en descarga de elevador",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas N-21",
+            "tag": "A104-N-20-01"
+          }
+        ]
+      }
+    ]
+  },
+  "TRANSPORTE Y ALMACENAMIENTO CEMENTO": {
+    "color": "#FF9F0A",
+    "equipos": [
+      {
+        "nombre": "Tolva de fuller Cemento",
+        "tag": "Sin ubicación Técnica",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller Transporte silos cemento",
+            "tag": "A104-P-02-01"
+          },
+          {
+            "descripcion": "Bomba Fuller Transporte silos cemento",
+            "tag": "A104-P-19-01"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller P-02",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller P-19",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte P-02 (compresor)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte P-19 (compresor)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Sacamuestra Bomba Fuller de Cemento",
+            "tag": "A104-P-03-01"
+          },
+          {
+            "descripcion": "Sacamuestra Bomba Fuller de Cemento",
+            "tag": "A104-P-20-01"
+          },
+          {
+            "descripcion": "Válvula Celular Ciclón 1",
+            "tag": "A104-N-14-01-01"
+          },
+          {
+            "descripcion": "Válvula Celular Ciclón 2",
+            "tag": "A104-N-14-01-02"
+          },
+          {
+            "descripcion": "Válvula Celular Ciclón 3",
+            "tag": "A104-N-14-01-03"
+          },
+          {
+            "descripcion": "Válvula Celular Ciclón 4",
+            "tag": "A104-N-14-01-04"
+          },
+          {
+            "descripcion": "Sin Fin Corto filtro de mangas Cyclopol",
+            "tag": "A104-N-19-01"
+          },
+          {
+            "descripcion": "Sin Fin descarga final FM N-09",
+            "tag": "A104-N-06-01"
+          },
+          {
+            "descripcion": "Ventilador Filtro de Mangas Cyclopol",
+            "tag": "A104-N-17-01"
+          }
+        ]
+      },
+      {
+        "nombre": "Bomba fuller transporte silos cemento",
+        "tag": "A104-P-02-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller Transporte silos cemento",
+            "tag": "A104-P-02-01"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller P-02",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte P-02 (compresor)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Bomba fuller transporte silos cemento",
+        "tag": "A104-P-19-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller Transporte silos cemento",
+            "tag": "A104-P-19-01"
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller P-19",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte P-19 (compresor)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Cañería de transporte cemento",
+        "tag": "A104-P-05-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller transporte silo cemento",
+            "tag": "A104-P-19-01 / A104-P-02-01"
+          },
+          {
+            "descripcion": "Línea de aire de Transporte (ingreso de aire compresor a fuller)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de mangas Silos 1;2,3",
+        "tag": "A104-Q-30-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas Silos 1;2;3",
+            "tag": "A104-Q-31-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas Silos 1;2;3",
+            "tag": "A104-Q-30-04"
+          },
+          {
+            "descripcion": "Secuencia de limpieza (vibradores)",
+            "tag": "Sin ubicación Técnica"
+          },
+          {
+            "descripcion": "Mando de aire accionamiento cilindros",
+            "tag": "Sin ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin FM Silos 1;2;3",
+        "tag": "A104-Q-30-04",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas Silos 1;2;3",
+            "tag": "A104-Q-31-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas Silos 1;2;3",
+            "tag": "A104-Q-30-04"
+          },
+          {
+            "descripcion": "Secuencia de limpieza (vibradores)",
+            "tag": "Sin ubicación Técnica"
+          },
+          {
+            "descripcion": "Mando de aire accionamiento cilindros",
+            "tag": "Sin ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtro de mangas Silos 5;6",
+        "tag": "A104-Q-49-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas Silos 5;6",
+            "tag": "A104-Q-50-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas Silos 5;6",
+            "tag": "A104-Q-49-04"
+          },
+          {
+            "descripcion": "Secuencia de limpieza (vibradores)",
+            "tag": "Sin ubicación Técnica"
+          },
+          {
+            "descripcion": "Mando de aire accionamiento cilindros",
+            "tag": "Sin ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin FM Silos 5;6",
+        "tag": "A104-Q-49-04",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas Silos 5;6",
+            "tag": "A104-Q-50-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas Silos 5;6",
+            "tag": "A104-Q-49-04"
+          },
+          {
+            "descripcion": "Secuencia de limpieza (vibradores)",
+            "tag": "Sin ubicación Técnica"
+          },
+          {
+            "descripcion": "Mando de aire accionamiento cilindros",
+            "tag": "Sin ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin recuperador de FM a silo 5",
+        "tag": "A104-Q-51-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin Fin recuperador de FM a silo 5",
+            "tag": "A104-Q-51-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas Silos 5;6",
+            "tag": "A104-Q-49-05"
+          },
+          {
+            "descripcion": "Cuchilla derivadora recuperación a silo 5 o 6",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Sin Fin recuperador de FM a silo 5",
+        "tag": "A104-Q-51-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin Fin recuperador de FM a silo 5",
+            "tag": "A104-Q-51-01"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas Silos 5;6",
+            "tag": "A104-Q-49-05"
+          },
+          {
+            "descripcion": "Cuchilla derivadora recuperación a silo 5 o 6",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Silo 1 de cemento",
+        "tag": "A104-Q-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cañería de transporte",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Fluidificación de silo 1",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cuchilla de bloqueo silo 1",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Silo 2 de cemento",
+        "tag": "A104-Q-02-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cañería de transporte",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Fluidificación de silo 2",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cuchilla de bloqueo silo 2",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Silo 3 de cemento",
+        "tag": "A104-Q-02-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cañería de transporte",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Fluidificación de silo 3",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cuchilla de bloqueo silo 3",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas Silos 1;2;3",
+            "tag": "A104-Q-30-04"
+          }
+        ]
+      },
+      {
+        "nombre": "Silo 5 de cemento",
+        "tag": "A104-Q-04-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cañería de transporte",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Fluidificación de silo 5",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Bocha de descarga silo 5",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Sin Fin filtro de mangas Silos 5;6",
+            "tag": "A104-Q-49-04"
+          }
+        ]
+      },
+      {
+        "nombre": "Silo 6 de cemento",
+        "tag": "A104-Q-05-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cañería de transporte",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Fluidificación de silo 6",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Bocha de descarga silo 6",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Cuchilla derivadora recuperación a silo 5 o 6",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      }
+    ]
+  },
+  "SERVICIO FUEL OIL": {
+    "color": "#66D4CF",
+    "equipos": [
+      {
+        "nombre": "Bombas de alta Fuel Oíl",
+        "tag": "A104-F0-04-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba de alta Fuel Oíl 1 / (lado tanque Fuel Oíl)",
+            "tag": "A104-FO-04-02"
+          },
+          {
+            "descripcion": "Válvula manual aguas arriba V-49 (admisión)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula manual aguas abajo V-55 (salida)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Bombas de alta Fuel Oíl",
+        "tag": "A104-F0-04-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba de alta Fuel Oíl 2 / (lado almacén 2)",
+            "tag": "A104-FO-04-03"
+          },
+          {
+            "descripcion": "Válvula manual aguas arriba V-50 (admisión)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula manual aguas abajo     V-56 (salida)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      }
+    ]
+  },
+  "PLANTA DE RECEPCION FUEL OIL": {
+    "color": "#D4AC0D",
+    "equipos": [
+      {
+        "nombre": "Filtros de alta",
+        "tag": "A104-F-3/F-4 según plano",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula de admisión a Filtro de alta",
+            "tag": "A104-V-48"
+          },
+          {
+            "descripcion": "Válvula derivadora de flujo Fuel Oíl entre filtro 1;2 de alta",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Filtro 1",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Filtro 2",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Bombas de descarga Fuel Oíl 1",
+        "tag": "A104-F0-01-02",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba de descarga Fuel Oíl 1",
+            "tag": "A104-FO-01-02"
+          },
+          {
+            "descripcion": "Válvula manual aguas arriba V-17 (admisión)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula manual aguas abajo     V-21 (salida)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Bombas de descarga Fuel Oíl 2",
+        "tag": "A104-F0-01-03",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba de descarga Fuel Oíl 2",
+            "tag": "A104-FO-01-03"
+          },
+          {
+            "descripcion": "Válvula manual aguas arriba V-18 (admisión)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula manual aguas abajo     V-22 (salida)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtros de descarga Fuel Oíl bomba 1",
+        "tag": "A104-F-1/F-2 según plano",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula de admisión Filtro 1 (F1)",
+            "tag": "A104-V-8"
+          },
+          {
+            "descripcion": "Válvula de salida Filtro 1 (F1)",
+            "tag": "A104-V-12"
+          },
+          {
+            "descripcion": "Válvula de admisión Filtro 2 (F2)",
+            "tag": "A104-V-9"
+          },
+          {
+            "descripcion": "Válvula de salida Filtro 2 / (F2)",
+            "tag": "A104-V-13"
+          }
+        ]
+      },
+      {
+        "nombre": "Filtros de descarga Fuel Oíl bomba 2",
+        "tag": "A104-F-3/F-4 según plano",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula de admisión Filtro 3 (F3)",
+            "tag": "A104-V-10"
+          },
+          {
+            "descripcion": "Válvula de salida Filtro 3 / (F3)",
+            "tag": "A104-V-14"
+          },
+          {
+            "descripcion": "Válvula de admisión Filtro 4 (F4)",
+            "tag": "A104-V-11"
+          },
+          {
+            "descripcion": "Válvula de salida Filtro 4 / (F4)",
+            "tag": "A104-V-15"
+          }
+        ]
+      },
+      {
+        "nombre": "Bomba de limpieza",
+        "tag": "A104-FO-01-04 según plano",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba de limpieza",
+            "tag": "A104-FO-01-04"
+          },
+          {
+            "descripcion": "Válvula manual aguas arriba V-26 (admisión)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula manual aguas arriba     V-27 (admisión)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula manual aguas arriba     V-29 (admisión)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula manual aguas abajo V-25 (salida)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Resistencia de calentamiento Fuel Oíl",
+        "tag": "A104-FO-05-02 Según plano",
+        "bloqueos": [
+          {
+            "descripcion": "Resistencia eléctrica de calentamiento Fuel Oíl",
+            "tag": "A104-FO-05-02"
+          },
+          {
+            "descripcion": "Válvula manual (admisión)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula manual (salida)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      },
+      {
+        "nombre": "Bomba de fluido Térmico",
+        "tag": "A104-FO-02-02-01 Según plano",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba de fluido térmico",
+            "tag": "A104-FO-02-02-01"
+          },
+          {
+            "descripcion": "Válvula manual volante (admisión)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula manual volante(salida)",
+            "tag": "Sin Ubicación Técnica"
+          }
+        ]
+      }
+    ]
+  },
+  "PLANTA DE COMBUSTIBLE ALTERNATIVO": {
+    "color": "#FF6B81",
+    "equipos": [
+      {
+        "nombre": "Bomba de CMA",
+        "tag": "Sin ubicación Técnica",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba  1 B4 (lado aditivos)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula manual  (admisión)",
+            "tag": "A104-V-19"
+          },
+          {
+            "descripcion": "Válvula manual (salida)",
+            "tag": "A104-V-17"
+          }
+        ]
+      },
+      {
+        "nombre": "Bomba de CMA",
+        "tag": "Sin ubicación Técnica",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba  2 B3 (lado K-200)",
+            "tag": "Sin Ubicación Técnica"
+          },
+          {
+            "descripcion": "Válvula manual  (admisión)",
+            "tag": "A104-V-16"
+          },
+          {
+            "descripcion": "Válvula manual (salida)",
+            "tag": "A104-V-18"
+          }
         ]
       }
     ]
