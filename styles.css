@@ -603,7 +603,9 @@ body {
   border-radius: var(--radius-md);
   -webkit-overflow-scrolling: touch;
   max-width: 1600px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .tabla-matriz {
