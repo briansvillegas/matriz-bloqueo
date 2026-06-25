@@ -234,7 +234,7 @@ function verMatriz(etapa, nombreEquipo) {
     color
   });
 
-  html += `<div class="container">`;
+  /*html += `<div class="container">`;*/
 
   html += `
     <div class="matriz-info-card">
