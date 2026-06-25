@@ -150,8 +150,8 @@ body {
 /* ─── CONTAINER ──────────────────────────────── */
 .container {
   padding: 20px 16px 40px;
-  /*max-width: 600px;
-  margin: 0 auto;*/
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .section-label {
@@ -532,6 +532,7 @@ body {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
 }
 
 .matriz-info-header {
