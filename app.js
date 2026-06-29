@@ -107,11 +107,10 @@ function mostrarEquipos(etapa) {
   document.getElementById("app").innerHTML = html;
 }
 
-// DETALLE
-/*
 function mostrarDetalle(etapa, nombreEquipo) {
   const eq = data[etapa].equipos.find(e => e.nombre === nombreEquipo);
   const color = data[etapa].color || '#E25C00';
+  const cantidadBloqueos = `${eq.bloqueos.length} bloqueo${eq.bloqueos.length !== 1 ? 's' : ''} requerido${eq.bloqueos.length !== 1 ? 's' : ''}`; // nuevo
 
   let html = header(
     "Matriz de Bloqueos",
@@ -124,52 +123,8 @@ function mostrarDetalle(etapa, nombreEquipo) {
     icon: '⚙️',
     titulo: eq.nombre,
     tag: eq.tag,
-    color
-  });
-
-  html += `<div class="container">`;
-
-  html += `
-    <div class="bloqueos-header">
-      <div class="page-eyebrow-text" style="margin-bottom:0">🔒 Equipos a bloquear</div>
-      <span class="bloqueo-count-badge">${eq.bloqueos.length} bloqueo${eq.bloqueos.length !== 1 ? 's' : ''}</span>
-    </div>
-
-    <div class="lockout-list">
-  `;
-
-  eq.bloqueos.forEach((b, i) => {
-    html += `
-      <div class="bloqueo-card">
-        <div class="bloqueo-num">${i + 1}</div>
-        <div class="bloqueo-body">
-          <div class="bloqueo-desc">${b.descripcion}</div>
-          <span class="tag-danger">${b.tag}</span>
-        </div>
-      </div>
-    `;
-  });
-
-  html += `</div></div>`;
-  document.getElementById("app").innerHTML = html;
-}*/
-
-function mostrarDetalle(etapa, nombreEquipo) {
-  const eq = data[etapa].equipos.find(e => e.nombre === nombreEquipo);
-  const color = data[etapa].color || '#E25C00';
-
-  let html = header(
-    "Matriz de Bloqueos",
-    "Sistema de bloqueo y etiquetado",
-    `mostrarEquipos('${etapa}')`,
-    "mostrarEtapas"
-  );
-
-  html += subHeader({
-    icon: '⚙️',
-    titulo: eq.nombre,
-    tag: eq.tag,
-    meta: eq.tarea || '',
+    meta: cantidadBloqueos,
+    //meta: eq.tarea || '',
     color
   });
 
@@ -218,6 +173,7 @@ function mostrarDetalle(etapa, nombreEquipo) {
 function verMatriz(etapa, nombreEquipo) {
   const eq = data[etapa].equipos.find(e => e.nombre === nombreEquipo);
   const color = data[etapa].color || '#E25C00';
+  const cantidadBloqueos = `${eq.bloqueos.length} bloqueo${eq.bloqueos.length !== 1 ? 's' : ''} requerido${eq.bloqueos.length !== 1 ? 's' : ''}`; // nuevo
 
   let html = header(
     "Matriz de Bloqueos",
@@ -230,7 +186,8 @@ function verMatriz(etapa, nombreEquipo) {
     icon: '📋',
     titulo: eq.nombre,
     tag: eq.tag,
-    meta: eq.tarea || '',
+    meta: cantidadBloqueos,
+    //meta: eq.tarea || '',
     color
   });
 
