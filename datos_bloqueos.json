@@ -5,7 +5,6 @@
       {
         "nombre": "Planta de Trituración",
         "tag": "A104-L-031",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta placa",
@@ -67,12 +66,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Planta de Trituración",
         "tag": "A104-L-031",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Criba vibratoria",
@@ -134,12 +133,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta de placas",
         "tag": "A104-A-02-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta placa",
@@ -181,12 +180,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de mangas Trituradora Primaria",
         "tag": "A104-A-06-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas trituradora",
@@ -218,12 +217,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Trituradora primaria",
         "tag": "A104-A-03",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta placa",
@@ -255,12 +254,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta D-03",
         "tag": "A104-D-03-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta de limpieza bajo cinta de láminas",
@@ -282,12 +281,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta D-01",
         "tag": "A104-D-01-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora a criba",
@@ -339,12 +338,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de mangas Criba",
         "tag": "A104-B-04-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas Criba",
@@ -376,12 +375,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta D11",
         "tag": "A104-D-11-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta corta  retorno",
@@ -413,12 +412,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta D12",
         "tag": "A104-D-12-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta rechazo de grueso a tolva",
@@ -450,12 +449,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta",
         "tag": "A104-D-13-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta saca metales",
@@ -477,12 +476,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta D05",
         "tag": "A104-D-05-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta trasportadora de zaranda a sala",
@@ -554,12 +553,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta D04",
         "tag": "A104-D-04-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora a salas (corta)",
@@ -601,12 +600,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta D09",
         "tag": "A104-D-09-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora a salas",
@@ -678,12 +677,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta D10",
         "tag": "A104-D-10-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora a salas",
@@ -725,7 +724,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -735,7 +735,6 @@
       {
         "nombre": "Zaranda",
         "tag": "A104-B-01-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Criba vibratoria",
@@ -777,7 +776,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -787,7 +787,6 @@
       {
         "nombre": "CINTAS TRANSPORTADORAS D05-D04",
         "tag": "A104 -D05 / D04",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora a salas (corta)",
@@ -829,12 +828,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "CINTAS TRANSPORTADORAS D05-D09",
         "tag": "A104- D05 / D09",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta trasportadora de zaranda a sala",
@@ -886,12 +885,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "CINTAS TRANSPORTADORAS D09-D10",
         "tag": "A104 - D09 / D10",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora a salas",
@@ -933,7 +932,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Cilindro neumática del pantalón no tiene UT en SAP. En control central figura P04"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -943,7 +943,6 @@
       {
         "nombre": "NAVE",
         "tag": "A104-S-021",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Grúa",
@@ -975,7 +974,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -985,7 +985,6 @@
       {
         "nombre": "Molino del crudo",
         "tag": "A104-E-02-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Molino de crudo",
@@ -1067,12 +1066,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Verificar en campo que la compuerta este cerrada al 100%. Acceso por 3° piso de torre"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Balanza de Hierro",
         "tag": "A104-C-10-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Balanza de hierro",
@@ -1104,12 +1103,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "/ Cuando por motivos operativos, las cuchillas de bloqueo no puedan utilizarse, se deberá trabajar con la tolva vacía y se confirmara con el gruista la PROHIBICIÓN de cargarla. Se tiene que restringir la circulación de la grúa sobre las tolvas con el uso de topes sobre los rieles."
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Balanza de Caliza Fuerte",
         "tag": "A104-C-09-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Balanza de Caliza Fuerte",
@@ -1141,12 +1140,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Se secciona por proximidad a la balanza de fuerte"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Balanza de Caliza Flojo",
         "tag": "A104-C-06-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Balanza de caliza Flojo",
@@ -1178,12 +1177,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Se secciona por proximidad a la balanza de flojo"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta Transportadora Balanza",
         "tag": "A104-C-07-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora de balanza",
@@ -1205,12 +1204,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta transportadora",
         "tag": "A104-D-06-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta Trasportadora. Alimentación Molino",
@@ -1272,12 +1271,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta Transportadora Retorno Grueso",
         "tag": "A104-E-07-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta Transportadora Retorno grueso",
@@ -1299,12 +1298,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Doble Pendular Entrada  Molino",
         "tag": "A104-E-01-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Doble pendular Entrada Molino",
@@ -1336,12 +1335,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Molino del crudo",
         "tag": "A104-E-02-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Molino de crudo",
@@ -1403,12 +1402,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Exhaustor de molino de Crudo",
         "tag": "A104-E-10-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Exhaustor de molino de crudo",
@@ -1440,12 +1439,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Verificar en campo que la compuerta este cerrada al 100%. Acceso por 3° piso de torre"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bi sin fin aliment.Bomb.fuller",
         "tag": "A104-E-09-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bi sin fin aliment.Bomb.fuller",
@@ -1477,12 +1476,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Fluidor alimentación bomba Fuller",
         "tag": "A104-M-13-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador Fluido alimentación bombas",
@@ -1514,12 +1513,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Balanza Alimentación Horno",
         "tag": "A104-J-08-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Balanza de alimentación Horno",
@@ -1551,7 +1550,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -1561,7 +1561,6 @@
       {
         "nombre": "Sistema de dosificación MCF",
         "tag": "A104-C-012-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Soplante para transporte de MCF",
@@ -1583,12 +1582,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Tolva de MCF",
         "tag": "A104-C-012-02",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Soplante para transporte de MCF",
@@ -1620,12 +1619,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Válvula Celular",
         "tag": "A104-C-012-02",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula Celular MCF",
@@ -1657,12 +1656,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro a Cartucho tolva de MCF",
         "tag": "",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Soplante para transporte de MCF",
@@ -1684,7 +1683,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -1694,7 +1694,6 @@
       {
         "nombre": "Filtro de mangas",
         "tag": "A104-M-17-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Línea de aire comprimido",
@@ -1756,12 +1755,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Verificar en campo que la compuerta este cerrada al 100%. Acceso por 3° piso de torre"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin fin Recuperación",
         "tag": "A104-M-22-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin fin Recuperación",
@@ -1793,12 +1792,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin fin Recuperación",
         "tag": "A104-M-23-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin fin Recuperación",
@@ -1830,12 +1829,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Tolva de fuller Crudo",
         "tag": "SIN UT",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba Fuller Alimentación a silos",
@@ -1947,12 +1946,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bomba fuller",
         "tag": "A104-G-01-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba Fuller Alimentación a silos",
@@ -1984,12 +1983,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bomba fuller",
         "tag": "A104-G-02-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba Fuller Alimentación a silos",
@@ -2021,7 +2020,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -2031,7 +2031,6 @@
       {
         "nombre": "Cañería alimentación Silos",
         "tag": "A104-G-06-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Línea de aire de Transporte G-01/G-02 (ingreso de aire compresor a fuller)",
@@ -2053,12 +2052,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "SILO 1",
         "tag": "A-104-H01-03",
-        "tarea": "Trabajos de: MME - MEE - MPR- Ingreso a silo",
         "bloqueos": [
           {
             "descripcion": "Cañería de alimentación silos",
@@ -2120,12 +2119,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR- Ingreso a silo"
       },
       {
         "nombre": "SILO 2",
         "tag": "A-104-H02-03",
-        "tarea": "Trabajos de: MME - MEE - MPR- Ingreso a silo",
         "bloqueos": [
           {
             "descripcion": "Cañería de alimentación silos",
@@ -2187,12 +2186,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR- Ingreso a silo"
       },
       {
         "nombre": "Filtro de manga de silos homogeneizado",
         "tag": "A104-H-11-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de manga silo homogeneizado",
@@ -2224,12 +2223,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de manga de silos homogeneizado",
         "tag": "A104-H-11-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de manga silo homogeneizado",
@@ -2261,12 +2260,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin recuperación a Silos",
         "tag": "A104-H-13-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin fin filtro de manga silo de homogeneizado",
@@ -2298,12 +2297,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Se debe anular accionamiento de desviadora de ambas bombas al silo que corresponda"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Fluidores de descarga de silo 1",
         "tag": "A104-H-05-01/H-09-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador fluido descarga silo 1",
@@ -2335,12 +2334,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Fluidores de descarga de silo 2",
         "tag": "A104-H-06-01/H-07-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador fluido descarga silo 2",
@@ -2372,12 +2371,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Silo 3",
         "tag": "A104-J-22-01",
-        "tarea": "Trabajos de: MME - MEE - MPR - Aguas debajo de cuchilla de bloqueo",
         "bloqueos": [
           {
             "descripcion": "Cuchillas de descarga silo 3 harina(alimentación y bloqueo)",
@@ -2409,12 +2408,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR - Aguas debajo de cuchilla de bloqueo"
       },
       {
         "nombre": "SILO 4",
         "tag": "A104-J-23-01",
-        "tarea": "Trabajos de: MME - MEE - MPR - Aguas debajo de cuchilla de bloqueo",
         "bloqueos": [
           {
             "descripcion": "Ventilador fluido descarga silo 4",
@@ -2456,7 +2455,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR - Aguas debajo de cuchilla de bloqueo"
       }
     ]
   },
@@ -2466,7 +2466,6 @@
       {
         "nombre": "Fluidor de descarga",
         "tag": "A104-J-05-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador fluido descarga silo 4",
@@ -2518,7 +2517,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -2528,7 +2528,6 @@
       {
         "nombre": "Tolva de alimentación Horno",
         "tag": "A104-J-07-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador fluido descarga silo 4",
@@ -2630,12 +2629,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Exhaustor principal de Horno",
         "tag": "A104-K-02-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Filtro de magas principal de Horno",
@@ -2657,12 +2656,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Quemador de Horno",
         "tag": "A104-K-08-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
@@ -2694,12 +2693,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Enfriador Fuller",
         "tag": "A104-K-09-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
@@ -2831,12 +2830,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Motor accionamiento rompedora de Clinker",
         "tag": "A104-K-15-03",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Rompedora de Clinker",
@@ -2868,12 +2867,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Motor accionamiento cadena de arrastre",
         "tag": "A104-K-19-03",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cadena de Arrastre",
@@ -2905,7 +2904,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -2915,7 +2915,6 @@
       {
         "nombre": "Filtro de mangas",
         "tag": "A104-J-09-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas balanza horno",
@@ -2957,12 +2956,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de mangas",
         "tag": "A104-K-200-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Línea de aire comprimido",
@@ -3214,12 +3213,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Camara anulada. Quedara operativa con la ampliación del filtro"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Válvula Celular",
         "tag": "A104-K-200-03-01/03/05/07/09 /",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula Celular",
@@ -3241,12 +3240,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Válvula Celular",
         "tag": "A104-K-200-03-02/04/06/08/10 /",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula Celular",
@@ -3268,12 +3267,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin colector bajo cámaras impares",
         "tag": "A104-K-200-02 /",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin Fin Colector bajo cámaras  1-3-5-7-9",
@@ -3335,12 +3334,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Camara anulada. Quedara operativa con la ampliación del filtro"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin colector bajo cámaras pares",
         "tag": "A104-K-200-03 /",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin Fin Colector bajo cámaras  2-4-6-8-10",
@@ -3402,12 +3401,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Camara anulada. Quedara operativa con la ampliación del filtro"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin 3",
         "tag": "A104-K-200-04 /",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin Fin 3",
@@ -3449,12 +3448,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin 4",
         "tag": "A104-K-200-05 /",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin Fin 4",
@@ -3476,7 +3475,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -3486,7 +3486,6 @@
       {
         "nombre": "Tolva de Fuller Horno",
         "tag": "Sin Ubicación Técnica",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba Fuller alimentación de horno",
@@ -3558,12 +3557,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bomba fuller",
         "tag": "A104-J-12-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba Fuller alimentación de horno",
@@ -3595,12 +3594,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Verificar si la bomba se encuentra con presión por cierre imperfecto de la válvula de corte"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bomba fuller",
         "tag": "A104-J-13-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba Fuller alimentación de horno",
@@ -3632,12 +3631,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Verificar si la bomba se encuentra con presión por cierre imperfecto de la válvula de corte"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cañería de transporte alimentación Horno",
         "tag": "A104-J-15-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba Fuller alimentación de horno",
@@ -3669,7 +3668,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -3679,7 +3679,6 @@
       {
         "nombre": "Torre Intercambiadora de calor",
         "tag": "A104-K-01-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
@@ -3771,7 +3770,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -3781,7 +3781,6 @@
       {
         "nombre": "Torre acondicionadora",
         "tag": "A104-M-01-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
@@ -3873,7 +3872,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -3883,7 +3883,6 @@
       {
         "nombre": "Accionamiento de Horno",
         "tag": "A104-K-07-02",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Motor Horno",
@@ -3925,7 +3924,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -3935,7 +3935,6 @@
       {
         "nombre": "Tolva de MCF",
         "tag": "",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Soplante para transporte de MCF",
@@ -3977,12 +3976,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de Mangas Inyección de MCF",
         "tag": "A104-KM-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador Filtro de Mangas MCF",
@@ -4034,12 +4033,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Válvula Celular tolva",
         "tag": "",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula Celular de tolva",
@@ -4071,12 +4070,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta balanza MCF",
         "tag": "",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Z-FEED-Cinta balanza de MCF",
@@ -4118,12 +4117,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Válvula Celular bajo balanza",
         "tag": "",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula celular bajo balanza (socom)",
@@ -4155,12 +4154,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cañería de Transporte MCF",
         "tag": "",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Soplador de inyección de MCF",
@@ -4182,7 +4181,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -4192,7 +4192,6 @@
       {
         "nombre": "Sin Fin recuperador de multiciclonico",
         "tag": "A104-K-25-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin Fin recuperador de milticiclónico",
@@ -4224,12 +4223,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Compuerta Celular de milticiclónico",
         "tag": "A104-K-24-06 / A104-K-24-08",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin Fin recuperador de milticiclónico",
@@ -4251,7 +4250,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -4261,7 +4261,6 @@
       {
         "nombre": "Motor de accionamiento elevador de Clinker",
         "tag": "A104-L-01-03",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Elevador de Clinker",
@@ -4303,7 +4302,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -4313,7 +4313,6 @@
       {
         "nombre": "Cinta transportadora alimentación tolvas cementos (1)",
         "tag": "A104-L-05-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Cinta alimentación tolva cemento 1",
@@ -4325,12 +4324,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Cinta transportadora alimentación tolvas cementos (2)",
         "tag": "A104-L-06-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Cinta alimentación tolva cemento",
@@ -4352,12 +4351,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Filtro magas silo premolido",
         "tag": "A104-NA-15-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas silo premolido",
@@ -4379,12 +4378,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Balanza de premolido",
         "tag": "A104-L-17-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Balanza premolido",
@@ -4426,12 +4425,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Filtro de mangas balanza premolido",
         "tag": "A104-NA-11-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas balanza premolido",
@@ -4473,12 +4472,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Sin Fin filtro de mangas balanza premolido",
         "tag": "A104-NA-11-04",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas balanza premolido",
@@ -4520,12 +4519,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Cinta alimentación premolido a cemento",
         "tag": "A104-NA-13-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Cinta alimentación premolido a cemento",
@@ -4567,12 +4566,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Cinta transportadora reversible colectora balanzas",
         "tag": "A104-L-18-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora reversible colectora balanzas",
@@ -4644,12 +4643,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Filtro Mangas transferencia NA-13",
         "tag": "A104-NA-10-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas Transferencia NA-13",
@@ -4681,12 +4680,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Balanza de Toba",
         "tag": "A104-L-16-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Balanza toba",
@@ -4718,12 +4717,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Balanza de Caliza",
         "tag": "A104-L-15-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Balanza caliza",
@@ -4755,12 +4754,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Balanza de Yeso",
         "tag": "A104-L-14-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Balanza yeso",
@@ -4792,12 +4791,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Balanza de alimentación Toba",
         "tag": "A104-NA-21-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Balanza de alimentación Toba",
@@ -4819,12 +4818,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Balanza de alimentación Toba",
         "tag": "A104-NA-22-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora de alimentación horno",
@@ -4846,12 +4845,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Horno Secador Toba",
         "tag": "A104-NA-24-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Motor accionamiento horno secador Toba",
@@ -4943,12 +4942,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro Mangas Horno secador Toba",
         "tag": "A104-NA-39-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro mangas Horno Secador",
@@ -4980,12 +4979,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro Mangas Horno secador Toba",
         "tag": "A104-NA-39-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro mangas Horno Secador",
@@ -5017,12 +5016,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Celular descarga sin fin",
         "tag": "A104-NA-34-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Celular descarga Sin Fin NA-39",
@@ -5044,12 +5043,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta transportadora alimentación Silo Seca Toba",
         "tag": "A104-NA-42-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora alimentación silo seca toba",
@@ -5091,12 +5090,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de mangas silo Toba Seca",
         "tag": "A104-NA-44-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas silo toba seca",
@@ -5118,12 +5117,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Silo de Toba Seca",
         "tag": "A104-NA-45-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora alimentación silo seca toba",
@@ -5165,12 +5164,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Válvula cuchilla",
         "tag": "A104-NA-45-02",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula cuchilla",
@@ -5212,12 +5211,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Válvula Reguladora",
         "tag": "A104-NA-45-05",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula Reguladora",
@@ -5249,12 +5248,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Válvula descarga Camión",
         "tag": "A104-NA-45-03",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula descarga a camión",
@@ -5276,12 +5275,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de mangas cinta alimentación tolva",
         "tag": "A104-NA-46-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas cinta alimentación",
@@ -5313,12 +5312,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cinta de alimentación tolva de Toba",
         "tag": "A104-NA-47-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora alimentación de Toba",
@@ -5370,12 +5369,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de mangas tolva toba seca",
         "tag": "A104-NA-48-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas tolva toba seca",
@@ -5397,7 +5396,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -5407,7 +5407,6 @@
       {
         "nombre": "Balanza de Clinker (cinta tolva 4)",
         "tag": "A104-L-13-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Balanza de Clinker / (cinta tolva 4)",
@@ -5439,7 +5438,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Se secciona por proximidad a cinta L-13"
           }
-        ]
+        ],
+        "tarea": ""
       }
     ]
   },
@@ -5449,7 +5449,6 @@
       {
         "nombre": "Cinta transportadora alimentación Polycom",
         "tag": "A104-L-19-03",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora alimentación Polycom",
@@ -5491,12 +5490,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Molino de rodillos Polycom",
         "tag": "A104-NA-01-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Molino de rodillos polycom",
@@ -5578,12 +5577,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Filtro mangas Polycom",
         "tag": "A104-NA-04-06",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Sin fin filtro mangas Polycom",
@@ -5615,12 +5614,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Filtro mangas Polycom",
         "tag": "A104-NA-06-04",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Sin fin filtro mangas Polycom",
@@ -5652,12 +5651,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Sin Fin filtro de mangas Polycom",
         "tag": "A104-NA-08-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Sin fin recuperación filtro de mangas Polycom",
@@ -5679,12 +5678,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Cinta transportadora alimentación Polycom",
         "tag": "A104-L-19-03",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Cinta transportadora descarga Polycom",
@@ -5726,12 +5725,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Cinta alimentación premolido",
         "tag": "A104-NA-05-01",
-        "tarea": "",
         "bloqueos": [
           {
             "descripcion": "Cinta alimentación premolido",
@@ -5763,12 +5762,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": ""
       },
       {
         "nombre": "Molino de Cemento",
         "tag": "A104-N-01-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Accionamiento de molino Cemento",
@@ -5820,12 +5819,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Molino de Cemento",
         "tag": "A104-N-01-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Accionamiento de molino Cemento",
@@ -5867,12 +5866,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Fluidor descarga Molino Cemento",
         "tag": "A104-N-04-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador descarga fluido Molino de Cemento",
@@ -5914,12 +5913,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro Mangas Molino de Cemento",
         "tag": "A104-N-09-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador Filtro de magas Molino de Cemento",
@@ -5951,12 +5950,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin Filtro Mangas Molino de Cemento",
         "tag": "A104-NA-09-04",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador Filtro de magas Molino de Cemento",
@@ -5988,12 +5987,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Pantalón de desvío de filtro N-09 a N-11",
         "tag": "A104-N-09DG01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Pantalón de desvió de filtro N-09 A N-11",
@@ -6025,12 +6024,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin intermedio Filtro Mangas N-09",
         "tag": "A104-N-07-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin Fin Filtro Intermedio Filtro Mangas N-09",
@@ -6072,12 +6071,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin descarga final FM N-09",
         "tag": "A104-N-06-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin Fin descarga final FM N-09",
@@ -6099,12 +6098,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Elevador 800 de Cemento",
         "tag": "A104-N-11-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Elevador 800 de Cemento",
@@ -6166,12 +6165,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Se bloqueara el ventilador cuando se realicen tareas de desmontaje en mando de elevador"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Fluidor Alimentación Cyclopol",
         "tag": "A104-N-12-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador alimentación fluido Ciclope",
@@ -6243,12 +6242,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de mangas elevador N-11",
         "tag": "A104-N-21-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas elevador N-11",
@@ -6280,12 +6279,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Válvula celular de filtro N-21",
         "tag": "A104-N-21-04",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas elevador N-11",
@@ -6317,12 +6316,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Separador de ciclones Cyclopol",
         "tag": "A104-N-14-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador alimentación fluido Ciclope",
@@ -6394,12 +6393,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Válvulas Celulares Cyclopol",
         "tag": "A104-N-14-01-01 / N-14-01-02 / N-14-01-03 / N-14-01-04",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula celular ciclón 1;2;3 y 4",
@@ -6421,12 +6420,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de Mangas Cyclopol",
         "tag": "A104-N-16-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas Ciclope",
@@ -6458,12 +6457,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin filtro de magas ciclope",
         "tag": "A104-N-16-04",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas Ciclope",
@@ -6495,12 +6494,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Esclusa sin fin filtro de mangas Cyclopol",
         "tag": "A104-N-18-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Esclusa sin fin filtro de magas ciclope",
@@ -6532,12 +6531,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin corto filtro de mangas Cyclopol",
         "tag": "A104-N-19-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin Fin Corto filtro de mangas ciclope",
@@ -6559,7 +6558,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -6569,7 +6569,6 @@
       {
         "nombre": "Elevador 630 de rechazo",
         "tag": "A104-N-27-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Elevador 630 de rechazo",
@@ -6601,7 +6600,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Se bloqueara el ventilador cuando se realicen tareas de desmontaje en mando de elevador"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -6611,7 +6611,6 @@
       {
         "nombre": "Tolva de fuller Cemento",
         "tag": "Sin ubicación Técnica",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba Fuller Transporte silos cemento",
@@ -6763,12 +6762,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bomba fuller transporte silos cemento",
         "tag": "A104-P-02-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba Fuller Transporte silos cemento",
@@ -6800,12 +6799,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bomba fuller transporte silos cemento",
         "tag": "A104-P-19-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba Fuller Transporte silos cemento",
@@ -6837,12 +6836,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Cañería de transporte cemento",
         "tag": "A104-P-05-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba Fuller transporte silo cemento",
@@ -6864,12 +6863,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "La línea de transporte que no se encuentra en servicio esta anulada por una brida ciega manual"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de mangas Silos 1;2,3",
         "tag": "A104-Q-30-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas Silos 1;2;3",
@@ -6911,12 +6910,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin FM Silos 1;2;3",
         "tag": "A104-Q-30-04",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas Silos 1;2;3",
@@ -6958,12 +6957,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtro de mangas Silos 5;6",
         "tag": "A104-Q-49-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas Silos 5;6",
@@ -7005,12 +7004,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin FM Silos 5;6",
         "tag": "A104-Q-49-04",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de mangas Silos 5;6",
@@ -7052,12 +7051,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin recuperador de FM a silo 5",
         "tag": "A104-Q-51-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin Fin recuperador de FM a silo 5",
@@ -7089,12 +7088,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Sin Fin recuperador de FM a silo 5",
         "tag": "A104-Q-51-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Sin Fin recuperador de FM a silo 5",
@@ -7126,12 +7125,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Silo 1 de cemento",
         "tag": "A104-Q-01-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cañería de transporte",
@@ -7163,12 +7162,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Silo 2 de cemento",
         "tag": "A104-Q-02-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cañería de transporte",
@@ -7200,12 +7199,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Silo 3 de cemento",
         "tag": "A104-Q-02-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cañería de transporte",
@@ -7247,12 +7246,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Silo 5 de cemento",
         "tag": "A104-Q-04-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cañería de transporte",
@@ -7294,12 +7293,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Silo 6 de cemento",
         "tag": "A104-Q-05-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Cañería de transporte",
@@ -7341,7 +7340,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": "Se bloqueara cuchilla derivando material al silo 5"
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -7351,7 +7351,6 @@
       {
         "nombre": "Bombas de alta Fuel Oíl",
         "tag": "A104-F0-04-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba de alta Fuel Oíl 1 / (lado tanque Fuel Oíl)",
@@ -7383,12 +7382,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bombas de alta Fuel Oíl",
         "tag": "A104-F0-04-01",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba de alta Fuel Oíl 2 / (lado almacén 2)",
@@ -7420,7 +7419,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -7430,7 +7430,6 @@
       {
         "nombre": "Filtros de alta",
         "tag": "A104-F-3/F-4 según plano",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula de admisión a Filtro de alta",
@@ -7472,12 +7471,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bombas de descarga Fuel Oíl 1",
         "tag": "A104-F0-01-02",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba de descarga Fuel Oíl 1",
@@ -7509,12 +7508,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bombas de descarga Fuel Oíl 2",
         "tag": "A104-F0-01-03",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba de descarga Fuel Oíl 2",
@@ -7546,12 +7545,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtros de descarga Fuel Oíl bomba 1",
         "tag": "A104-F-1/F-2 según plano",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula de admisión Filtro 1 (F1)",
@@ -7593,12 +7592,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Filtros de descarga Fuel Oíl bomba 2",
         "tag": "A104-F-3/F-4 según plano",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Válvula de admisión Filtro 3 (F3)",
@@ -7640,12 +7639,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bomba de limpieza",
         "tag": "A104-FO-01-04 según plano",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba de limpieza",
@@ -7697,12 +7696,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Resistencia de calentamiento Fuel Oíl",
         "tag": "A104-FO-05-02 Según plano",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Resistencia eléctrica de calentamiento Fuel Oíl",
@@ -7734,12 +7733,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bomba de fluido Térmico",
         "tag": "A104-FO-02-02-01 Según plano",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba de fluido térmico",
@@ -7771,7 +7770,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -7781,7 +7781,6 @@
       {
         "nombre": "Bomba de CMA",
         "tag": "Sin ubicación Técnica",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba  1 B4 (lado aditivos)",
@@ -7813,12 +7812,12 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
         "nombre": "Bomba de CMA",
         "tag": "Sin ubicación Técnica",
-        "tarea": "Trabajos de: MME - MEE - MPR",
         "bloqueos": [
           {
             "descripcion": "Bomba  2 B3 (lado K-200)",
@@ -7850,7 +7849,8 @@
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
-        ]
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   }
