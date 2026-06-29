@@ -230,8 +230,7 @@ function verMatriz(etapa, nombreEquipo) {
     icon: '📋',
     titulo: eq.nombre,
     tag: eq.tag,
-    meta: `${eq.bloqueos.length} equipo${eq.bloqueos.length !== 1 ? 's' : ''} a bloquear`,
-    /*meta: eq.tarea || '',*/
+    meta: eq.tarea || '',
     color
   });
 
