@@ -5710,12 +5710,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "CIRCUITO DE MOLIENDA DE CEMENTO": {
-    "color": "#AC8E68",
-    "equipos": [
+      },
       {
         "nombre": "Válvulas Celulares Cyclopol",
         "tag": "A104-N-14-01-01 / N-14-01-02 / N-14-01-03 / N-14-01-04",
@@ -5880,12 +5875,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "MOLIENDA DE CEMENTO": {
-    "color": "#32ADE6",
-    "equipos": [
+      },
       {
         "nombre": "Elevador 630 de rechazo",
         "tag": "A104-N-27-01",
@@ -5922,12 +5912,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "TRANSPORTE Y ALMACENAMIENTO CEMENTO": {
-    "color": "#FF9F0A",
-    "equipos": [
+      },
       {
         "nombre": "Tolva de fuller Cemento",
         "tag": "Sin ubicación Técnica",
@@ -6662,12 +6647,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "ALIMENTACION MOLINO DE CEMENTO": {
-    "color": "#66D4CF",
-    "equipos": [
+      },
       {
         "nombre": "Balanza de alimentación Toba",
         "tag": "A104-NA-21-01",
@@ -7188,7 +7168,12 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      },
+      }
+    ]
+  },
+  "ALIMENTACION MOLINO DE CEMENTO": {
+    "color": "#AC8E68",
+    "equipos": [
       {
         "nombre": "Cinta de alimentación tolva de Toba",
         "tag": "A104-NA-47-01",
@@ -7276,7 +7261,7 @@
     ]
   },
   "SERVICIO FUEL OIL": {
-    "color": "#D4AC0D",
+    "color": "#32ADE6",
     "equipos": [
       {
         "nombre": "Bombas de alta Fuel Oíl",
@@ -7355,7 +7340,7 @@
     ]
   },
   "PLANTA DE RECEPCION FUEL OIL": {
-    "color": "#FF6B81",
+    "color": "#FF9F0A",
     "equipos": [
       {
         "nombre": "Filtros de alta",
@@ -7706,7 +7691,7 @@
     ]
   },
   "PLANTA DE COMBUSTIBLE ALTERNATIVO": {
-    "color": "#5E5CE6",
+    "color": "#66D4CF",
     "equipos": [
       {
         "nombre": "Bomba de CMA",
