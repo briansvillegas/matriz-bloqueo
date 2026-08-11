@@ -3660,12 +3660,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "QUEMADOR HORNO": {
-    "color": "#FFD60A",
-    "equipos": [
+      },
       {
         "nombre": "Tolva de MCF",
         "tag": "",
@@ -3917,12 +3912,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "HORNO": {
-    "color": "#AC8E68",
-    "equipos": [
+      },
       {
         "nombre": "Bloqueo múltiple fijo enfriador",
         "tag": "A104-K-09-01",
@@ -4133,12 +4123,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "MULTICICLONICO DE DESPOLVAMIENTO": {
-    "color": "#32ADE6",
-    "equipos": [
+      },
       {
         "nombre": "Sin Fin recuperador de multiciclonico",
         "tag": "A104-K-25-01",
@@ -4202,12 +4187,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "TRANSPORTE Y ALMACENAMIENTO CLINKER": {
-    "color": "#FF9F0A",
-    "equipos": [
+      },
       {
         "nombre": "Motor de accionamiento elevador de Clinker",
         "tag": "A104-L-01-03",
@@ -4257,8 +4237,8 @@
       }
     ]
   },
-  "ALIMENTACION MOLINO DE CEMENTO": {
-    "color": "#66D4CF",
+  "CEMENTO": {
+    "color": "#FFD60A",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación tolvas cementos (1)",
@@ -4276,7 +4256,12 @@
           }
         ],
         "tarea": ""
-      },
+      }
+    ]
+  },
+  "ALIMENTACION MOLINO DE CEMENTO": {
+    "color": "#AC8E68",
+    "equipos": [
       {
         "nombre": "Cinta transportadora alimentación tolvas cementos (2)",
         "tag": "A104-L-06-01",
@@ -5352,7 +5337,7 @@
     ]
   },
   "MOLINO DE CEMENTO": {
-    "color": "#D4AC0D",
+    "color": "#32ADE6",
     "equipos": [
       {
         "nombre": "Balanza de Clinker (cinta tolva 4)",
@@ -5394,7 +5379,7 @@
     ]
   },
   "CIRCUITO DE MOLIENDA DE CEMENTO": {
-    "color": "#FF6B81",
+    "color": "#FF9F0A",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación Polycom",
@@ -6514,7 +6499,7 @@
     ]
   },
   "MOLIENDA DE CEMENTO": {
-    "color": "#5E5CE6",
+    "color": "#66D4CF",
     "equipos": [
       {
         "nombre": "Elevador 630 de rechazo",
@@ -6556,7 +6541,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CEMENTO": {
-    "color": "#34C759",
+    "color": "#D4AC0D",
     "equipos": [
       {
         "nombre": "Tolva de fuller Cemento",
@@ -7296,7 +7281,7 @@
     ]
   },
   "SERVICIO FUEL OIL": {
-    "color": "#FF8A5B",
+    "color": "#FF6B81",
     "equipos": [
       {
         "nombre": "Bombas de alta Fuel Oíl",
@@ -7375,7 +7360,7 @@
     ]
   },
   "PLANTA DE RECEPCION FUEL OIL": {
-    "color": "#7C9EFF",
+    "color": "#5E5CE6",
     "equipos": [
       {
         "nombre": "Filtros de alta",
@@ -7726,7 +7711,7 @@
     ]
   },
   "PLANTA DE COMBUSTIBLE ALTERNATIVO": {
-    "color": "#0A84FF",
+    "color": "#34C759",
     "equipos": [
       {
         "nombre": "Bomba de CMA",
