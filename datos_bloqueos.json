@@ -1824,6 +1824,33 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Cañería alimentación Silos",
+        "tag": "A104-G-06-01",
+        "bloqueos": [
+          {
+            "descripcion": "Línea de aire de Transporte G-01/G-02 (ingreso de aire compresor a fuller)",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula de línea de aire de compresor",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Bomba Fuller Alimentación a silos",
+            "tag": "A104-G-01-01 / A104-G-02-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       }
     ]
   },
@@ -1976,33 +2003,6 @@
   "TRANSPORTE Y ALMACENAMIENTO HOMOGENEIZADO CRUDO": {
     "color": "#FFD60A",
     "equipos": [
-      {
-        "nombre": "Cañería alimentación Silos",
-        "tag": "A104-G-06-01",
-        "bloqueos": [
-          {
-            "descripcion": "Línea de aire de Transporte G-01/G-02 (ingreso de aire compresor a fuller)",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula de línea de aire de compresor",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Bomba Fuller Alimentación a silos",
-            "tag": "A104-G-01-01 / A104-G-02-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
       {
         "nombre": "SILO 1",
         "tag": "A-104-H01-03",
