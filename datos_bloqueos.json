@@ -2564,12 +2564,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "MOLIENDA DE CRUDO": {
-    "color": "#30D158",
-    "equipos": [
+      },
       {
         "nombre": "Balanza Alimentación Horno",
         "tag": "A104-J-08-01",
@@ -2606,12 +2601,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "RECUPERACION DE POLVO": {
-    "color": "#AC8E68",
-    "equipos": [
+      },
       {
         "nombre": "Filtro de mangas",
         "tag": "A104-J-09-01",
@@ -2659,6 +2649,688 @@
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
       },
+      {
+        "nombre": "Tolva de Fuller Horno",
+        "tag": "Sin Ubicación Técnica",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller alimentación de horno",
+            "tag": "A104-J-12-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller J-12",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Mecánico",
+            "donde": "En tablero de electroválvula. En caso de no poder, retirar manguera de accionamiento de cilindro.",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Bomba Fuller alimentación de horno",
+            "tag": "A104-J-13-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula de línea de aire de compresor",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller J-13",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Mecánico",
+            "donde": "En tablero de electroválvula. En caso de no poder, retirar manguera de accionamiento de cilindro.",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Balanza de alimentación Horno",
+            "tag": "A104-J-08-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sin Fin filtro de magas balanza horno",
+            "tag": "A104-J-09-04",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas balanza horno",
+            "tag": "A104-J-10-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Bomba fuller",
+        "tag": "A104-J-12-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller alimentación de horno",
+            "tag": "A104-J-12-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "Anular línea de cámara de aire de J-12 y derivar engrase a J-13."
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller J-12",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire de Transporte (compresor)",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Verificando el cierre automático de la válvula que corta el aire a la bomba; Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "Verificar si la bomba se encuentra con presión por cierre imperfecto de la válvula de corte"
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Bomba fuller",
+        "tag": "A104-J-13-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller alimentación de horno",
+            "tag": "A104-J-13-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula de línea de aire de compresor",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "Anular línea de cámara de aire de J-13 y derivar engrase a J-12."
+          },
+          {
+            "descripcion": "Cuchilla sobre bomba fuller J-13",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire de Transporte (compresor)",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Verificando el cierre automático de la válvula que corta el aire a la bomba; Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "Verificar si la bomba se encuentra con presión por cierre imperfecto de la válvula de corte"
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      }
+    ]
+  },
+  "ALIMENTACION HORNO": {
+    "color": "#FFD60A",
+    "equipos": [
+      {
+        "nombre": "Cañería de transporte alimentación Horno",
+        "tag": "A104-J-15-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bomba Fuller alimentación de horno",
+            "tag": "A104-J-12-01 / A104-J-13-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire de Transporte (ingreso de aire compresor a fuller)",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Verificando el cierre automático de la válvula que corta el aire a la bomba; Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula desviadora alimentación Horno",
+            "tag": "A104-J-16-01",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "En tablero de electroválvula. En caso de no poder, retirar manguera de accionamiento de cilindro.",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      }
+    ]
+  },
+  "TORRE DE CALCINACION": {
+    "color": "#AC8E68",
+    "equipos": [
+      {
+        "nombre": "Bloqueo múltiple fijo calcinación",
+        "tag": "A104-K-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
+            "tag": "A104-IGN-01",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "En tareas de RM, el bloqueo del quemador del horno queda dentro del bloqueo múltiple del enfriador. En caso, que durante una RM, se decida NO intervenir sobre el enfriador los ítems 1, 2, y 3 deberán bloquearse para trabajos en la torre."
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
+            "tag": "V-69",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Cuadro de válvulas de circuito de inyección",
+            "como": "Colocando cepos y candados en las válvulas correspondientes",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Motor Horno",
+            "tag": "A104-K-07-03",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "En tareas de RM, cuando el horno queda aislado del enfriador se pasan los candados amarillos del principal y auxiliar a la caja de bloqueo de la torre intercambiadora o de calcinación"
+          },
+          {
+            "descripcion": "Motor accionamiento auxiliar Horno",
+            "tag": "A104-K-07-08-03",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador a pie de maquina",
+            "como": "Se coloca candado en Seccionador pie de maquina",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sistema de limpieza torre",
+            "tag": "A104-K-03-01",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "El bloqueo de los camiones debe realizarse desde la parte eléctrica y  neumática"
+          },
+          {
+            "descripcion": "Sistema de limpieza torre / Secuencia de limpieza",
+            "tag": "A104-K-03-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Accionando Hongo de tablero mando cañones",
+            "como": "Presionando Hongo de emergencia",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Filtro de magas principal de Horno",
+            "tag": "A104-K-200-06",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Subestación",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Exhaustor Principal de Horno",
+            "tag": "A104-K-02-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Subestación",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      }
+    ]
+  },
+  "HORNO": {
+    "color": "#32ADE6",
+    "equipos": [
+      {
+        "nombre": "Exhaustor principal de Horno",
+        "tag": "A104-K-02-01",
+        "bloqueos": [
+          {
+            "descripcion": "Filtro de magas principal de Horno",
+            "tag": "A104-K-200-06",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Subestación",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Exhaustor Principal de Horno",
+            "tag": "A104-K-02-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Subestación",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Quemador de Horno",
+        "tag": "A104-K-08-01",
+        "bloqueos": [
+          {
+            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
+            "tag": "A104-IGN-01",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "En tareas de RM, el bloqueo del quemador del horno queda dentro del bloqueo múltiple del enfriador. En caso, que durante una RM, se decida NO intervenir sobre el enfriador los ítems 1, 2, y 3 deberán bloquearse para trabajos en la torre."
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
+            "tag": "A104-V-69",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Cuadro de válvulas de circuito de inyección",
+            "como": "Colocando cepos y candados en las válvulas correspondientes",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Bloqueo múltiple fijo enfriador",
+        "tag": "A104-K-09-01",
+        "bloqueos": [
+          {
+            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
+            "tag": "A104-IGN-01",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "En tareas de RM, el bloqueo del quemador del horno queda dentro del bloqueo múltiple del enfriador. En caso, que durante una RM, se decida NO intervenir sobre el enfriador los ítems 1, 2, y 3 deberán bloquearse para trabajos en la torre."
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
+            "tag": "A104-V-69",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Cuadro de válvulas de circuito de inyección",
+            "como": "Colocando cepos y candados en las válvulas correspondientes",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Instalacion Quemador PPAL Horno (Llave Piloto)",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Aire de mando de inyección de combustible (aire de lanza)",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Enfriador Fuller (parrilla)",
+            "tag": "A104-K-09-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador a pie de maquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cadena de Arrastre",
+            "tag": "A104-K-19-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador a pie de maquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Rompedora de Clinker",
+            "tag": "A104-K-15-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador Enfriador",
+            "tag": "A104-K-17-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador Enfriador",
+            "tag": "A104-K-20-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador Enfriador",
+            "tag": "A104-K-22-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Boquillas de enfriador",
+            "tag": "A104-K10/11/12/13/14/14.1",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Apertura de válvula de acople rápido (descompresión de línea)",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador enfriador placas boca horno",
+            "tag": "A104-K-16-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Motor accionamiento rompedora de Clinker",
+        "tag": "A104-K-15-03",
+        "bloqueos": [
+          {
+            "descripcion": "Rompedora de Clinker",
+            "tag": "A104-K-15-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Enfriador Fuller (parrilla)",
+            "tag": "A104-K-09-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador a pie de maquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cadena de Arrastre",
+            "tag": "A104-K-19-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador a pie de maquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Motor accionamiento cadena de arrastre",
+        "tag": "A104-K-19-03",
+        "bloqueos": [
+          {
+            "descripcion": "Cadena de Arrastre",
+            "tag": "A104-K-19-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador a pie de maquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Rompedora de Clinker",
+            "tag": "A104-K-15-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Boquillas de enfriador",
+            "tag": "A104-K10/11/12/13/14/14.1",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Apertura de válvula de acople rápido (descompresión de línea)",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      }
+    ]
+  },
+  "TORRE ACONDIONADORA": {
+    "color": "#FF9F0A",
+    "equipos": [
+      {
+        "nombre": "Torre acondicionadora",
+        "tag": "A104-M-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
+            "tag": "A104-IGN-01",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "En tareas de RM, el bloqueo del quemador del horno queda dentro del bloqueo múltiple del enfriador. En caso, que durante una RM, se decida NO intervenir sobre el enfriador los ítems 1, 2, y 3 deberán bloquearse para trabajos en la torre."
+          },
+          {
+            "descripcion": "Soplador de inyección de MCF",
+            "tag": "A104-KM05",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
+            "tag": "V-69",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Cuadro de válvulas de circuito de inyección",
+            "como": "Colocando cepos y candados en las válvulas correspondientes",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Filtro de magas principal de Horno",
+            "tag": "A104-K-200-06",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Subestación",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Exhaustor Principal de Horno",
+            "tag": "A104-K-02-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Subestación",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sin Fin Recuperación torre acondicionadora",
+            "tag": "A104-M-01-02",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Bomba de agua torre acondicionadora Izquierda",
+            "tag": "A104-M-01-08",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Bomba de agua torre acondicionadora Derecha",
+            "tag": "A104-M-01-11",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire de mando a lanzas(Línea principal y by-pass)",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      }
+    ]
+  },
+  "RECUPERACION DE POLVO": {
+    "color": "#66D4CF",
+    "equipos": [
       {
         "nombre": "Filtro de mangas",
         "tag": "A104-K-200-01",
@@ -3180,685 +3852,8 @@
       }
     ]
   },
-  "ALIMENTACION HORNO": {
-    "color": "#32ADE6",
-    "equipos": [
-      {
-        "nombre": "Tolva de Fuller Horno",
-        "tag": "Sin Ubicación Técnica",
-        "bloqueos": [
-          {
-            "descripcion": "Bomba Fuller alimentación de horno",
-            "tag": "A104-J-12-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cuchilla sobre bomba fuller J-12",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Mecánico",
-            "donde": "En tablero de electroválvula. En caso de no poder, retirar manguera de accionamiento de cilindro.",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Bomba Fuller alimentación de horno",
-            "tag": "A104-J-13-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula de línea de aire de compresor",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cuchilla sobre bomba fuller J-13",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Mecánico",
-            "donde": "En tablero de electroválvula. En caso de no poder, retirar manguera de accionamiento de cilindro.",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Balanza de alimentación Horno",
-            "tag": "A104-J-08-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sin Fin filtro de magas balanza horno",
-            "tag": "A104-J-09-04",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador filtro de mangas balanza horno",
-            "tag": "A104-J-10-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Bomba fuller",
-        "tag": "A104-J-12-01",
-        "bloqueos": [
-          {
-            "descripcion": "Bomba Fuller alimentación de horno",
-            "tag": "A104-J-12-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "Anular línea de cámara de aire de J-12 y derivar engrase a J-13."
-          },
-          {
-            "descripcion": "Cuchilla sobre bomba fuller J-12",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire de Transporte (compresor)",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Verificando el cierre automático de la válvula que corta el aire a la bomba; Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "Verificar si la bomba se encuentra con presión por cierre imperfecto de la válvula de corte"
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Bomba fuller",
-        "tag": "A104-J-13-01",
-        "bloqueos": [
-          {
-            "descripcion": "Bomba Fuller alimentación de horno",
-            "tag": "A104-J-13-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula de línea de aire de compresor",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "Anular línea de cámara de aire de J-13 y derivar engrase a J-12."
-          },
-          {
-            "descripcion": "Cuchilla sobre bomba fuller J-13",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire de Transporte (compresor)",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Verificando el cierre automático de la válvula que corta el aire a la bomba; Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "Verificar si la bomba se encuentra con presión por cierre imperfecto de la válvula de corte"
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Cañería de transporte alimentación Horno",
-        "tag": "A104-J-15-01",
-        "bloqueos": [
-          {
-            "descripcion": "Bomba Fuller alimentación de horno",
-            "tag": "A104-J-12-01 / A104-J-13-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire de Transporte (ingreso de aire compresor a fuller)",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Verificando el cierre automático de la válvula que corta el aire a la bomba; Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula desviadora alimentación Horno",
-            "tag": "A104-J-16-01",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "En tablero de electroválvula. En caso de no poder, retirar manguera de accionamiento de cilindro.",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "TORRE DE CALCINACION": {
-    "color": "#FF9F0A",
-    "equipos": [
-      {
-        "nombre": "Bloqueo múltiple fijo calcinación",
-        "tag": "A104-K-01-01",
-        "bloqueos": [
-          {
-            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
-            "tag": "A104-IGN-01",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "En tareas de RM, el bloqueo del quemador del horno queda dentro del bloqueo múltiple del enfriador. En caso, que durante una RM, se decida NO intervenir sobre el enfriador los ítems 1, 2, y 3 deberán bloquearse para trabajos en la torre."
-          },
-          {
-            "descripcion": "Soplador de inyección de MCF",
-            "tag": "A104-KM05",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
-            "tag": "V-69",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Cuadro de válvulas de circuito de inyección",
-            "como": "Colocando cepos y candados en las válvulas correspondientes",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Motor Horno",
-            "tag": "A104-K-07-03",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "En tareas de RM, cuando el horno queda aislado del enfriador se pasan los candados amarillos del principal y auxiliar a la caja de bloqueo de la torre intercambiadora o de calcinación"
-          },
-          {
-            "descripcion": "Motor accionamiento auxiliar Horno",
-            "tag": "A104-K-07-08-03",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador a pie de maquina",
-            "como": "Se coloca candado en Seccionador pie de maquina",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sistema de limpieza torre",
-            "tag": "A104-K-03-01",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "El bloqueo de los camiones debe realizarse desde la parte eléctrica y  neumática"
-          },
-          {
-            "descripcion": "Sistema de limpieza torre / Secuencia de limpieza",
-            "tag": "A104-K-03-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Accionando Hongo de tablero mando cañones",
-            "como": "Presionando Hongo de emergencia",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Filtro de magas principal de Horno",
-            "tag": "A104-K-200-06",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Subestación",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Exhaustor Principal de Horno",
-            "tag": "A104-K-02-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Subestación",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "HORNO": {
-    "color": "#66D4CF",
-    "equipos": [
-      {
-        "nombre": "Exhaustor principal de Horno",
-        "tag": "A104-K-02-01",
-        "bloqueos": [
-          {
-            "descripcion": "Filtro de magas principal de Horno",
-            "tag": "A104-K-200-06",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Subestación",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Exhaustor Principal de Horno",
-            "tag": "A104-K-02-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Subestación",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Quemador de Horno",
-        "tag": "A104-K-08-01",
-        "bloqueos": [
-          {
-            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
-            "tag": "A104-IGN-01",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "En tareas de RM, el bloqueo del quemador del horno queda dentro del bloqueo múltiple del enfriador. En caso, que durante una RM, se decida NO intervenir sobre el enfriador los ítems 1, 2, y 3 deberán bloquearse para trabajos en la torre."
-          },
-          {
-            "descripcion": "Soplador de inyección de MCF",
-            "tag": "A104-KM05",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
-            "tag": "A104-V-69",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Cuadro de válvulas de circuito de inyección",
-            "como": "Colocando cepos y candados en las válvulas correspondientes",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Bloqueo múltiple fijo enfriador",
-        "tag": "A104-K-09-01",
-        "bloqueos": [
-          {
-            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
-            "tag": "A104-IGN-01",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "En tareas de RM, el bloqueo del quemador del horno queda dentro del bloqueo múltiple del enfriador. En caso, que durante una RM, se decida NO intervenir sobre el enfriador los ítems 1, 2, y 3 deberán bloquearse para trabajos en la torre."
-          },
-          {
-            "descripcion": "Soplador de inyección de MCF",
-            "tag": "A104-KM05",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
-            "tag": "A104-V-69",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Cuadro de válvulas de circuito de inyección",
-            "como": "Colocando cepos y candados en las válvulas correspondientes",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Instalacion Quemador PPAL Horno (Llave Piloto)",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Aire de mando de inyección de combustible (aire de lanza)",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Enfriador Fuller (parrilla)",
-            "tag": "A104-K-09-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador a pie de maquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cadena de Arrastre",
-            "tag": "A104-K-19-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador a pie de maquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Rompedora de Clinker",
-            "tag": "A104-K-15-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador Enfriador",
-            "tag": "A104-K-17-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador Enfriador",
-            "tag": "A104-K-20-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador Enfriador",
-            "tag": "A104-K-22-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Boquillas de enfriador",
-            "tag": "A104-K10/11/12/13/14/14.1",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Apertura de válvula de acople rápido (descompresión de línea)",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador enfriador placas boca horno",
-            "tag": "A104-K-16-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Motor accionamiento rompedora de Clinker",
-        "tag": "A104-K-15-03",
-        "bloqueos": [
-          {
-            "descripcion": "Rompedora de Clinker",
-            "tag": "A104-K-15-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Enfriador Fuller (parrilla)",
-            "tag": "A104-K-09-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador a pie de maquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cadena de Arrastre",
-            "tag": "A104-K-19-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador a pie de maquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Motor accionamiento cadena de arrastre",
-        "tag": "A104-K-19-03",
-        "bloqueos": [
-          {
-            "descripcion": "Cadena de Arrastre",
-            "tag": "A104-K-19-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador a pie de maquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Rompedora de Clinker",
-            "tag": "A104-K-15-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Boquillas de enfriador",
-            "tag": "A104-K10/11/12/13/14/14.1",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Apertura de válvula de acople rápido (descompresión de línea)",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "TORRE ACONDIONADORA": {
-    "color": "#D4AC0D",
-    "equipos": [
-      {
-        "nombre": "Torre acondicionadora",
-        "tag": "A104-M-01-01",
-        "bloqueos": [
-          {
-            "descripcion": "Estación reguladora inyección GAS A HORNO (Quemador Horno)",
-            "tag": "A104-IGN-01",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "En tareas de RM, el bloqueo del quemador del horno queda dentro del bloqueo múltiple del enfriador. En caso, que durante una RM, se decida NO intervenir sobre el enfriador los ítems 1, 2, y 3 deberán bloquearse para trabajos en la torre."
-          },
-          {
-            "descripcion": "Soplador de inyección de MCF",
-            "tag": "A104-KM05",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula manual en línea de inyección aceite a quemador",
-            "tag": "V-69",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Cuadro de válvulas de circuito de inyección",
-            "como": "Colocando cepos y candados en las válvulas correspondientes",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Filtro de magas principal de Horno",
-            "tag": "A104-K-200-06",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Subestación",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Exhaustor Principal de Horno",
-            "tag": "A104-K-02-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Subestación",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sin Fin Recuperación torre acondicionadora",
-            "tag": "A104-M-01-02",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Bomba de agua torre acondicionadora Izquierda",
-            "tag": "A104-M-01-08",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Bomba de agua torre acondicionadora Derecha",
-            "tag": "A104-M-01-11",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire de mando a lanzas(Línea principal y by-pass)",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
   "HORNO ROTATIVO": {
-    "color": "#FF6B81",
+    "color": "#D4AC0D",
     "equipos": [
       {
         "nombre": "Accionamiento de Horno",
@@ -3910,7 +3905,7 @@
     ]
   },
   "QUEMADOR HORNO": {
-    "color": "#5E5CE6",
+    "color": "#FF6B81",
     "equipos": [
       {
         "nombre": "Tolva de MCF",
@@ -4167,7 +4162,7 @@
     ]
   },
   "MULTICICLONICO DE DESPOLVAMIENTO": {
-    "color": "#34C759",
+    "color": "#5E5CE6",
     "equipos": [
       {
         "nombre": "Sin Fin recuperador de multiciclonico",
@@ -4236,7 +4231,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CLINKER": {
-    "color": "#FF8A5B",
+    "color": "#34C759",
     "equipos": [
       {
         "nombre": "Motor de accionamiento elevador de Clinker",
@@ -4288,7 +4283,7 @@
     ]
   },
   "ALIMENTACION MOLINO DE CEMENTO": {
-    "color": "#7C9EFF",
+    "color": "#FF8A5B",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación tolvas cementos (1)",
@@ -5382,7 +5377,7 @@
     ]
   },
   "MOLINO DE CEMENTO": {
-    "color": "#0A84FF",
+    "color": "#7C9EFF",
     "equipos": [
       {
         "nombre": "Balanza de Clinker (cinta tolva 4)",
@@ -5424,7 +5419,7 @@
     ]
   },
   "CIRCUITO DE MOLIENDA DE CEMENTO": {
-    "color": "#BF5AF2",
+    "color": "#0A84FF",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación Polycom",
@@ -6544,7 +6539,7 @@
     ]
   },
   "MOLIENDA DE CEMENTO": {
-    "color": "#FF375F",
+    "color": "#BF5AF2",
     "equipos": [
       {
         "nombre": "Elevador 630 de rechazo",
@@ -6586,7 +6581,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CEMENTO": {
-    "color": "#64D2FF",
+    "color": "#FF375F",
     "equipos": [
       {
         "nombre": "Tolva de fuller Cemento",
@@ -7326,7 +7321,7 @@
     ]
   },
   "SERVICIO FUEL OIL": {
-    "color": "#FFD60A",
+    "color": "#64D2FF",
     "equipos": [
       {
         "nombre": "Bombas de alta Fuel Oíl",
@@ -7405,7 +7400,7 @@
     ]
   },
   "PLANTA DE RECEPCION FUEL OIL": {
-    "color": "#AC8E68",
+    "color": "#FFD60A",
     "equipos": [
       {
         "nombre": "Filtros de alta",
@@ -7756,7 +7751,7 @@
     ]
   },
   "PLANTA DE COMBUSTIBLE ALTERNATIVO": {
-    "color": "#32ADE6",
+    "color": "#AC8E68",
     "equipos": [
       {
         "nombre": "Bomba de CMA",
