@@ -4256,12 +4256,7 @@
           }
         ],
         "tarea": ""
-      }
-    ]
-  },
-  "ALIMENTACION MOLINO DE CEMENTO": {
-    "color": "#AC8E68",
-    "equipos": [
+      },
       {
         "nombre": "Cinta transportadora alimentación tolvas cementos (2)",
         "tag": "A104-L-06-01",
@@ -4283,6 +4278,362 @@
             "tipoBloqueo": "Eléctrico",
             "donde": "Seccionador pie de máquina",
             "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": ""
+      },
+      {
+        "nombre": "Balanza de Clinker (cinta tolva 4)",
+        "tag": "A104-L-13-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza de Clinker / (cinta tolva 4)",
+            "tag": "A104-L-13-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador a pie de maquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cuchilla de Bloqueo",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Neumático",
+            "donde": "Sobre balanza de Alimentación",
+            "como": "Cerrando válvula esférica y  desvinculando manguera de apertura de cilindro /",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "/ Cuando por motivos operativos, las cuchillas de bloqueo no puedan utilizarse, se deberá trabajar con la tolva vacía y se confirmara con el gruista la PROHIBICIÓN de cargarla. Se tiene que restringir la circulación de la grúa sobre las tolvas con el uso de topes sobre los rieles."
+          },
+          {
+            "descripcion": "Cinta transportadora alimentación Polycom",
+            "tag": "A104-L-19-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador a pie de maquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "Se secciona por proximidad a cinta L-13"
+          }
+        ],
+        "tarea": ""
+      },
+      {
+        "nombre": "Cinta transportadora alimentación Polycom",
+        "tag": "A104-L-19-03",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora alimentación Polycom",
+            "tag": "A104-L-19-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Balanza de Clinker / (cinta tolva 4)",
+            "tag": "A104-L-13-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Molino de rodillos polycom",
+            "tag": "A104-NA-01-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Subestación",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cinta saca metales",
+            "tag": "A104-L-19-03-A",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": ""
+      },
+      {
+        "nombre": "Molino de rodillos Polycom",
+        "tag": "A104-NA-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Molino de rodillos polycom",
+            "tag": "A104-NA-01-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Subestación",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cinta transportadora alimentación Polycom",
+            "tag": "A104-L-19-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cinta transportadora descarga Polycom",
+            "tag": "A104-N-04-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Central hidráulica",
+            "tag": "A104-N-01-02",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "Se deben abrir ambas válvulas en  la parte inferior de los cilindros para que el aceite retorne a la central. Se debe descomprimir el nitrógeno en ambos cilindros"
+          },
+          {
+            "descripcion": "Bomba de aceite reductor fijo",
+            "tag": "A104-NA-01-04-01",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Bomba de aceite reductor móvil",
+            "tag": "A104-NA-01-05-01",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sistema de lubricación de rodamientos",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sistema de amortiguación nitrógeno",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Abriendo válvula de purgue",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": ""
+      },
+      {
+        "nombre": "Filtro mangas Polycom",
+        "tag": "A104-NA-04-06",
+        "bloqueos": [
+          {
+            "descripcion": "Sin fin filtro mangas Polycom",
+            "tag": "A104-NA-06-04",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador Filtro Mangas Polycom",
+            "tag": "A104-NA-07-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvulas de limpieza flautines",
+            "tag": "Sin ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Neumático",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": ""
+      },
+      {
+        "nombre": "Filtro mangas Polycom",
+        "tag": "A104-NA-06-04",
+        "bloqueos": [
+          {
+            "descripcion": "Sin fin filtro mangas Polycom",
+            "tag": "A104-NA-06-04",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador Filtro Mangas Polycom",
+            "tag": "A104-NA-07-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvulas de limpieza flautines",
+            "tag": "Sin ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Neumático",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": ""
+      },
+      {
+        "nombre": "Sin Fin filtro de mangas Polycom",
+        "tag": "A104-NA-08-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin fin recuperación filtro de mangas Polycom",
+            "tag": "A104-NA-08-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sin fin filtro mangas Polycom",
+            "tag": "A104-NA-06-04",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Subestación",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": ""
+      },
+      {
+        "nombre": "Cinta transportadora alimentación Polycom",
+        "tag": "A104-L-19-03",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora descarga Polycom",
+            "tag": "A104-N-04-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Molino de rodillos polycom",
+            "tag": "A104-NA-01-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Subestación",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cinta alimentación premolido",
+            "tag": "A104-NA-05-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sin fin recuperación filtro de mangas Polycom",
+            "tag": "A104-NA-08-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": ""
+      },
+      {
+        "nombre": "Cinta alimentación premolido",
+        "tag": "A104-NA-05-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta alimentación premolido",
+            "tag": "A104-NA-05-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cinta transportadora descarga Polycom",
+            "tag": "A104-N-04-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Elevador a cangilones de limpieza",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Tablero eléctrico en cercanías a motores de accionamiento del Polycom",
+            "como": "Se llama a Operador MEE",
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
@@ -4723,977 +5074,6 @@
             "tipoBloqueo": "Eléctrico",
             "donde": "Seccionador pie de máquina",
             "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": ""
-      },
-      {
-        "nombre": "Balanza de alimentación Toba",
-        "tag": "A104-NA-21-01",
-        "bloqueos": [
-          {
-            "descripcion": "Balanza de alimentación Toba",
-            "tag": "A104-NA-21-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "Cuando el riesgo lo amerite se deberá señalizar la carga de Toba"
-          },
-          {
-            "descripcion": "Cinta transportadora de alimentación horno",
-            "tag": "A104-NA-22-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Balanza de alimentación Toba",
-        "tag": "A104-NA-22-01",
-        "bloqueos": [
-          {
-            "descripcion": "Cinta transportadora de alimentación horno",
-            "tag": "A104-NA-22-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Balanza de alimentación Toba",
-            "tag": "A104-NA-21-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Horno Secador Toba",
-        "tag": "A104-NA-24-01",
-        "bloqueos": [
-          {
-            "descripcion": "Motor accionamiento horno secador Toba",
-            "tag": "A104-NA-24-03",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cinta transportadora de alimentación horno",
-            "tag": "A104-NA-22-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador aire primario Horno Secador",
-            "tag": "A104-NA-27-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador aire secundario Horno Secador",
-            "tag": "A104-NA-28-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador aire terciario Horno Secador",
-            "tag": "A104-NA-29-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Planta reguladora de GAS",
-            "tag": "A104-NA-30-01",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Quemador de horno secador de toba",
-            "tag": "A104-NA-24-02",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador filtro mangas Horno Secador",
-            "tag": "A104-NA-33-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cinta transportadora alimentación silo seca toba",
-            "tag": "A104-NA-42-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Filtro Mangas Horno secador Toba",
-        "tag": "A104-NA-39-01",
-        "bloqueos": [
-          {
-            "descripcion": "Ventilador filtro mangas Horno Secador",
-            "tag": "A104-NA-33-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sin Fin filtro mangas secador toba",
-            "tag": "A104-NA-39-04",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Filtro Mangas Horno secador Toba",
-        "tag": "A104-NA-39-01",
-        "bloqueos": [
-          {
-            "descripcion": "Ventilador filtro mangas Horno Secador",
-            "tag": "A104-NA-33-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sin Fin filtro mangas secador toba",
-            "tag": "A104-NA-39-04",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Celular descarga sin fin",
-        "tag": "A104-NA-34-01",
-        "bloqueos": [
-          {
-            "descripcion": "Celular descarga Sin Fin NA-39",
-            "tag": "A104-NA-34-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sin Fin filtro mangas secador toba",
-            "tag": "A104-NA-39-04",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Cinta transportadora alimentación Silo Seca Toba",
-        "tag": "A104-NA-42-01",
-        "bloqueos": [
-          {
-            "descripcion": "Cinta transportadora alimentación silo seca toba",
-            "tag": "A104-NA-42-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Motor accionamiento horno secador Toba",
-            "tag": "A104-NA-24-03",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador filtro mangas silo toba seca",
-            "tag": "A104-NA-44-02",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Filtro de mangas silo Toba Seca",
-        "tag": "A104-NA-44-01",
-        "bloqueos": [
-          {
-            "descripcion": "Ventilador filtro de mangas silo toba seca",
-            "tag": "A104-NA-44-02",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Silo de Toba Seca",
-        "tag": "A104-NA-45-01",
-        "bloqueos": [
-          {
-            "descripcion": "Cinta transportadora alimentación silo seca toba",
-            "tag": "A104-NA-42-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula cuchilla",
-            "tag": "A104-NA-45-02",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica. En caso de no poder, retirar manguera de accionamiento de cilindro.",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador filtro de mangas silo toba seca",
-            "tag": "A104-NA-44-02",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Válvula cuchilla",
-        "tag": "A104-NA-45-02",
-        "bloqueos": [
-          {
-            "descripcion": "Válvula cuchilla",
-            "tag": "A104-NA-45-02",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica. En caso de no poder, retirar manguera de accionamiento de cilindro.",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "Se debe asegurar el vaciado de toba seca antes del desmontaje de esta"
-          },
-          {
-            "descripcion": "Cinta transportadora alimentación silo seca toba",
-            "tag": "A104-NA-42-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador filtro de mangas silo toba seca",
-            "tag": "A104-NA-44-02",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Válvula Reguladora",
-        "tag": "A104-NA-45-05",
-        "bloqueos": [
-          {
-            "descripcion": "Válvula Reguladora",
-            "tag": "A104-NA-45-05",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "Se debe asegurar el vaciado de toba seca antes del desmontaje de esta"
-          },
-          {
-            "descripcion": "Válvula cuchilla",
-            "tag": "A104-NA-45-02",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica. En caso de no poder, retirar manguera de accionamiento de cilindro.",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Válvula descarga Camión",
-        "tag": "A104-NA-45-03",
-        "bloqueos": [
-          {
-            "descripcion": "Válvula descarga a camión",
-            "tag": "A104-NA-45-03",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula cuchilla",
-            "tag": "A104-NA-45-02",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica. En caso de no poder, retirar manguera de accionamiento de cilindro.",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Filtro de mangas cinta alimentación tolva",
-        "tag": "A104-NA-46-01",
-        "bloqueos": [
-          {
-            "descripcion": "Ventilador filtro de mangas cinta alimentación",
-            "tag": "A104-NA-46-02",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula reguladora (filtro de mangas de transferencia)",
-            "tag": "A104-NA-46-05",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Cinta de alimentación tolva de Toba",
-        "tag": "A104-NA-47-01",
-        "bloqueos": [
-          {
-            "descripcion": "Cinta transportadora alimentación de Toba",
-            "tag": "A104-NA-47-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula cuchilla",
-            "tag": "A104-NA-45-02",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica. En caso de no poder, retirar manguera de accionamiento de cilindro.",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula reguladora (filtro de mangas de transferencia)",
-            "tag": "A104-NA-46-05",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador filtro de mangas tolva toba seca",
-            "tag": "A104-NA-48-02",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Filtro de mangas tolva toba seca",
-        "tag": "A104-NA-48-01",
-        "bloqueos": [
-          {
-            "descripcion": "Ventilador filtro de mangas tolva toba seca",
-            "tag": "A104-NA-48-02",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "MOLINO DE CEMENTO": {
-    "color": "#32ADE6",
-    "equipos": [
-      {
-        "nombre": "Balanza de Clinker (cinta tolva 4)",
-        "tag": "A104-L-13-01",
-        "bloqueos": [
-          {
-            "descripcion": "Balanza de Clinker / (cinta tolva 4)",
-            "tag": "A104-L-13-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador a pie de maquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cuchilla de Bloqueo",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Neumático",
-            "donde": "Sobre balanza de Alimentación",
-            "como": "Cerrando válvula esférica y  desvinculando manguera de apertura de cilindro /",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "/ Cuando por motivos operativos, las cuchillas de bloqueo no puedan utilizarse, se deberá trabajar con la tolva vacía y se confirmara con el gruista la PROHIBICIÓN de cargarla. Se tiene que restringir la circulación de la grúa sobre las tolvas con el uso de topes sobre los rieles."
-          },
-          {
-            "descripcion": "Cinta transportadora alimentación Polycom",
-            "tag": "A104-L-19-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador a pie de maquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "Se secciona por proximidad a cinta L-13"
-          }
-        ],
-        "tarea": ""
-      }
-    ]
-  },
-  "CIRCUITO DE MOLIENDA DE CEMENTO": {
-    "color": "#FF9F0A",
-    "equipos": [
-      {
-        "nombre": "Cinta transportadora alimentación Polycom",
-        "tag": "A104-L-19-03",
-        "bloqueos": [
-          {
-            "descripcion": "Cinta transportadora alimentación Polycom",
-            "tag": "A104-L-19-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Balanza de Clinker / (cinta tolva 4)",
-            "tag": "A104-L-13-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Molino de rodillos polycom",
-            "tag": "A104-NA-01-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Subestación",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cinta saca metales",
-            "tag": "A104-L-19-03-A",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": ""
-      },
-      {
-        "nombre": "Molino de rodillos Polycom",
-        "tag": "A104-NA-01-01",
-        "bloqueos": [
-          {
-            "descripcion": "Molino de rodillos polycom",
-            "tag": "A104-NA-01-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Subestación",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cinta transportadora alimentación Polycom",
-            "tag": "A104-L-19-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cinta transportadora descarga Polycom",
-            "tag": "A104-N-04-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Central hidráulica",
-            "tag": "A104-N-01-02",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "Se deben abrir ambas válvulas en  la parte inferior de los cilindros para que el aceite retorne a la central. Se debe descomprimir el nitrógeno en ambos cilindros"
-          },
-          {
-            "descripcion": "Bomba de aceite reductor fijo",
-            "tag": "A104-NA-01-04-01",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Bomba de aceite reductor móvil",
-            "tag": "A104-NA-01-05-01",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sistema de lubricación de rodamientos",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sistema de amortiguación nitrógeno",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Válvula",
-            "como": "Abriendo válvula de purgue",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": ""
-      },
-      {
-        "nombre": "Filtro mangas Polycom",
-        "tag": "A104-NA-04-06",
-        "bloqueos": [
-          {
-            "descripcion": "Sin fin filtro mangas Polycom",
-            "tag": "A104-NA-06-04",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador Filtro Mangas Polycom",
-            "tag": "A104-NA-07-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvulas de limpieza flautines",
-            "tag": "Sin ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Neumático",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": ""
-      },
-      {
-        "nombre": "Filtro mangas Polycom",
-        "tag": "A104-NA-06-04",
-        "bloqueos": [
-          {
-            "descripcion": "Sin fin filtro mangas Polycom",
-            "tag": "A104-NA-06-04",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Ventilador Filtro Mangas Polycom",
-            "tag": "A104-NA-07-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvulas de limpieza flautines",
-            "tag": "Sin ubicación Técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Neumático",
-            "donde": "Válvula",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": ""
-      },
-      {
-        "nombre": "Sin Fin filtro de mangas Polycom",
-        "tag": "A104-NA-08-01",
-        "bloqueos": [
-          {
-            "descripcion": "Sin fin recuperación filtro de mangas Polycom",
-            "tag": "A104-NA-08-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sin fin filtro mangas Polycom",
-            "tag": "A104-NA-06-04",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Subestación",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": ""
-      },
-      {
-        "nombre": "Cinta transportadora alimentación Polycom",
-        "tag": "A104-L-19-03",
-        "bloqueos": [
-          {
-            "descripcion": "Cinta transportadora descarga Polycom",
-            "tag": "A104-N-04-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Molino de rodillos polycom",
-            "tag": "A104-NA-01-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Subestación",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cinta alimentación premolido",
-            "tag": "A104-NA-05-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sin fin recuperación filtro de mangas Polycom",
-            "tag": "A104-NA-08-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": ""
-      },
-      {
-        "nombre": "Cinta alimentación premolido",
-        "tag": "A104-NA-05-01",
-        "bloqueos": [
-          {
-            "descripcion": "Cinta alimentación premolido",
-            "tag": "A104-NA-05-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cinta transportadora descarga Polycom",
-            "tag": "A104-N-04-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Elevador a cangilones de limpieza",
-            "tag": "Sin Ubicación Técnica",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Tablero eléctrico en cercanías a motores de accionamiento del Polycom",
-            "como": "Se llama a Operador MEE",
             "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
             "comentarios": ""
           }
@@ -6330,7 +5710,12 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      },
+      }
+    ]
+  },
+  "CIRCUITO DE MOLIENDA DE CEMENTO": {
+    "color": "#AC8E68",
+    "equipos": [
       {
         "nombre": "Válvulas Celulares Cyclopol",
         "tag": "A104-N-14-01-01 / N-14-01-02 / N-14-01-03 / N-14-01-04",
@@ -6499,7 +5884,7 @@
     ]
   },
   "MOLIENDA DE CEMENTO": {
-    "color": "#66D4CF",
+    "color": "#32ADE6",
     "equipos": [
       {
         "nombre": "Elevador 630 de rechazo",
@@ -6541,7 +5926,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CEMENTO": {
-    "color": "#D4AC0D",
+    "color": "#FF9F0A",
     "equipos": [
       {
         "nombre": "Tolva de fuller Cemento",
@@ -7280,8 +6665,618 @@
       }
     ]
   },
+  "ALIMENTACION MOLINO DE CEMENTO": {
+    "color": "#66D4CF",
+    "equipos": [
+      {
+        "nombre": "Balanza de alimentación Toba",
+        "tag": "A104-NA-21-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza de alimentación Toba",
+            "tag": "A104-NA-21-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "Cuando el riesgo lo amerite se deberá señalizar la carga de Toba"
+          },
+          {
+            "descripcion": "Cinta transportadora de alimentación horno",
+            "tag": "A104-NA-22-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Balanza de alimentación Toba",
+        "tag": "A104-NA-22-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora de alimentación horno",
+            "tag": "A104-NA-22-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Balanza de alimentación Toba",
+            "tag": "A104-NA-21-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Horno Secador Toba",
+        "tag": "A104-NA-24-01",
+        "bloqueos": [
+          {
+            "descripcion": "Motor accionamiento horno secador Toba",
+            "tag": "A104-NA-24-03",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cinta transportadora de alimentación horno",
+            "tag": "A104-NA-22-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador aire primario Horno Secador",
+            "tag": "A104-NA-27-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador aire secundario Horno Secador",
+            "tag": "A104-NA-28-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador aire terciario Horno Secador",
+            "tag": "A104-NA-29-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Planta reguladora de GAS",
+            "tag": "A104-NA-30-01",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Quemador de horno secador de toba",
+            "tag": "A104-NA-24-02",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador filtro mangas Horno Secador",
+            "tag": "A104-NA-33-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cinta transportadora alimentación silo seca toba",
+            "tag": "A104-NA-42-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Filtro Mangas Horno secador Toba",
+        "tag": "A104-NA-39-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro mangas Horno Secador",
+            "tag": "A104-NA-33-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sin Fin filtro mangas secador toba",
+            "tag": "A104-NA-39-04",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Filtro Mangas Horno secador Toba",
+        "tag": "A104-NA-39-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro mangas Horno Secador",
+            "tag": "A104-NA-33-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sin Fin filtro mangas secador toba",
+            "tag": "A104-NA-39-04",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Celular descarga sin fin",
+        "tag": "A104-NA-34-01",
+        "bloqueos": [
+          {
+            "descripcion": "Celular descarga Sin Fin NA-39",
+            "tag": "A104-NA-34-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sin Fin filtro mangas secador toba",
+            "tag": "A104-NA-39-04",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Cinta transportadora alimentación Silo Seca Toba",
+        "tag": "A104-NA-42-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora alimentación silo seca toba",
+            "tag": "A104-NA-42-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Motor accionamiento horno secador Toba",
+            "tag": "A104-NA-24-03",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador filtro mangas silo toba seca",
+            "tag": "A104-NA-44-02",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Filtro de mangas silo Toba Seca",
+        "tag": "A104-NA-44-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas silo toba seca",
+            "tag": "A104-NA-44-02",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Silo de Toba Seca",
+        "tag": "A104-NA-45-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora alimentación silo seca toba",
+            "tag": "A104-NA-42-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula cuchilla",
+            "tag": "A104-NA-45-02",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica. En caso de no poder, retirar manguera de accionamiento de cilindro.",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas silo toba seca",
+            "tag": "A104-NA-44-02",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Válvula cuchilla",
+        "tag": "A104-NA-45-02",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula cuchilla",
+            "tag": "A104-NA-45-02",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica. En caso de no poder, retirar manguera de accionamiento de cilindro.",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "Se debe asegurar el vaciado de toba seca antes del desmontaje de esta"
+          },
+          {
+            "descripcion": "Cinta transportadora alimentación silo seca toba",
+            "tag": "A104-NA-42-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas silo toba seca",
+            "tag": "A104-NA-44-02",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Válvula Reguladora",
+        "tag": "A104-NA-45-05",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula Reguladora",
+            "tag": "A104-NA-45-05",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "Se debe asegurar el vaciado de toba seca antes del desmontaje de esta"
+          },
+          {
+            "descripcion": "Válvula cuchilla",
+            "tag": "A104-NA-45-02",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica. En caso de no poder, retirar manguera de accionamiento de cilindro.",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Válvula descarga Camión",
+        "tag": "A104-NA-45-03",
+        "bloqueos": [
+          {
+            "descripcion": "Válvula descarga a camión",
+            "tag": "A104-NA-45-03",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula cuchilla",
+            "tag": "A104-NA-45-02",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica. En caso de no poder, retirar manguera de accionamiento de cilindro.",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Filtro de mangas cinta alimentación tolva",
+        "tag": "A104-NA-46-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas cinta alimentación",
+            "tag": "A104-NA-46-02",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula reguladora (filtro de mangas de transferencia)",
+            "tag": "A104-NA-46-05",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Cinta de alimentación tolva de Toba",
+        "tag": "A104-NA-47-01",
+        "bloqueos": [
+          {
+            "descripcion": "Cinta transportadora alimentación de Toba",
+            "tag": "A104-NA-47-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula cuchilla",
+            "tag": "A104-NA-45-02",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica. En caso de no poder, retirar manguera de accionamiento de cilindro.",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula reguladora (filtro de mangas de transferencia)",
+            "tag": "A104-NA-46-05",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Ventilador filtro de mangas tolva toba seca",
+            "tag": "A104-NA-48-02",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Filtro de mangas tolva toba seca",
+        "tag": "A104-NA-48-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador filtro de mangas tolva toba seca",
+            "tag": "A104-NA-48-02",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire mando limpieza Filtro de Mangas",
+            "tag": "Sin Ubicación Técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Válvula",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      }
+    ]
+  },
   "SERVICIO FUEL OIL": {
-    "color": "#FF6B81",
+    "color": "#D4AC0D",
     "equipos": [
       {
         "nombre": "Bombas de alta Fuel Oíl",
@@ -7360,7 +7355,7 @@
     ]
   },
   "PLANTA DE RECEPCION FUEL OIL": {
-    "color": "#5E5CE6",
+    "color": "#FF6B81",
     "equipos": [
       {
         "nombre": "Filtros de alta",
@@ -7711,7 +7706,7 @@
     ]
   },
   "PLANTA DE COMBUSTIBLE ALTERNATIVO": {
-    "color": "#34C759",
+    "color": "#5E5CE6",
     "equipos": [
       {
         "nombre": "Bomba de CMA",
