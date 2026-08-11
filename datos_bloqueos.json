@@ -2697,7 +2697,7 @@
         "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
-        "nombre": "Enfriador Fuller",
+        "nombre": "Bloqueo múltiple fijo enfriador",
         "tag": "A104-K-09-01",
         "bloqueos": [
           {
@@ -3677,7 +3677,7 @@
     "color": "#34C759",
     "equipos": [
       {
-        "nombre": "Torre Intercambiadora de calor",
+        "nombre": "Bloqueo múltiple fijo calcinación",
         "tag": "A104-K-01-01",
         "bloqueos": [
           {
@@ -5766,7 +5766,7 @@
         "tarea": ""
       },
       {
-        "nombre": "Molino de Cemento",
+        "nombre": "Bloqueo múltiple fijo molino cemento",
         "tag": "A104-N-01-01",
         "bloqueos": [
           {
