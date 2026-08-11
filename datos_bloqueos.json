@@ -283,12 +283,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "TRITURACION": {
-    "color": "#FF9500",
-    "equipos": [
+      },
       {
         "nombre": "Cinta D-01",
         "tag": "A104-D-01-01",
@@ -336,6 +331,53 @@
           {
             "descripcion": "Cinta de limpieza bajo cinta de láminas",
             "tag": "A104-D-03-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando interruptor hacia la izquierda, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Zaranda",
+        "tag": "A104-B-01-01",
+        "bloqueos": [
+          {
+            "descripcion": "Criba vibratoria",
+            "tag": "A104-B-01-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando interruptor hacia la izquierda, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "Ver bloqueo Múltiple FIJO"
+          },
+          {
+            "descripcion": "Cinta trasportadora de zaranda a sala",
+            "tag": "A104-D-05-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando interruptor hacia la izquierda, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cinta transportadora a criba",
+            "tag": "A104-D-01-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando interruptor hacia la izquierda, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Cinta corta  retorno",
+            "tag": "A104-D-11-01",
             "energia": "Energía cinética",
             "tipoBloqueo": "Eléctrico",
             "donde": "Seccionador pie de máquina",
@@ -731,64 +773,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "CRIBA VIBRATORIA": {
-    "color": "#FF375F",
-    "equipos": [
-      {
-        "nombre": "Zaranda",
-        "tag": "A104-B-01-01",
-        "bloqueos": [
-          {
-            "descripcion": "Criba vibratoria",
-            "tag": "A104-B-01-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando interruptor hacia la izquierda, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "Ver bloqueo Múltiple FIJO"
-          },
-          {
-            "descripcion": "Cinta trasportadora de zaranda a sala",
-            "tag": "A104-D-05-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando interruptor hacia la izquierda, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cinta transportadora a criba",
-            "tag": "A104-D-01-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando interruptor hacia la izquierda, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Cinta corta  retorno",
-            "tag": "A104-D-11-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando interruptor hacia la izquierda, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "ROMPEDORA": {
-    "color": "#64D2FF",
-    "equipos": [
+      },
       {
         "nombre": "CINTAS TRANSPORTADORAS D05-D04",
         "tag": "A104 -D05 / D04",
@@ -943,7 +928,7 @@
     ]
   },
   "GRUA": {
-    "color": "#FFD60A",
+    "color": "#BF5AF2",
     "equipos": [
       {
         "nombre": "NAVE",
@@ -1561,7 +1546,7 @@
     ]
   },
   "ALIMENTACION MOLINO DE CRUDO": {
-    "color": "#32ADE6",
+    "color": "#64D2FF",
     "equipos": [
       {
         "nombre": "Sistema de dosificación MCF",
@@ -1694,7 +1679,7 @@
     ]
   },
   "RECUPERACION DE POLVO HORNO": {
-    "color": "#FF9F0A",
+    "color": "#FFD60A",
     "equipos": [
       {
         "nombre": "Filtro de mangas",
@@ -2031,7 +2016,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO HOMOGENEIZADO CRUDO": {
-    "color": "#66D4CF",
+    "color": "#AC8E68",
     "equipos": [
       {
         "nombre": "Cañería alimentación Silos",
@@ -2466,7 +2451,7 @@
     ]
   },
   "SILOS DE HARINA": {
-    "color": "#D4AC0D",
+    "color": "#32ADE6",
     "equipos": [
       {
         "nombre": "Fluidor de descarga",
@@ -2528,7 +2513,7 @@
     ]
   },
   "HORNO": {
-    "color": "#FF6B81",
+    "color": "#FF9F0A",
     "equipos": [
       {
         "nombre": "Tolva de alimentación Horno",
@@ -2915,7 +2900,7 @@
     ]
   },
   "RECUPERACION DE POLVO": {
-    "color": "#5E5CE6",
+    "color": "#66D4CF",
     "equipos": [
       {
         "nombre": "Filtro de mangas",
@@ -3486,7 +3471,7 @@
     ]
   },
   "ALIMENTACION HORNO": {
-    "color": "#34C759",
+    "color": "#D4AC0D",
     "equipos": [
       {
         "nombre": "Tolva de Fuller Horno",
@@ -3679,7 +3664,7 @@
     ]
   },
   "TORRE DE CALCINACION": {
-    "color": "#FF8A5B",
+    "color": "#FF6B81",
     "equipos": [
       {
         "nombre": "Bloqueo múltiple fijo calcinación",
@@ -3781,7 +3766,7 @@
     ]
   },
   "TORRE ACONDIONADORA": {
-    "color": "#7C9EFF",
+    "color": "#5E5CE6",
     "equipos": [
       {
         "nombre": "Torre acondicionadora",
@@ -3883,7 +3868,7 @@
     ]
   },
   "HORNO ROTATIVO": {
-    "color": "#0A84FF",
+    "color": "#34C759",
     "equipos": [
       {
         "nombre": "Accionamiento de Horno",
@@ -3935,7 +3920,7 @@
     ]
   },
   "QUEMADOR HORNO": {
-    "color": "#BF5AF2",
+    "color": "#FF8A5B",
     "equipos": [
       {
         "nombre": "Tolva de MCF",
@@ -4192,7 +4177,7 @@
     ]
   },
   "MULTICICLONICO DE DESPOLVAMIENTO": {
-    "color": "#FF375F",
+    "color": "#7C9EFF",
     "equipos": [
       {
         "nombre": "Sin Fin recuperador de multiciclonico",
@@ -4261,7 +4246,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CLINKER": {
-    "color": "#64D2FF",
+    "color": "#0A84FF",
     "equipos": [
       {
         "nombre": "Motor de accionamiento elevador de Clinker",
@@ -4313,7 +4298,7 @@
     ]
   },
   "ALIMENTACION MOLINO DE CEMENTO": {
-    "color": "#FFD60A",
+    "color": "#BF5AF2",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación tolvas cementos (1)",
@@ -5407,7 +5392,7 @@
     ]
   },
   "MOLINO DE CEMENTO": {
-    "color": "#AC8E68",
+    "color": "#FF375F",
     "equipos": [
       {
         "nombre": "Balanza de Clinker (cinta tolva 4)",
@@ -5449,7 +5434,7 @@
     ]
   },
   "CIRCUITO DE MOLIENDA DE CEMENTO": {
-    "color": "#32ADE6",
+    "color": "#64D2FF",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación Polycom",
@@ -6569,7 +6554,7 @@
     ]
   },
   "MOLIENDA DE CEMENTO": {
-    "color": "#FF9F0A",
+    "color": "#FFD60A",
     "equipos": [
       {
         "nombre": "Elevador 630 de rechazo",
@@ -6611,7 +6596,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CEMENTO": {
-    "color": "#66D4CF",
+    "color": "#AC8E68",
     "equipos": [
       {
         "nombre": "Tolva de fuller Cemento",
@@ -7351,7 +7336,7 @@
     ]
   },
   "SERVICIO FUEL OIL": {
-    "color": "#D4AC0D",
+    "color": "#32ADE6",
     "equipos": [
       {
         "nombre": "Bombas de alta Fuel Oíl",
@@ -7430,7 +7415,7 @@
     ]
   },
   "PLANTA DE RECEPCION FUEL OIL": {
-    "color": "#FF6B81",
+    "color": "#FF9F0A",
     "equipos": [
       {
         "nombre": "Filtros de alta",
@@ -7781,7 +7766,7 @@
     ]
   },
   "PLANTA DE COMBUSTIBLE ALTERNATIVO": {
-    "color": "#5E5CE6",
+    "color": "#66D4CF",
     "equipos": [
       {
         "nombre": "Bomba de CMA",
