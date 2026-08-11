@@ -3,7 +3,7 @@
     "color": "#FF9500",
     "equipos": [
       {
-        "nombre": "Planta de Trituración",
+        "nombre": "Bloqueo múltiple fijo primaria",
         "tag": "A104-L-031",
         "bloqueos": [
           {
@@ -70,7 +70,7 @@
         "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
-        "nombre": "Planta de Trituración",
+        "nombre": "Bloqueo múltiple fijo zaranda",
         "tag": "A104-L-031",
         "bloqueos": [
           {
@@ -983,7 +983,7 @@
     "color": "#30D158",
     "equipos": [
       {
-        "nombre": "Molino del crudo",
+        "nombre": "Bloqueo múltiple fijo crudo",
         "tag": "A104-E-02-01",
         "bloqueos": [
           {
