@@ -1562,7 +1562,7 @@
       }
     ]
   },
-  "RECUPERACION DE POLVO HORNO": {
+  "CLINKER": {
     "color": "#64D2FF",
     "equipos": [
       {
@@ -1705,7 +1705,128 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
+      }
+    ]
+  },
+  "MOLIENDA DE CRUDO": {
+    "color": "#30D158",
+    "equipos": [
+      {
+        "nombre": "Bi sin fin aliment.Bomb.fuller",
+        "tag": "A104-E-09-01",
+        "bloqueos": [
+          {
+            "descripcion": "Bi sin fin aliment.Bomb.fuller",
+            "tag": "A104-E-09-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-22",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-23",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
       },
+      {
+        "nombre": "Fluidor alimentación bomba Fuller",
+        "tag": "A104-M-13-01",
+        "bloqueos": [
+          {
+            "descripcion": "Ventilador Fluido alimentación bombas",
+            "tag": "A104-E-24-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Bi sin fin aliment.Bomb.fuller",
+            "tag": "A104-E-09-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula de suministro de aire limpieza de fluido",
+            "tag": "Sin ubicación técnica",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Neumático",
+            "donde": "En cercanías a fluido de descarga",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Balanza Alimentación Horno",
+        "tag": "A104-J-08-01",
+        "bloqueos": [
+          {
+            "descripcion": "Balanza de alimentación Horno",
+            "tag": "A104-J-08-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Soplador de fluidificación alimentación horno",
+            "tag": "A104-J-14-01",
+            "energia": "Energía potencial",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Válvula manual de aire de mando",
+            "tag": "Sin ubicación técnica",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Cercanías de la balanza en línea de alimentación mando",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      }
+    ]
+  },
+  "RECUPERACION DE POLVO HORNO": {
+    "color": "#AC8E68",
+    "equipos": [
       {
         "nombre": "Tolva de fuller Crudo",
         "tag": "SIN UT",
@@ -1899,124 +2020,8 @@
       }
     ]
   },
-  "MOLIENDA DE CRUDO": {
-    "color": "#30D158",
-    "equipos": [
-      {
-        "nombre": "Bi sin fin aliment.Bomb.fuller",
-        "tag": "A104-E-09-01",
-        "bloqueos": [
-          {
-            "descripcion": "Bi sin fin aliment.Bomb.fuller",
-            "tag": "A104-E-09-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sin fin Recuperación",
-            "tag": "A104-M-22",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sin fin Recuperación",
-            "tag": "A104-M-23",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Fluidor alimentación bomba Fuller",
-        "tag": "A104-M-13-01",
-        "bloqueos": [
-          {
-            "descripcion": "Ventilador Fluido alimentación bombas",
-            "tag": "A104-E-24-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Bi sin fin aliment.Bomb.fuller",
-            "tag": "A104-E-09-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula de suministro de aire limpieza de fluido",
-            "tag": "Sin ubicación técnica",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Neumático",
-            "donde": "En cercanías a fluido de descarga",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Balanza Alimentación Horno",
-        "tag": "A104-J-08-01",
-        "bloqueos": [
-          {
-            "descripcion": "Balanza de alimentación Horno",
-            "tag": "A104-J-08-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Soplador de fluidificación alimentación horno",
-            "tag": "A104-J-14-01",
-            "energia": "Energía potencial",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Válvula manual de aire de mando",
-            "tag": "Sin ubicación técnica",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Cercanías de la balanza en línea de alimentación mando",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
   "TRANSPORTE Y ALMACENAMIENTO HOMOGENEIZADO CRUDO": {
-    "color": "#AC8E68",
+    "color": "#32ADE6",
     "equipos": [
       {
         "nombre": "Cañería alimentación Silos",
@@ -2451,7 +2456,7 @@
     ]
   },
   "SILOS DE HARINA": {
-    "color": "#32ADE6",
+    "color": "#FF9F0A",
     "equipos": [
       {
         "nombre": "Fluidor de descarga",
@@ -2513,7 +2518,7 @@
     ]
   },
   "HORNO": {
-    "color": "#FF9F0A",
+    "color": "#66D4CF",
     "equipos": [
       {
         "nombre": "Tolva de alimentación Horno",
@@ -2900,7 +2905,7 @@
     ]
   },
   "RECUPERACION DE POLVO": {
-    "color": "#66D4CF",
+    "color": "#D4AC0D",
     "equipos": [
       {
         "nombre": "Filtro de mangas",
@@ -3471,7 +3476,7 @@
     ]
   },
   "ALIMENTACION HORNO": {
-    "color": "#D4AC0D",
+    "color": "#FF6B81",
     "equipos": [
       {
         "nombre": "Tolva de Fuller Horno",
@@ -3664,7 +3669,7 @@
     ]
   },
   "TORRE DE CALCINACION": {
-    "color": "#FF6B81",
+    "color": "#5E5CE6",
     "equipos": [
       {
         "nombre": "Bloqueo múltiple fijo calcinación",
@@ -3766,7 +3771,7 @@
     ]
   },
   "TORRE ACONDIONADORA": {
-    "color": "#5E5CE6",
+    "color": "#34C759",
     "equipos": [
       {
         "nombre": "Torre acondicionadora",
@@ -3868,7 +3873,7 @@
     ]
   },
   "HORNO ROTATIVO": {
-    "color": "#34C759",
+    "color": "#FF8A5B",
     "equipos": [
       {
         "nombre": "Accionamiento de Horno",
@@ -3920,7 +3925,7 @@
     ]
   },
   "QUEMADOR HORNO": {
-    "color": "#FF8A5B",
+    "color": "#7C9EFF",
     "equipos": [
       {
         "nombre": "Tolva de MCF",
@@ -4177,7 +4182,7 @@
     ]
   },
   "MULTICICLONICO DE DESPOLVAMIENTO": {
-    "color": "#7C9EFF",
+    "color": "#0A84FF",
     "equipos": [
       {
         "nombre": "Sin Fin recuperador de multiciclonico",
@@ -4246,7 +4251,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CLINKER": {
-    "color": "#0A84FF",
+    "color": "#BF5AF2",
     "equipos": [
       {
         "nombre": "Motor de accionamiento elevador de Clinker",
@@ -4298,7 +4303,7 @@
     ]
   },
   "ALIMENTACION MOLINO DE CEMENTO": {
-    "color": "#BF5AF2",
+    "color": "#FF375F",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación tolvas cementos (1)",
@@ -5392,7 +5397,7 @@
     ]
   },
   "MOLINO DE CEMENTO": {
-    "color": "#FF375F",
+    "color": "#64D2FF",
     "equipos": [
       {
         "nombre": "Balanza de Clinker (cinta tolva 4)",
@@ -5434,7 +5439,7 @@
     ]
   },
   "CIRCUITO DE MOLIENDA DE CEMENTO": {
-    "color": "#64D2FF",
+    "color": "#FFD60A",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación Polycom",
@@ -6554,7 +6559,7 @@
     ]
   },
   "MOLIENDA DE CEMENTO": {
-    "color": "#FFD60A",
+    "color": "#AC8E68",
     "equipos": [
       {
         "nombre": "Elevador 630 de rechazo",
@@ -6596,7 +6601,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CEMENTO": {
-    "color": "#AC8E68",
+    "color": "#32ADE6",
     "equipos": [
       {
         "nombre": "Tolva de fuller Cemento",
@@ -7336,7 +7341,7 @@
     ]
   },
   "SERVICIO FUEL OIL": {
-    "color": "#32ADE6",
+    "color": "#FF9F0A",
     "equipos": [
       {
         "nombre": "Bombas de alta Fuel Oíl",
@@ -7415,7 +7420,7 @@
     ]
   },
   "PLANTA DE RECEPCION FUEL OIL": {
-    "color": "#FF9F0A",
+    "color": "#66D4CF",
     "equipos": [
       {
         "nombre": "Filtros de alta",
@@ -7766,7 +7771,7 @@
     ]
   },
   "PLANTA DE COMBUSTIBLE ALTERNATIVO": {
-    "color": "#66D4CF",
+    "color": "#D4AC0D",
     "equipos": [
       {
         "nombre": "Bomba de CMA",
