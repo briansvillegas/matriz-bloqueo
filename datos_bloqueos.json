@@ -1,6 +1,6 @@
 {
-  "TRITURACION": {
-    "color": "#FF9500",
+  "PIEDRA": {
+    "color": "#0A84FF",
     "equipos": [
       {
         "nombre": "Bloqueo múltiple fijo primaria",
@@ -283,7 +283,12 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      },
+      }
+    ]
+  },
+  "TRITURACION": {
+    "color": "#FF9500",
+    "equipos": [
       {
         "nombre": "Cinta D-01",
         "tag": "A104-D-01-01",
@@ -730,7 +735,7 @@
     ]
   },
   "CRIBA VIBRATORIA": {
-    "color": "#BF5AF2",
+    "color": "#FF375F",
     "equipos": [
       {
         "nombre": "Zaranda",
@@ -782,7 +787,7 @@
     ]
   },
   "ROMPEDORA": {
-    "color": "#FF375F",
+    "color": "#64D2FF",
     "equipos": [
       {
         "nombre": "CINTAS TRANSPORTADORAS D05-D04",
@@ -938,7 +943,7 @@
     ]
   },
   "GRUA": {
-    "color": "#64D2FF",
+    "color": "#FFD60A",
     "equipos": [
       {
         "nombre": "NAVE",
@@ -1556,7 +1561,7 @@
     ]
   },
   "ALIMENTACION MOLINO DE CRUDO": {
-    "color": "#AC8E68",
+    "color": "#32ADE6",
     "equipos": [
       {
         "nombre": "Sistema de dosificación MCF",
@@ -1689,7 +1694,7 @@
     ]
   },
   "RECUPERACION DE POLVO HORNO": {
-    "color": "#32ADE6",
+    "color": "#FF9F0A",
     "equipos": [
       {
         "nombre": "Filtro de mangas",
@@ -2026,7 +2031,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO HOMOGENEIZADO CRUDO": {
-    "color": "#FF9F0A",
+    "color": "#66D4CF",
     "equipos": [
       {
         "nombre": "Cañería alimentación Silos",
@@ -2461,7 +2466,7 @@
     ]
   },
   "SILOS DE HARINA": {
-    "color": "#66D4CF",
+    "color": "#D4AC0D",
     "equipos": [
       {
         "nombre": "Fluidor de descarga",
@@ -2523,7 +2528,7 @@
     ]
   },
   "HORNO": {
-    "color": "#D4AC0D",
+    "color": "#FF6B81",
     "equipos": [
       {
         "nombre": "Tolva de alimentación Horno",
@@ -2910,7 +2915,7 @@
     ]
   },
   "RECUPERACION DE POLVO": {
-    "color": "#FF6B81",
+    "color": "#5E5CE6",
     "equipos": [
       {
         "nombre": "Filtro de mangas",
@@ -3481,7 +3486,7 @@
     ]
   },
   "ALIMENTACION HORNO": {
-    "color": "#5E5CE6",
+    "color": "#34C759",
     "equipos": [
       {
         "nombre": "Tolva de Fuller Horno",
@@ -3674,7 +3679,7 @@
     ]
   },
   "TORRE DE CALCINACION": {
-    "color": "#34C759",
+    "color": "#FF8A5B",
     "equipos": [
       {
         "nombre": "Bloqueo múltiple fijo calcinación",
@@ -3776,7 +3781,7 @@
     ]
   },
   "TORRE ACONDIONADORA": {
-    "color": "#FF8A5B",
+    "color": "#7C9EFF",
     "equipos": [
       {
         "nombre": "Torre acondicionadora",
@@ -3878,7 +3883,7 @@
     ]
   },
   "HORNO ROTATIVO": {
-    "color": "#7C9EFF",
+    "color": "#0A84FF",
     "equipos": [
       {
         "nombre": "Accionamiento de Horno",
@@ -3930,7 +3935,7 @@
     ]
   },
   "QUEMADOR HORNO": {
-    "color": "#0A84FF",
+    "color": "#BF5AF2",
     "equipos": [
       {
         "nombre": "Tolva de MCF",
@@ -4187,7 +4192,7 @@
     ]
   },
   "MULTICICLONICO DE DESPOLVAMIENTO": {
-    "color": "#BF5AF2",
+    "color": "#FF375F",
     "equipos": [
       {
         "nombre": "Sin Fin recuperador de multiciclonico",
@@ -4256,7 +4261,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CLINKER": {
-    "color": "#FF375F",
+    "color": "#64D2FF",
     "equipos": [
       {
         "nombre": "Motor de accionamiento elevador de Clinker",
@@ -4308,7 +4313,7 @@
     ]
   },
   "ALIMENTACION MOLINO DE CEMENTO": {
-    "color": "#64D2FF",
+    "color": "#FFD60A",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación tolvas cementos (1)",
@@ -5402,7 +5407,7 @@
     ]
   },
   "MOLINO DE CEMENTO": {
-    "color": "#FFD60A",
+    "color": "#AC8E68",
     "equipos": [
       {
         "nombre": "Balanza de Clinker (cinta tolva 4)",
@@ -5444,7 +5449,7 @@
     ]
   },
   "CIRCUITO DE MOLIENDA DE CEMENTO": {
-    "color": "#AC8E68",
+    "color": "#32ADE6",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación Polycom",
@@ -6564,7 +6569,7 @@
     ]
   },
   "MOLIENDA DE CEMENTO": {
-    "color": "#32ADE6",
+    "color": "#FF9F0A",
     "equipos": [
       {
         "nombre": "Elevador 630 de rechazo",
@@ -6606,7 +6611,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CEMENTO": {
-    "color": "#FF9F0A",
+    "color": "#66D4CF",
     "equipos": [
       {
         "nombre": "Tolva de fuller Cemento",
@@ -7346,7 +7351,7 @@
     ]
   },
   "SERVICIO FUEL OIL": {
-    "color": "#66D4CF",
+    "color": "#D4AC0D",
     "equipos": [
       {
         "nombre": "Bombas de alta Fuel Oíl",
@@ -7425,7 +7430,7 @@
     ]
   },
   "PLANTA DE RECEPCION FUEL OIL": {
-    "color": "#D4AC0D",
+    "color": "#FF6B81",
     "equipos": [
       {
         "nombre": "Filtros de alta",
@@ -7776,7 +7781,7 @@
     ]
   },
   "PLANTA DE COMBUSTIBLE ALTERNATIVO": {
-    "color": "#FF6B81",
+    "color": "#5E5CE6",
     "equipos": [
       {
         "nombre": "Bomba de CMA",
