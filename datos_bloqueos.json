@@ -1633,158 +1633,7 @@
           }
         ],
         "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "CLINKER": {
-    "color": "#64D2FF",
-    "equipos": [
-      {
-        "nombre": "Filtro de mangas",
-        "tag": "A104-M-17-01",
-        "bloqueos": [
-          {
-            "descripcion": "Línea de aire comprimido",
-            "tag": "Llaves de aire sobre M17",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Sobre plataforma de filtro, a la altura de cámara limpia",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sin fin Recuperación",
-            "tag": "A104-M-22-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Sin fin Recuperación",
-            "tag": "A104-M-23-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Exhaustor Principal",
-            "tag": "A104-M-25-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Exhaustor de Molino de crudo",
-            "tag": "A104-E-10-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Subestación",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Compuerta gases calientes Molino de crudo.",
-            "tag": "A104-E-15-01",
-            "energia": "Energía calórica",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": "Verificar en campo que la compuerta este cerrada al 100%. Acceso por 3° piso de torre"
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
       },
-      {
-        "nombre": "Sin fin Recuperación",
-        "tag": "A104-M-22-01",
-        "bloqueos": [
-          {
-            "descripcion": "Sin fin Recuperación",
-            "tag": "A104-M-22-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Exhaustor Principal",
-            "tag": "A104-M-25-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire comprimido",
-            "tag": "Llaves de aire sobre M17",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Sobre plataforma de filtro, a la altura de cámara limpia",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      },
-      {
-        "nombre": "Sin fin Recuperación",
-        "tag": "A104-M-23-01",
-        "bloqueos": [
-          {
-            "descripcion": "Sin fin Recuperación",
-            "tag": "A104-M-23-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Seccionador pie de máquina",
-            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Exhaustor Principal",
-            "tag": "A104-M-25-01",
-            "energia": "Energía cinética",
-            "tipoBloqueo": "Eléctrico",
-            "donde": "Sala de tableros",
-            "como": "Se llama a Operador MEE",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          },
-          {
-            "descripcion": "Línea de aire comprimido",
-            "tag": "Llaves de aire sobre M17",
-            "energia": "Energía hidráulica o neumática",
-            "tipoBloqueo": "Mecánico",
-            "donde": "Sobre plataforma de filtro, a la altura de cámara limpia",
-            "como": "Cerrando válvula esférica",
-            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
-            "comentarios": ""
-          }
-        ],
-        "tarea": "Trabajos de: MME - MEE - MPR"
-      }
-    ]
-  },
-  "RECUPERACION DE POLVO HORNO": {
-    "color": "#FFD60A",
-    "equipos": [
       {
         "nombre": "Tolva de fuller Crudo",
         "tag": "SIN UT",
@@ -1978,8 +1827,154 @@
       }
     ]
   },
+  "CLINKER": {
+    "color": "#64D2FF",
+    "equipos": [
+      {
+        "nombre": "Filtro de mangas",
+        "tag": "A104-M-17-01",
+        "bloqueos": [
+          {
+            "descripcion": "Línea de aire comprimido",
+            "tag": "Llaves de aire sobre M17",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Sobre plataforma de filtro, a la altura de cámara limpia",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-22-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-23-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Exhaustor Principal",
+            "tag": "A104-M-25-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Exhaustor de Molino de crudo",
+            "tag": "A104-E-10-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Subestación",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Compuerta gases calientes Molino de crudo.",
+            "tag": "A104-E-15-01",
+            "energia": "Energía calórica",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": "Verificar en campo que la compuerta este cerrada al 100%. Acceso por 3° piso de torre"
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Sin fin Recuperación",
+        "tag": "A104-M-22-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-22-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Exhaustor Principal",
+            "tag": "A104-M-25-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire comprimido",
+            "tag": "Llaves de aire sobre M17",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Sobre plataforma de filtro, a la altura de cámara limpia",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      },
+      {
+        "nombre": "Sin fin Recuperación",
+        "tag": "A104-M-23-01",
+        "bloqueos": [
+          {
+            "descripcion": "Sin fin Recuperación",
+            "tag": "A104-M-23-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Seccionador pie de máquina",
+            "como": "Girando/Bajando interruptor hacia la izquierda/bajo, posición off / Realizar prueba de no marcha equipos",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Exhaustor Principal",
+            "tag": "A104-M-25-01",
+            "energia": "Energía cinética",
+            "tipoBloqueo": "Eléctrico",
+            "donde": "Sala de tableros",
+            "como": "Se llama a Operador MEE",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          },
+          {
+            "descripcion": "Línea de aire comprimido",
+            "tag": "Llaves de aire sobre M17",
+            "energia": "Energía hidráulica o neumática",
+            "tipoBloqueo": "Mecánico",
+            "donde": "Sobre plataforma de filtro, a la altura de cámara limpia",
+            "como": "Cerrando válvula esférica",
+            "dispositivo": "Candado / tarjeta amarilla. / Candado/tarjeta blanca en caja bloqueo fijo/móvil según corresponda.",
+            "comentarios": ""
+          }
+        ],
+        "tarea": "Trabajos de: MME - MEE - MPR"
+      }
+    ]
+  },
   "TRANSPORTE Y ALMACENAMIENTO HOMOGENEIZADO CRUDO": {
-    "color": "#AC8E68",
+    "color": "#FFD60A",
     "equipos": [
       {
         "nombre": "Cañería alimentación Silos",
@@ -2414,7 +2409,7 @@
     ]
   },
   "SILOS DE HARINA": {
-    "color": "#32ADE6",
+    "color": "#AC8E68",
     "equipos": [
       {
         "nombre": "Fluidor de descarga",
@@ -2476,7 +2471,7 @@
     ]
   },
   "HORNO": {
-    "color": "#FF9F0A",
+    "color": "#32ADE6",
     "equipos": [
       {
         "nombre": "Tolva de alimentación Horno",
@@ -2905,7 +2900,7 @@
     ]
   },
   "RECUPERACION DE POLVO": {
-    "color": "#D4AC0D",
+    "color": "#66D4CF",
     "equipos": [
       {
         "nombre": "Filtro de mangas",
@@ -3476,7 +3471,7 @@
     ]
   },
   "ALIMENTACION HORNO": {
-    "color": "#FF6B81",
+    "color": "#D4AC0D",
     "equipos": [
       {
         "nombre": "Tolva de Fuller Horno",
@@ -3669,7 +3664,7 @@
     ]
   },
   "TORRE DE CALCINACION": {
-    "color": "#5E5CE6",
+    "color": "#FF6B81",
     "equipos": [
       {
         "nombre": "Bloqueo múltiple fijo calcinación",
@@ -3771,7 +3766,7 @@
     ]
   },
   "TORRE ACONDIONADORA": {
-    "color": "#34C759",
+    "color": "#5E5CE6",
     "equipos": [
       {
         "nombre": "Torre acondicionadora",
@@ -3873,7 +3868,7 @@
     ]
   },
   "HORNO ROTATIVO": {
-    "color": "#FF8A5B",
+    "color": "#34C759",
     "equipos": [
       {
         "nombre": "Accionamiento de Horno",
@@ -3925,7 +3920,7 @@
     ]
   },
   "QUEMADOR HORNO": {
-    "color": "#7C9EFF",
+    "color": "#FF8A5B",
     "equipos": [
       {
         "nombre": "Tolva de MCF",
@@ -4182,7 +4177,7 @@
     ]
   },
   "MULTICICLONICO DE DESPOLVAMIENTO": {
-    "color": "#0A84FF",
+    "color": "#7C9EFF",
     "equipos": [
       {
         "nombre": "Sin Fin recuperador de multiciclonico",
@@ -4251,7 +4246,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CLINKER": {
-    "color": "#BF5AF2",
+    "color": "#0A84FF",
     "equipos": [
       {
         "nombre": "Motor de accionamiento elevador de Clinker",
@@ -4303,7 +4298,7 @@
     ]
   },
   "ALIMENTACION MOLINO DE CEMENTO": {
-    "color": "#FF375F",
+    "color": "#BF5AF2",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación tolvas cementos (1)",
@@ -5397,7 +5392,7 @@
     ]
   },
   "MOLINO DE CEMENTO": {
-    "color": "#64D2FF",
+    "color": "#FF375F",
     "equipos": [
       {
         "nombre": "Balanza de Clinker (cinta tolva 4)",
@@ -5439,7 +5434,7 @@
     ]
   },
   "CIRCUITO DE MOLIENDA DE CEMENTO": {
-    "color": "#FFD60A",
+    "color": "#64D2FF",
     "equipos": [
       {
         "nombre": "Cinta transportadora alimentación Polycom",
@@ -6559,7 +6554,7 @@
     ]
   },
   "MOLIENDA DE CEMENTO": {
-    "color": "#AC8E68",
+    "color": "#FFD60A",
     "equipos": [
       {
         "nombre": "Elevador 630 de rechazo",
@@ -6601,7 +6596,7 @@
     ]
   },
   "TRANSPORTE Y ALMACENAMIENTO CEMENTO": {
-    "color": "#32ADE6",
+    "color": "#AC8E68",
     "equipos": [
       {
         "nombre": "Tolva de fuller Cemento",
@@ -7341,7 +7336,7 @@
     ]
   },
   "SERVICIO FUEL OIL": {
-    "color": "#FF9F0A",
+    "color": "#32ADE6",
     "equipos": [
       {
         "nombre": "Bombas de alta Fuel Oíl",
@@ -7420,7 +7415,7 @@
     ]
   },
   "PLANTA DE RECEPCION FUEL OIL": {
-    "color": "#66D4CF",
+    "color": "#FF9F0A",
     "equipos": [
       {
         "nombre": "Filtros de alta",
@@ -7771,7 +7766,7 @@
     ]
   },
   "PLANTA DE COMBUSTIBLE ALTERNATIVO": {
-    "color": "#D4AC0D",
+    "color": "#66D4CF",
     "equipos": [
       {
         "nombre": "Bomba de CMA",
