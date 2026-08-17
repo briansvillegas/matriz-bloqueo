@@ -2024,8 +2024,8 @@
         "tarea": "Trabajos de: MME - MEE - MPR"
       },
       {
-        "nombre": "Filtro de manga de silos homogeneizado",
-        "tag": "A104-H-11-01",
+        "nombre": "Sin fin filtro de manga de silos homogeneizado",
+        "tag": "A104-H-11-04",
         "bloqueos": [
           {
             "descripcion": "Ventilador filtro de manga silo homogeneizado",
